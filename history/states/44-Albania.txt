@@ -7,25 +7,24 @@ state={
 		aluminium=3
 		chromium=3
 	}
-	
+
 	state_category = town
-	
+
 	history={
-		owner = ALB
+		owner = YUG
 		victory_points = {
-			9914 5 
+			9914 5
 		}
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
-			industrial_complex = 2 
+			industrial_complex = 2
 			air_base = 3
 			11767 = {
 				naval_base = 4
 			}
 		}
-		add_core_of = ALB
-		add_claim_by = ITA
+		add_core_of = YUG
 
 		1939.4.12 = {
 			owner = ITA
@@ -35,6 +34,6 @@ state={
 	}
 
 	provinces={
-		914 3448 3884 3896 6900 9780 9875 9914 11762 11767 
+		914 3448 3884 3896 6900 9780 9875 9914 11762 11767
 	}
 }

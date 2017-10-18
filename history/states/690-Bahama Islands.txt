@@ -2,11 +2,11 @@ state={
 	id=690
 	name="STATE_690"
 	manpower = 40000
-	
+
 	state_category = tiny_island
 
 	history={
-		owner = ENG
+		owner = CAR
 		buildings = {
 			infrastructure = 4
 			10254 = {
@@ -22,7 +22,7 @@ state={
 	}
 
 	provinces={
-		4647 7245 10254 
+		4647 7245 10254
 	}
-	
+
 }

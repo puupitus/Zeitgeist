@@ -1,11 +1,11 @@
 state={
 	id=332
 	name="STATE_332"
-	
+
 	state_category = wasteland
 
 	history={
-		owner = ENG
+		owner = HBC
 		buildings = {
 			infrastructure = 1
 
@@ -13,12 +13,12 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = CAN
+		add_core_of = HBC
 
 	}
 
 	provinces={
-		1426 1785 4720 4787 12503 13165 13180 
+		1426 1785 4720 4787 12503 13165 13180
 	}
 	manpower=22179
 	buildings_max_level_factor=1.000

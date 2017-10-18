@@ -3,11 +3,11 @@ state={
 	id=430
 	name="STATE_430" # East Bengal
 	manpower = 31973300
-	
+
 	state_category = town
 
 	history={
-		owner = RAJ
+		owner = BEN
 		victory_points = {
 			11929 1
 		}
@@ -18,7 +18,7 @@ state={
 				naval_base = 3
 
 			}
-			
+
 		}
 		add_core_of = PAK
 		add_core_of = RAJ

@@ -2,7 +2,7 @@ state= {
 	id=183
 	name="STATE_183"
 	manpower = 347959
-	
+
 	state_category = rural
 	resources={
 		chromium=4
@@ -10,7 +10,7 @@ state= {
 
 	history=
 	{
-		owner = ENG
+		owner = BYZ
 		buildings = {
 			infrastructure = 4
 			air_base = 1

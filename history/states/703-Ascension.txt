@@ -4,7 +4,7 @@ state={
 	manpower=458
 	state_category = tiny_island
 	history= {
-		owner = ENG
+		owner = WAF
 		buildings = {
 			infrastructure = 1
 			13013 = {
@@ -12,8 +12,8 @@ state={
 			}
 		}
 	}
-	
+
 	provinces={
-		13013 
+		13013
 	}
 }

@@ -6,7 +6,7 @@ state={
 	state_category = large_city
 
 	history={
-		owner = ENG
+		owner = BRI
 		victory_points = { 3501 20 }
 		victory_points = { 9458 15 }
 		buildings = {
@@ -25,7 +25,7 @@ state={
 				naval_base = 10
 			}
 		}
-		add_core_of = ENG
+		add_core_of = BRI
 		1939.1.1 = {
 			buildings = {
 				dockyard = 3
@@ -35,6 +35,6 @@ state={
 	}
 
 	provinces={
-		507 3501 6489 9458 11446 13070 
+		507 3501 6489 9458 11446 13070
 	}
 }

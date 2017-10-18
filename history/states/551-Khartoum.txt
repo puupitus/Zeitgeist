@@ -2,10 +2,10 @@ state={
 	id=551
 	name="STATE_551"
 	manpower = 1993507
-	
+
 	state_category = rural
 	history = {
-		owner = ENG
+		owner = EGY
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

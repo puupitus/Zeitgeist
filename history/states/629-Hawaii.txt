@@ -5,7 +5,7 @@ state={
 	manpower = 368336
 	state_category = town
 	history={
-		owner = USA
+		owner = CAL
 		buildings = {
 			infrastructure = 3
 			air_base = 5
@@ -13,13 +13,13 @@ state={
 				naval_base = 10
 			}
 		}
-		add_core_of = USA
+		add_core_of = CAL
 		victory_points = {
 			4180 15
 		 }
 	}
 
 	provinces={
-		4180 7112 7195 10048 12021 
+		4180 7112 7195 10048 12021
 	}
 }

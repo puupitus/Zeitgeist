@@ -3,11 +3,11 @@ state={
 	id=442
 	name="STATE_442"
 	manpower = 4684400
-	
+
 	state_category = rural
 
 	history={
-		owner = RAJ
+		owner = PAK
 		buildings = {
 			infrastructure = 3
 			air_base = 3
@@ -16,6 +16,6 @@ state={
 	}
 
 	provinces={
-		1978 2084 4558 4998 12717 12763 
+		1978 2084 4558 4998 12717 12763
 	}
 }

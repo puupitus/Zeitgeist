@@ -1,0 +1,214 @@
+#reload countrycolors
+ABY = {
+	color = rgb { 130  150  60 }
+}
+ALT = {
+	color = rgb { 130  150  60 }
+}
+ARA = {
+	color = rgb { 130  150  60 }
+}
+ARG = {
+	color = rgb { 130  150  60 }
+}
+AST = {
+	color = rgb { 130  150  60 }
+}
+AUS = {
+	color = rgb { 130  150  60 }
+}
+BAL = {
+	color = rgb { 130  150  60 }
+}
+BAV = {
+	color = rgb { 130  150  60 }
+}
+BEN = {
+	color = rgb { 130  150  60 }
+}
+BLR = {
+	color = rgb { 130  150  60 }
+}
+BNL = {
+	color = rgb { 130  150  60 }
+}
+BOH = {
+	color = rgb { 130  150  60 }
+}
+BRI = {
+	color = rgb { 130  150  60 }
+}
+BUL = {
+	color = rgb { 130  150  60 }
+}
+BYZ = {
+	color = rgb { 130  150  60 }
+}
+CAF = {
+	color = rgb { 130  150  60 }
+}
+CAL = {
+	color = rgb { 130  150  60 }
+}
+CAM = {
+	color = rgb { 130  150  60 }
+}
+CAR = {
+	color = rgb { 130  150  60 }
+}
+CHI = {
+	color = rgb { 130  150  60 }
+}
+COL = {
+	color = rgb { 130  150  60 }
+}
+CSA = {
+	color = rgb { 130  150  60 }
+}
+CYR = {
+	color = rgb { 130  150  60 }
+}
+DAI = {
+	color = rgb { 130  150  60 }
+}
+DEN = {
+	color = rgb { 130  150  60 }
+}
+EGY = {
+	color = rgb { 130  150  60 }
+}
+FAF = {
+	color = rgb { 130  150  60 }
+}
+FIN = {
+	color = rgb { 130  150  60 }
+}
+FRA = {
+	color = rgb { 130  150  60 }
+}
+HBC = {
+	color = rgb { 130  150  60 }
+}
+HUN = {
+	color = rgb { 130  150  60 }
+}
+IBE = {
+	color = rgb { 130  150  60 }
+}
+IND = {
+	color = rgb { 130  150  60 }
+}
+INS = {
+	color = rgb { 130  150  60 }
+}
+IRA = {
+	color = rgb { 130  150  60 }
+}
+IRE = {
+	color = rgb { 130  150  60 }
+}
+ITA = {
+	color = rgb { 130  150  60 }
+}
+JAP = {
+	color = rgb { 130  150  60 }
+}
+LUS = {
+	color = rgb { 130  150  60 }
+}
+MAN = {
+	color = rgb { 130  150  60 }
+}
+MEX = {
+	color = rgb { 130  150  60 }
+}
+MON = {
+	color = rgb { 130  150  60 }
+}
+MOR = {
+	color = rgb { 130  150  60 }
+}
+NOR = {
+	color = rgb { 130  150  60 }
+}
+OTT = {
+	color = rgb { 130  150  60 }
+}
+PAK = {
+	color = rgb { 130  150  60 }
+}
+PER = {
+	color = rgb { 130  150  60 }
+}
+POL = {
+	color = rgb { 130  150  60 }
+}
+PRC = {
+	color = rgb { 130  150  60 }
+}
+PRU = {
+	color = rgb { 130  150  60 }
+}
+QUE = {
+	color = rgb { 130  150  60 }
+}
+REM = {
+	color = rgb { 130  150  60 }
+}
+RHI = {
+	color = rgb { 130  150  60 }
+}
+ROC = {
+	color = rgb { 130  150  60 }
+}
+ROM = {
+	color = rgb { 130  150  60 }
+}
+RUS = {
+	color = rgb { 130  150  60 }
+}
+SAF = {
+	color = rgb { 130  150  60 }
+}
+SIA = {
+	color = rgb { 130  150  60 }
+}
+SIB = {
+	color = rgb { 130  150  60 }
+}
+SIP = {
+	color = rgb { 130  150  60 }
+}
+SOV = {
+	color = rgb { 130  150  60 }
+}
+SSA = {
+	color = rgb { 130  150  60 }
+}
+SWE = {
+	color = rgb { 130  150  60 }
+}
+SWI = {
+	color = rgb { 130  150  60 }
+}
+TCS = {
+	color = rgb { 130  150  60 }
+}
+TUA = {
+	color = rgb { 130  150  60 }
+}
+UKR = {
+	color = rgb { 130  150  60 }
+}
+USA = {
+	color = rgb { 130  150  60 }
+}
+WAF = {
+	color = rgb { 130  150  60 }
+}
+XIN = {
+	color = rgb { 130  150  60 }
+}
+YUG = {
+	color = rgb { 130  150  60 }
+}

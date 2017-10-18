@@ -6,11 +6,11 @@ state={
 	resources={
 		aluminium=30
 	}
-	
+
 	state_category = city
 
 	history={
-		owner = GER
+		owner = PRU
 		victory_points = {
 			692 30
 		}
@@ -20,7 +20,7 @@ state={
 			industrial_complex = 1
 			air_base = 6
 		}
-		add_core_of = GER
+		add_core_of = PRU
 
 		1939.1.1 = {
 			buildings = {
@@ -30,6 +30,6 @@ state={
 	}
 
 	provinces={
-		692 707 708 3688 3705 6540 6693 9652 9666 11620 11638 11653 
+		692 707 708 3688 3705 6540 6693 9652 9666 11620 11638 11653
 	}
 }

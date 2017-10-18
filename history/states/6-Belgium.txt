@@ -6,11 +6,11 @@ state={
 	resources={
 		steel=48
 	}
-	
+
 	state_category = metropolis
 
 	history={
-		owner = BEL
+		owner = BNL
 		victory_points = { 516 30 }
 		victory_points = { 6598 30 }
 		victory_points = { 6560 5 }
@@ -23,13 +23,13 @@ state={
 				naval_base = 3
 			}
 		}
-		
+
 		add_extra_state_shared_building_slots = 2
-		
-		add_core_of = BEL
+
+		add_core_of = BNL
 	}
 
 	provinces={
-		516 3576 6446 6560 6598 9574 11419 13068 
+		516 3576 6446 6560 6598 9574 11419 13068
 	}
 }

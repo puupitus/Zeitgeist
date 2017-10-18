@@ -4,12 +4,12 @@ state=
 	name="STATE_650"
 	manpower=20
 	state_category = tiny_island
-	
+
 	history=
 	{
-		owner = USA
+		owner = CAL
 		victory_points = {
-			13067 1 
+			13067 1
 		}
 		buildings = {
 			infrastructure = 3

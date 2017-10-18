@@ -2,11 +2,11 @@ state={
 	id=706
 	name="STATE_706"
 	manpower = 186637
-	
+
 	state_category = small_island
 
 	history={
-		owner = FRA
+		owner = FAF
 		buildings = {
 			infrastructure = 3
 			13017 = {
@@ -16,6 +16,6 @@ state={
 	}
 
 	provinces={
-		13017 
+		13017
 	}
 }

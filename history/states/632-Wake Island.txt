@@ -6,7 +6,7 @@ state={
 	state_category = tiny_island
 
 	history={
-		owner = USA
+		owner = CAL
 		buildings = {
 			infrastructure = 3
 			13047 = {
@@ -14,11 +14,11 @@ state={
 			}
 		}
 		victory_points = {
-			13047 1 
+			13047 1
 		}
 
 	}
 	provinces={
-		13047 
+		13047
 	}
 }

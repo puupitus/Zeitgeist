@@ -2,15 +2,15 @@ state={
 	id=687
 	name="STATE_687"
 	manpower = 309000
-	
+
 	state_category = pastoral
-	
+
 	resources={
 		aluminium=112
 	}
 
 	history={
-		owner = ENG
+		owner = CAR
 		buildings = {
 			infrastructure = 2
 			4982 = {
@@ -18,8 +18,8 @@ state={
 			}
 		}
 	}
-	
+
 	provinces={
-		4982 8107 12716 
+		4982 8107 12716
 	}
 }
