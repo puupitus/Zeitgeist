@@ -1,6 +1,6 @@
-capital = 279
+capital = 303
 
-oob = "CHI_1936"
+oob = "PRU_1936"
 
 # Starting tech
 set_technology = {
@@ -34,7 +34,7 @@ set_politics = {
 			}
 
 			socialism = {
-				popularity = 10
+				popularity = 20
 			}
 
 			republicanism = {
@@ -42,7 +42,7 @@ set_politics = {
 			}
 
 			monarchism = {
-				popularity = 20
+				popularity = 10
 			}
 		}
 	ruling_party = republicanism
