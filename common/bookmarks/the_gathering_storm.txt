@@ -9,7 +9,7 @@ bookmarks = {
 
 		"FRA"={
 			history = "FRA_ZEITGEIST_DESC"
-			ideology = social_democracy
+			ideology = republicanism
 			ideas = {	}
 			focuses = { }
 		}
