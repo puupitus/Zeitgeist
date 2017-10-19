@@ -1,0 +1,5 @@
+
+
+graphical_culture =
+graphical_culture_2d =
+color = rgb { 100  40  15 }
