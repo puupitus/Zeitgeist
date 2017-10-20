@@ -2,4 +2,3 @@
 
 graphical_culture =
 graphical_culture_2d =
-color = rgb { 70  140  20 }
