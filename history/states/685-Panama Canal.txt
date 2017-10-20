@@ -18,6 +18,7 @@ state={
 			}
 		}
 		add_core_of = CAM
+		add_core_of = COL
 	}
 
 	provinces={ 7617 }

@@ -11,6 +11,7 @@ state={
 
 	history={
 		owner = CAR
+		add_core_of = CAR
 		buildings = {
 			infrastructure = 3
 			3284 = {

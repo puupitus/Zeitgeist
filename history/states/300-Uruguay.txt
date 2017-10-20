@@ -25,6 +25,7 @@ state={
 			}
 		}
 		add_core_of = SSA
+		add_core_of = ARG
 		victory_points = {
 			10362 5
 		}

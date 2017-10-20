@@ -20,6 +20,9 @@ state={
 			}
 		}
 		add_core_of = CHI
+		add_core_of = ARG
+		add_core_of = PRU
+		add_core_of = SSA
 		victory_points = {
 			12994 1
 		}

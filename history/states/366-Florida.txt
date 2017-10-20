@@ -26,6 +26,7 @@ state={
 			}
 		}
 		add_core_of = CSA
+		add_core_of = CAR
 		victory_points = {
 			1843 5
 		}
