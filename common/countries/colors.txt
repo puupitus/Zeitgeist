@@ -24,8 +24,8 @@ BAL = {
 	color_ui = rgb { 28  37  216 }
 }
 BAV = {
-	color = rgb { 178 34 52 }
-	color_ui = rgb { 178 34 52 }
+	color = rgb { 224 5 5 }
+	color_ui = rgb { 193 81 81 }
 }
 BEN = {
 	color = rgb { 71 100 10 }
@@ -40,8 +40,8 @@ BNL = {
 	color_ui = rgb { 255 179 96 }
 }
 BOH = {
-	color = rgb { 205 212 228 }
-	color_ui = rgb { 255 255 255 }
+	color = rgb { 243 79 8 }
+	color_ui = rgb { 243 79 8 }
 }
 BRI = {
 	color = rgb { 201 56 93 }
@@ -244,8 +244,8 @@ SWE = {
 	color_ui = rgb { 36 132 247 }
 }
 SWI = {
-	color = rgb { 224 5 5 }
-	color_ui = rgb { 193 81 81 }
+	color = rgb { 205 212 228 }
+	color_ui = rgb { 205 212 228 }
 }
 TCS = {
 	color = rgb { 51 0 0 }
