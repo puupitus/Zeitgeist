@@ -6,11 +6,13 @@ state={
 	state_category = rural
 
 	history={
-		owner = BOH
+		owner = HUN
 		buildings = {
 			infrastructure = 5
 		}
 		add_core_of = BOH
+		add_core_of = MOR
+		add_core_of = HUN
 
 		1939.3.14 = {
 			owner = HUN

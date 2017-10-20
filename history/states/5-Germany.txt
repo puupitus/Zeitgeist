@@ -6,8 +6,8 @@ state={
 	state_category = large_city
 
 	history={
-		owner = PRU
-		controller = PRU
+		owner = PRS
+		controller = PRS
 
 
 		victory_points = {
@@ -27,7 +27,9 @@ state={
 			}
 			air_base = 6
 		}
-		add_core_of = PRU
+		add_core_of = PRS
+		add_core_of = BAV
+		add_core_of = RHI
 		1939.1.1 = {
 			buildings = {
 				anti_air_building = 5

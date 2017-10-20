@@ -3,14 +3,14 @@ state=
 	id=164
 	name="STATE_164"
 	manpower = 120000
-	
+
 	state_category = small_island
-	
+
 	history=
 	{
-		owner = ITA
+		owner = BYZ
 		victory_points = {
-			10007 1 
+			10007 1
 		}
 		buildings = {
 			infrastructure = 5
@@ -22,7 +22,8 @@ state=
 				naval_base = 1
 			}
 		}
-		add_core_of = GRE
+		add_core_of = BYZ
+		add_core_of = OTT
 	}
 	provinces=
 	{

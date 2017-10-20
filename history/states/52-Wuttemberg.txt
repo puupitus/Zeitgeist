@@ -10,7 +10,7 @@ state={
 	state_category = city
 
 	history={
-		owner = PRU
+		owner = BAV
 		victory_points = {
 			692 30
 		}
@@ -20,7 +20,9 @@ state={
 			industrial_complex = 1
 			air_base = 6
 		}
-		add_core_of = PRU
+		add_core_of = BAV
+		add_core_of = PRS
+		add_core_of = RHI
 
 		1939.1.1 = {
 			buildings = {

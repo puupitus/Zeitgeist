@@ -10,7 +10,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = OTT
+		owner = BYZ
 		victory_points = {
 			890 1
 		}
@@ -21,6 +21,7 @@ state={
 			}
 		}
 		add_core_of = OTT
+		add_core_of = BYZ
 	}
 
 	provinces={

@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = WAF
+		owner = IBE
 		victory_points = {
 			9945 5
 		}
@@ -23,6 +23,8 @@ state={
 				naval_base = 3
 			}
 		}
+		add_core_of = IBE
+		add_core_of = FAF
 	}
 
 	provinces={

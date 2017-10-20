@@ -47,6 +47,10 @@ state=
 
 		}
 		add_core_of = BOH
+		add_core_of = MOR
+		add_core_of = BAV
+		add_core_of = PRS
+		add_core_of = RHI
 
 		1938.9.30 = {
 			owner = GER

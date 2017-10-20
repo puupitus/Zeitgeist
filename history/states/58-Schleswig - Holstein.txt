@@ -12,7 +12,7 @@ state= {
 		victory_points = {
 			9347 15
 		}
-		owner = PRU
+		owner = DEN
 		buildings = {
 			infrastructure = 6
 			arms_factory = 2
@@ -22,7 +22,10 @@ state= {
 				naval_base = 8
 			}
 		}
-		add_core_of = PRU
+		add_core_of = PRS
+		add_core_of = DEN
+		add_core_of = BAV
+		add_core_of = RHI
 		1939.1.1 = {
 			buildings = {
 				synthetic_refinery = 3
