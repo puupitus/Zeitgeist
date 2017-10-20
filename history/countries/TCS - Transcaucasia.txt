@@ -30,11 +30,11 @@ set_politics = {
 
 		parties = {
 			third_position = {
-				popularity = 40
+				popularity = 30
 			}
 
 			socialism = {
-				popularity = 30
+				popularity = 40
 			}
 
 			republicanism = {
@@ -45,7 +45,7 @@ set_politics = {
 				popularity = 10
 			}
 		}
-	ruling_party = third_position
+	ruling_party = socialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
