@@ -9,7 +9,9 @@ state={
 		rubber=4
 	}
 	history={
-		owner = FAF
+		owner = TUA
+		add_core_of = CAF
+		add_core_of = TUA
 		buildings = {
 			infrastructure = 2
 		}

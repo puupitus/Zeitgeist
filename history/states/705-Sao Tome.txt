@@ -6,6 +6,7 @@ state={
 
 	history={
 		owner = LUS
+		add_core_of = LUS
 		buildings = {
 			infrastructure = 2
 			13015 ={

@@ -9,7 +9,8 @@ state={
 		rubber=1
 	}
 	history={
-		owner = CAF
+		owner = WAF
+		add_core_of = WAF
 		buildings = {
 			infrastructure = 2
 			12891 ={

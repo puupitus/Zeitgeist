@@ -7,7 +7,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = CAF
+		owner = LUS
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -22,6 +22,8 @@ state={
 			8245 1
 		}
 		add_core_of = CAF
+		add_core_of = LUS
+		add_core_of = SAF
 	}
 
 	provinces={

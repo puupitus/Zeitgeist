@@ -9,6 +9,7 @@ state=
 	history=
 	{
 		owner = ABY
+		add_core_of = ABY
 		victory_points = {
 			12766 1
 		}

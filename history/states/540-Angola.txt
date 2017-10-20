@@ -9,7 +9,7 @@ state={
 		rubber=1
 	}
 	history={
-		owner = CAF
+		owner = LUS
 		buildings = {
 			infrastructure = 2
 			8248 ={
@@ -23,6 +23,8 @@ state={
 			10966 1
 		}
 		add_core_of = CAF
+		add_core_of = LUS
+		add_core_of = SAF
 	}
 
 	provinces={

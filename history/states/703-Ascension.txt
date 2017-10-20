@@ -5,6 +5,7 @@ state={
 	state_category = tiny_island
 	history= {
 		owner = WAF
+		add_core_of = WAF
 		buildings = {
 			infrastructure = 1
 			13013 = {

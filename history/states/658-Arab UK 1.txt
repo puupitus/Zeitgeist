@@ -12,6 +12,7 @@ state={
 
 	history={
 		owner = ARA
+		add_core_of = ARA
 		victory_points = {
 			7960 1
 		}

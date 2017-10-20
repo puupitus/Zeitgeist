@@ -6,13 +6,14 @@ state={
 	resources={
 		steel=4
 	}
-	
+
 	state_category = pastoral
 
 	history={
-		owner = FRA
+		owner = WAF
+		add_core_of = WAF
 		victory_points = {
-			4948 5 
+			4948 5
 		}
 		buildings = {
 			infrastructure = 3
@@ -24,6 +25,6 @@ state={
 	}
 
 	provinces={
-		2100 4948 7972 8015 12710 12834 
+		2100 4948 7972 8015 12710 12834
 	}
 }

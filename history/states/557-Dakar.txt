@@ -8,7 +8,9 @@ state={
 	impassable = yes
 
 	history={
-		owner = WAF
+		owner = TUA
+		add_core_of = WAF
+		add_core_of = TUA
 		buildings = {
 			infrastructure = 0
 		}

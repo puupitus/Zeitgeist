@@ -10,6 +10,7 @@ state={
 	}
 	history={
 		owner = CAF
+		add_core_of = CAF
 		victory_points = {
 			8193 2
 		}

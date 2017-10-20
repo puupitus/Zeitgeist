@@ -6,6 +6,7 @@ state={
 	state_category = enclave
 	history={
 		owner = WAF
+		add_core_of = WAF
 		buildings = {
 			infrastructure = 3
 			4989 = {
