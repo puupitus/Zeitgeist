@@ -12,7 +12,9 @@ state={
 	}
 
 	history={
-		owner = BEN
+		owner = IND
+		add_core_of = BEN
+		add_core_of = IND
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

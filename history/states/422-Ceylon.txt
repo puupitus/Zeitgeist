@@ -11,7 +11,9 @@ state=
 	}
 
 	history={
-		owner = BRI
+		owner = BEN
+		add_core_of = BEN
+		add_core_of = IND
 		victory_points = {
 			10201 3
 		}

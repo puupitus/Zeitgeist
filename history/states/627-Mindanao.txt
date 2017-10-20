@@ -18,6 +18,7 @@ state={
 			4241 3
 		}
 		add_core_of = AST
+		add_core_of = JAP
 	}
 
 	provinces={

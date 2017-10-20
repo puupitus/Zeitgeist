@@ -12,7 +12,10 @@ state={
 
 	history={
 		owner = ROC
+		add_core_of = DAI
 		add_core_of = ROC
+		add_core_of = PRC
+		add_core_of = MAN
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

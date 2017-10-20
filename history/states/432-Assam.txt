@@ -12,6 +12,8 @@ state={
 
 	history={
 		owner = BEN
+		add_core_of = BEN
+		add_core_of = IND
 		buildings = {
 			infrastructure = 3
 		}

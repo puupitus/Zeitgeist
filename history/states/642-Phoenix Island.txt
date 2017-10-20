@@ -8,6 +8,7 @@ state={
 
 	history={
 		owner = CAL
+		add_core_of = CAL
 		buildings = {
 			infrastructure = 3
 			13050 = {
