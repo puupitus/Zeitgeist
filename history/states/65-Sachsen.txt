@@ -11,7 +11,7 @@ state={
 
 
 	history={
-		owner = PRS
+		owner = BAV
 		buildings = {
 			infrastructure = 7
 			arms_factory = 3

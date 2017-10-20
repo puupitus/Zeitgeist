@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = BAV
+		owner = SWI
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 3
@@ -24,6 +24,7 @@ state={
 		add_core_of = HUN
 		add_core_of = PRS
 		add_core_of = RHI
+		add_core_of = SWI
 
 		1938.3.12 = {
 			owner = GER
