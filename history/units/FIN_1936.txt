@@ -58,6 +58,134 @@ units = {
 		start_equipment_factor = 1
 
 	}
+	division = {
+    name = "2. Infantry Division"
+		location = 3137
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division = {
+    name = "3. Infantry Division"
+		location = 3137
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division = {
+    name = "4. Infantry Division"
+		location = 3137
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division = {
+    name = "5. Infantry Division"
+		location = 3137
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division = {
+    name = "6. Infantry Division"
+		location = 3137
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division = {
+    name = "7. Infantry Division"
+		location = 3137
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division = {
+    name = "8. Infantry Division"
+		location = 3137
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division = {
+    name = "9. Infantry Division"
+		location = 3137
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division = {
+    name = "10. Infantry Division"
+		location = 3137
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division = {
+    name = "11. Infantry Division"
+		location = 3137
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division = {
+    name = "12. Infantry Division"
+		location = 3137
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division = {
+    name = "1. Artillery Regiment"
+		location = 3137
+		division_template = "Artillery Regiment"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division = {
+    name = "2. Artillery Regiment"
+		location = 3137
+		division_template = "Artillery Regiment"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division = {
+    name = "1. Cavalry Regiment"
+		location = 3137
+		division_template = "Cavalry Regiment"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division = {
+    name = "2. Cavalry Regiment"
+		location = 3137
+		division_template = "Cavalry Regiment"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division = {
+    name = "3. Cavalry Regiment"
+		location = 3137
+		division_template = "Cavalry Regiment"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
 
 
 	##### NAVAL UNITS #####
@@ -66,6 +194,14 @@ units = {
 		base = 11105
 		location =  11105
 		ship = { definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 } } }
+		ship = { definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 } } }
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1  } } }
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1  } } }
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1  } } }
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1  } } }
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1  } } }
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1  } } }
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1  } } }	
 	}
 
 }
