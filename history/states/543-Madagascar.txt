@@ -7,8 +7,8 @@ state={
 	state_category = rural
 
 	history={
-		owner = FAF
-		add_core_of = FAF
+		owner = SAF
+		add_core_of = SAF
 		buildings = {
 			infrastructure = 2
 			air_base = 1

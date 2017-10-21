@@ -23,6 +23,7 @@ state={
 			}
 		}
 		add_core_of = CAM
+		add_core_of = SPA
 		victory_points = {
 			13087 3
 		}

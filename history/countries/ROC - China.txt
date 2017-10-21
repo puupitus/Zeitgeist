@@ -1,4 +1,4 @@
-capital = 613
+capital = 592
 
 oob = "ROC_1936"
 
