@@ -52,12 +52,83 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Said bin Taimur"
-	desc = "POLITICS_SAID_BIN_TAIMUR_DESC"
-	picture = "GFX_portrait_oman_said_bin_taimur"
-	expire = "1965.1.1"
+	name = "Edwin Linkomies"
+	picture = "edwin_linkomies.dds"
 	ideology = absolutism
 	traits = {
 		#
 	}
+}
+create_country_leader = {
+	name = "Risto Ryti"
+	picture = "risto_ryti.dds"
+	ideology = conservatistic
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Väinö Tanner"
+	picture = "vaino_tanner.dds"
+	ideology = marxist
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Otto Wille Kuusinen"
+	picture = "otto_wille_kuusinen.dds"
+	ideology = nazism
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Erik Heinrichs"
+	picture = "erik_heinrichs.dds"
+	traits = { winter_specialist ranger }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "Vilho Petter Nenonen"
+	picture = "vilho_petter_nenonen.dds"
+	traits = { bearer_of_artillery }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "A.F. Airo"
+	picture = "a_f_airo.dds"
+	traits = { winter_specialist commando }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "Karl Lennart Oesch"
+	picture = "karl_lennart_oesch.dds"
+	traits = { urban_assault_specialist fortress_buster }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "Ruben Lagus"
+	picture = "ruben_lagus.dds"
+	traits = { panzer_leader }
+	skill = 4
+}
+
+create_navy_leader = {
+	name = "Väinö Valve"
+	picture = "vaino_valve.dds"
+	traits = { superior_tactician spotter }
+	skill = 3
+}
+
+create_field_marshal = {
+	name = "C.G.E Mannerheim"
+	picture = "carl_gustaf_emil_mannerheim.dds"
+	traits = { defensive_doctrine }
+	skill = 5
 }
