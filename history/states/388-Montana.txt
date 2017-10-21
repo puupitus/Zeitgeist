@@ -9,11 +9,12 @@ state={
 	}
 
 	history={
-		owner = CAL
+		owner = HBC
 		buildings = {
 			infrastructure = 4
 		}
 		add_core_of = CAL
+		add_core_of = HBC
 		victory_points = {
 			4860 1
 		}
