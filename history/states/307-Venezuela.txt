@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = COL
+		owner = SPA
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
@@ -25,6 +25,7 @@ state={
 			}
 		}
 		add_core_of = COL
+		add_core_of = SPA
 		victory_points = {
 			8113 5
 		}

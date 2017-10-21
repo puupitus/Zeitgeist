@@ -235,6 +235,10 @@ SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 163 17 31 }
 }
+SPA = {
+		color = rgb { 252 244 14 }
+		color_ui = rgb { 252 244 14 }
+}
 SSA = {
 	color = rgb { 230  40  40 }
 	color_ui = rgb { 230  40  40 }
