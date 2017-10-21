@@ -13,6 +13,44 @@ bookmarks = {
 			ideas = {	}
 			focuses = { }
 		}
+		"CSA"={
+			history = "CSA_ZEITGEIST_DESC"
+			ideology = republicanism
+			ideas = {	}
+			focuses = { }
+		}
+		"JAP"={
+			history = "MON_ZEITGEIST_DESC"
+			ideology = monarchism
+			ideas = {	}
+			focuses = { }
+		}
+		"ITA"={
+			history = "ITA_ZEITGEIST_DESC"
+			ideology = monarchism
+			ideas = {	}
+			focuses = { }
+		}
+		"SSA"={
+			history = "SSA_ZEITGEIST_DESC"
+			ideology = socialism
+			ideas = {	}
+			focuses = { }
+		}
+		"PRC"={
+			history = "PRC_ZEITGEIST_DESC"
+			ideology = socialism
+			ideas = {	}
+			focuses = { }
+		}
+		"BAV"={
+			history = "BAV_ZEITGEIST_DESC"
+			ideology = third_position
+			ideas = {	}
+			focuses = { }
+		}
+
+
 
 		"---"={
 			history = "OTHER_ZEITGEIST_DESC"
