@@ -22,6 +22,7 @@ state={
 		}
 		add_core_of = BOH
 		add_core_of = MOR
+		add_core_of = KRA
 
 		1939.3.14 = {
 			owner = SLO

@@ -9,7 +9,7 @@ state={
 
 		}
 		add_core_of = ALT
-		#add_core_of = KAZ
+		add_core_of = TCS
 	}
 
 	provinces={

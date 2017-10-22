@@ -17,6 +17,7 @@ state={
 		}
 		add_core_of = HBC
 		add_core_of = QUE
+		add_core_of = BRI
 	}
 
 	provinces={

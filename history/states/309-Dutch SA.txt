@@ -15,6 +15,7 @@ state={
 		add_core_of = CAR
 		add_core_of = COL
 		add_core_of = SSA
+		add_core_of = BNL
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

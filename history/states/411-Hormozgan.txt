@@ -18,6 +18,7 @@ state={
 			2026 1
 		}
 		add_core_of = IRA
+		add_core_of = PAK
 	}
 
 	provinces={

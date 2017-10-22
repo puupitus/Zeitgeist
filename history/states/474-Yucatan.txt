@@ -21,6 +21,7 @@ state={
 		}
 		add_core_of = MEX
 		add_core_of = CAR
+		add_core_of = CAM
 	}
 
 	provinces={

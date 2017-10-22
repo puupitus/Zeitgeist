@@ -22,6 +22,8 @@ state={
 			}
 		}
 		add_core_of = CSA
+		add_core_of = FRA
+		add_core_of = QUE
 		victory_points = {
 			7552 10
 		}

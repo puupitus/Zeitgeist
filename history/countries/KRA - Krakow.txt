@@ -1,6 +1,6 @@
-capital = 12
+capital = 88
 
-oob = "BAL_1936"
+oob = "KRA_1936"
 
 # Starting tech
 set_technology = {
@@ -38,14 +38,14 @@ set_politics = {
 			}
 
 			republicanism = {
-				popularity = 40
+				popularity = 10
 			}
 
 			monarchism = {
-				popularity = 10
+				popularity = 40
 			}
 		}
-	ruling_party = republicanism
+	ruling_party = monarchism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no

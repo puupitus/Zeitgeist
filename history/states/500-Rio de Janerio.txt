@@ -9,6 +9,7 @@ state={
 	history={
 		owner = SSA
 		add_core_of = SSA
+		add_core_of = LUS
 		buildings = {
 			infrastructure = 6
 			arms_factory = 2

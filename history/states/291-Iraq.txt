@@ -28,6 +28,8 @@ state={
 			}
 		}
 		add_core_of = SIP
+		add_core_of = IRA
+		add_core_of = ARA
 	}
 
 	provinces={

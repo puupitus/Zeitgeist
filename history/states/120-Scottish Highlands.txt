@@ -13,7 +13,7 @@ state= {
 
 	history=
 	{
-		owner = BRI
+		owner = IRE
 		victory_points = { 11064 1 }
 		buildings = {
 			infrastructure = 4
@@ -28,6 +28,8 @@ state= {
 			}
 		}
 		add_core_of = BRI
+		add_core_of = NOR
+		add_core_of = IRE
 	}
 
 	provinces=

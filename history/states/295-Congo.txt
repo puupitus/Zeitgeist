@@ -26,6 +26,8 @@ state={
 			5117 3
 		}
 			add_core_of = CAF
+			add_core_of = BNL
+			add_core_of = SAF
 	}
 
 	provinces={

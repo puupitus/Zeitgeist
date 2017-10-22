@@ -2,7 +2,7 @@ state={
 	id=87
 	name="STATE_87"
 	manpower = 2632000
-	
+
 	state_category = town
 	history={
 		owner = POL
@@ -14,6 +14,7 @@ state={
 			9508 1
 		}
 		add_core_of = POL
+		add_core_of = KRA
 
 		1939.1.1 = {
 			buildings = {
@@ -23,6 +24,6 @@ state={
 	}
 
 	provinces={
-		493 584 9439 9508 9546 11428 11515 11558 
+		493 584 9439 9508 9546 11428 11515 11558
 	}
 }

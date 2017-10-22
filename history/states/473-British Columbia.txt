@@ -22,6 +22,7 @@ state={
 			}
 		}
 		add_core_of = RUS
+		add_core_of = CAL
 		victory_points = {
 			1408 15
 		}

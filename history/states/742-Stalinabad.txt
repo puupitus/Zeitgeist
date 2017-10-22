@@ -9,6 +9,8 @@ state={
 
 		}
 		add_core_of = ALT
+		add_core_of = PAK
+		add_core_of = XIN
 
 	}
 

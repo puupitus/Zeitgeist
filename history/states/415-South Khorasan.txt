@@ -15,6 +15,7 @@ state={
 			4893 1
 		}
 		add_core_of = PAK
+		add_core_of = IRA
 	}
 
 	provinces={

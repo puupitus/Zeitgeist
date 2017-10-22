@@ -23,6 +23,7 @@ state={
 			4206 1
 		}
 		add_core_of = SIP
+		add_core_of = ABY
 	}
 
 	provinces={

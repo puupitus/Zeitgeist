@@ -17,6 +17,7 @@ state={
 			}
 		}
 		add_core_of = SSA
+		add_core_of = LUS
 		victory_points = {
 			10946 1
 		}

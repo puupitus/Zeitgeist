@@ -21,6 +21,7 @@ state={
 		add_core_of = RHI
 		add_core_of = HUN
 		add_core_of = SWI
+		add_core_of = ITA
 
 		1938.3.12 = {
 			owner = GER

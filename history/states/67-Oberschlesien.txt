@@ -11,13 +11,17 @@ state={
 	state_category = city
 
 	history={
-		owner = PRS
+		owner = KRA
 		buildings = {
 			infrastructure = 6
 		}
 		add_core_of = PRS
 		add_core_of = BAV
 		add_core_of = RHI
+		add_core_of = KRA
+		add_core_of = POL
+		add_core_of = MOR
+		add_core_of = BOH
 	}
 
 	provinces={

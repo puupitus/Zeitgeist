@@ -3,7 +3,7 @@ state={
 	id=29
 	name="STATE_29"
 	manpower = 4556400
-	
+
 	state_category = large_city
 	resources={
 		steel=112
@@ -30,6 +30,7 @@ state={
 			}
 		}
 		add_core_of = FRA
+		add_core_of = BNL
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 6
@@ -38,6 +39,6 @@ state={
 	}
 
 	provinces={
-		454 575 3402 3447 3476 3536 6504 6585 9500 9561 11420 11483 11548 11549 11606 
+		454 575 3402 3447 3476 3536 6504 6585 9500 9561 11420 11483 11548 11549 11606
 	}
 }

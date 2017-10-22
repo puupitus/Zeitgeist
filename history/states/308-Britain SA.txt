@@ -8,6 +8,7 @@ state={
 	history={
 		owner = CAR
 		add_core_of = CAR
+		add_core_of = BRI
 		buildings = {
 			infrastructure = 4
 			4450 = {
