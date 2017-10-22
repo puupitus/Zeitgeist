@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = IBE
+		owner = LUS
 		victory_points = {
 			740 3
 		}
@@ -25,6 +25,7 @@ state={
 			}
 		}
 		add_core_of = IBE
+		add_core_of = LUS
 	}
 
 	provinces={

@@ -7,7 +7,7 @@ state={
 	state_category = large_town
 
 	history={
-		owner = IBE
+		owner = LUS
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2
@@ -19,6 +19,7 @@ state={
 			11825 3
 		}
 		add_core_of = IBE
+		add_core_of = LUS
 	}
 
 	provinces={

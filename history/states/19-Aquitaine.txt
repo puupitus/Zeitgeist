@@ -7,7 +7,7 @@ state={
 		steel=40
 		aluminium=18
 	}
-	
+
 	state_category = city
 
 	history={
@@ -26,9 +26,10 @@ state={
 			}
 		}
 		add_core_of = FRA
+		add_core_of = LUS
 	}
 
 	provinces={
-		743 6621 6762 6777 9710 9737 11565 
+		743 6621 6762 6777 9710 9737 11565
 	}
 }

@@ -33,6 +33,7 @@ state={
 		}
 		add_core_of = FRA
 		add_core_of = ITA
+		add_core_of = IBE
 		1939.1.1 = {
 			buildings = {
 				dockyard = 3

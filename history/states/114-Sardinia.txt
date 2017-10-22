@@ -3,14 +3,14 @@ state=
 	id=114
 	name="STATE_114"
 	manpower = 991921
-	
+
 	state_category = town
-	
+
 	history=
 	{
 		owner = ITA
 		victory_points = {
-			11773 3 
+			11773 3
 		}
 		buildings = {
 			infrastructure = 5
@@ -25,6 +25,7 @@ state=
 			}
 		}
 		add_core_of = ITA
+		add_core_of = IBE
 	}
 	provinces=
 	{

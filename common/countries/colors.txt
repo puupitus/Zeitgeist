@@ -112,8 +112,8 @@ FRA = {
 	color_ui = rgb { 0  0  150 }
 }
 HBC = {
-	color = rgb { 119 48 39 }
-	color_ui = rgb { 155 62 51 }
+	color = rgb { 172 29 29 }
+	color_ui = rgb { 172 29 29 }
 }
 HUN = {
 	color = rgb { 249 126 98 }
@@ -152,8 +152,8 @@ KRA = {
 	color_ui = rgb { 240 240 50 }
 }
 LUS = {
-	color = rgb { 121 0 0 }
-	color_ui = rgb { 121 0 0 }
+	color = rgb { 30 20 20 }
+	color_ui = rgb { 30 20 20 }
 }
 MAN = {
 	color = rgb { 255 120 71 }
@@ -260,8 +260,8 @@ TCS = {
 	color_ui = rgb { 51 0 0 }
 }
 TUA = {
-	color = rgb { 100  40  15 }
-	color_ui = rgb { 100  40  15 }
+	color = rgb { 149  59  21 }
+	color_ui = rgb { 149  59  21 }
 }
 UKR = {
 	color = rgb { 229 64 64 }
