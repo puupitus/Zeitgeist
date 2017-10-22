@@ -23,6 +23,7 @@ state={
 		}
 		add_core_of = CAM
 		add_core_of = COL
+		add_core_of = CAR
 		victory_points = {
 			7630 5
 		}

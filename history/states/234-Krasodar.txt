@@ -27,6 +27,7 @@ state={
 			}
 		}
 		add_core_of = TCS
+		add_core_of = UKR
 	}
 
 	provinces={

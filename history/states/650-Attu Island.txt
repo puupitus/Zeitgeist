@@ -10,6 +10,7 @@ state=
 		owner = CAL
 		add_core_of = CAL
 		add_core_of = AST
+		add_core_of = JAP
 		victory_points = {
 			13067 1
 		}
