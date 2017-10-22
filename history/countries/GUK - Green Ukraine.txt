@@ -1,6 +1,6 @@
-capital = 473
+capital = 408
 
-oob = "RUS_1936"
+oob = "GUK_1936"
 
 # Starting tech
 set_technology = {

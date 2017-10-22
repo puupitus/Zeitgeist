@@ -17,6 +17,7 @@ state={
 		}
 		add_core_of = SIB
 		add_core_of = MON
+		add_core_of = GUK
 	}
 
 	provinces={

@@ -10,7 +10,7 @@ state={
 	state_category = town
 
 	history={
-		owner = RUS
+		owner = GUK
 		victory_points = {
 			957 15
 		}
@@ -24,7 +24,7 @@ state={
 			}
 		}
 		add_core_of = SIB
-		add_core_of = RUS
+		add_core_of = GUK
 	}
 
 	provinces={

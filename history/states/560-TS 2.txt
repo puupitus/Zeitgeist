@@ -10,12 +10,12 @@ state={
 	}
 
 	history={
-		owner = SIB
+		owner = GUK
 		buildings = {
 			infrastructure = 3
 		}
 		add_core_of = SIB
-		add_core_of = RUS
+		add_core_of = GUK
 	}
 
 	provinces={

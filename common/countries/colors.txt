@@ -111,6 +111,10 @@ FRA = {
 	color = rgb { 0  0  150 }
 	color_ui = rgb { 0  0  150 }
 }
+GUK = {
+	color = rgb { 0 204 0 }
+	color_ui = rgb { 0 204 0 }
+}
 HBC = {
 	color = rgb { 172 29 29 }
 	color_ui = rgb { 172 29 29 }
@@ -228,8 +232,8 @@ SIA = {
 	color_ui = rgb { 171 190 152 }
 }
 SIB = {
-	color = rgb { 0 204 0 }
-	color_ui = rgb { 0 204 0 }
+	color = rgb { 214 239 215 }
+	color_ui = rgb { 214 239 215 }
 }
 SIP = {
 	color = rgb { 194 198 215 }

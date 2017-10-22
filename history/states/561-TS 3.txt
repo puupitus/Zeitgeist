@@ -7,12 +7,13 @@ state={
 	state_category = rural
 
 	history={
-		owner = SIB
+		owner = GUK
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
 		}
 		add_core_of = SIB
+		add_core_of = GUK
 	}
 
 	provinces={
