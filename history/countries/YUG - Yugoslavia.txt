@@ -53,11 +53,33 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Said bin Taimur"
-	desc = "POLITICS_SAID_BIN_TAIMUR_DESC"
-	picture = "GFX_portrait_oman_said_bin_taimur"
-	expire = "1965.1.1"
+	name = "Milan Stojadinović"
+	picture = "milan_stojadinovic.dds"
+	ideology = conservatistic
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Petar II"
+	picture = "petar_ii.dds"
 	ideology = absolutism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Milan Gorkić"
+	picture = "milan_gorkic.dds"
+	ideology = marxist
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Josip Broz Tito"
+	picture = "josip_broz_tito.dds"
+	ideology = nazism
 	traits = {
 		#
 	}

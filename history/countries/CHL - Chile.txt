@@ -53,11 +53,33 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Said bin Taimur"
-	desc = "POLITICS_SAID_BIN_TAIMUR_DESC"
-	picture = "GFX_portrait_oman_said_bin_taimur"
-	expire = "1965.1.1"
+	name = "Patricio Aylwin"
+	picture = "patricio_aylwin.dds"
+	ideology = conservatistic
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Marmaduke Grove"
+	picture = "marmaduke_grove.dds"
 	ideology = absolutism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Salvador Allende"
+	picture = "salvador_allende.dds"
+	ideology = marxist
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Augusto Pinochet"
+	picture = "augusto_pinochet.dds"
+	ideology = nazism
 	traits = {
 		#
 	}

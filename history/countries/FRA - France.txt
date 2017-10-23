@@ -53,11 +53,33 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Said bin Taimur"
-	desc = "POLITICS_SAID_BIN_TAIMUR_DESC"
-	picture = "GFX_portrait_oman_said_bin_taimur"
-	expire = "1965.1.1"
+	name = "Charles de Gaulle"
+	picture = "charles_de_gaulle.dds"
+	ideology = conservatistic
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Napoleon VI"
+	picture = "napoleon_vi.dds"
 	ideology = absolutism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Pierre Laval"
+	picture = "pierre_laval.dds"
+	ideology = marxist
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Philippe Pétain"
+	picture = "philippe_petain.dds"
+	ideology = nazism
 	traits = {
 		#
 	}

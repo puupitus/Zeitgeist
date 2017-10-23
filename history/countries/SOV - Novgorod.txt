@@ -53,11 +53,33 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Said bin Taimur"
-	desc = "POLITICS_SAID_BIN_TAIMUR_DESC"
-	picture = "GFX_portrait_oman_said_bin_taimur"
-	expire = "1965.1.1"
+	name = "Ivan Ilyin"
+	picture = "ivan_ilyin.dds"
+	ideology = conservatistic
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Felix Yusupov"
+	picture = "felix_yusupov.dds"
 	ideology = absolutism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Nadezhda Krupskaya"
+	picture = "nadezhda_krupskaya.dds"
+	ideology = marxist
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Alexander Kerensky"
+	picture = "alexander_kerensky.dds"
+	ideology = nazism
 	traits = {
 		#
 	}

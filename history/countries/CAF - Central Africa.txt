@@ -53,12 +53,34 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Said bin Taimur"
-	desc = "POLITICS_SAID_BIN_TAIMUR_DESC"
-	picture = "GFX_portrait_oman_said_bin_taimur"
-	expire = "1965.1.1"
+	name = "Hubert Pierlot"
+	picture = "hubert_pierlot.dds"
+	ideology = conservatistic
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Leopold III"
+	picture = "leopold_iii.dds"
 	ideology = absolutism
 	traits = {
 		#
 	}
 }
+create_country_leader = {
+	name = "Julien Lahaut"
+	picture = "julien_lahaut.dds"
+	ideology = marxist
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Louis Mercier-Vega"
+	picture = "louis_mercier_vega.dds"
+	ideology = nazism
+	traits = {
+		#
+	}
+}	

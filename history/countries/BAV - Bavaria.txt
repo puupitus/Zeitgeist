@@ -53,8 +53,8 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Hugo Graf von Lerchenfeld-Köfering"
-	picture = "hugo_graf_von_lerchenfeld.dds"
+	name = "Franz Josef Strauß"
+	picture = "franz_josef_strauss.dds"
 	ideology = conservatistic
 	traits = {
 		#

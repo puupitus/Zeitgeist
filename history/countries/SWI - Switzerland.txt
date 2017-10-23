@@ -53,11 +53,33 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Said bin Taimur"
-	desc = "POLITICS_SAID_BIN_TAIMUR_DESC"
-	picture = "GFX_portrait_oman_said_bin_taimur"
-	expire = "1965.1.1"
+	name = "Kurt Schuschnigg"
+	picture = "kurtschuschnigg.dds"
+	ideology = conservatistic
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Joseph Ferdinand"
+	picture = "joseph_ferdinand.dds"
 	ideology = absolutism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Robert Grimm"
+	picture = "robert_grimm.dds"
+	ideology = marxist
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Engelbert Dollfuss"
+	picture = "engelbert_dollfuss.dds"
+	ideology = nazism
 	traits = {
 		#
 	}

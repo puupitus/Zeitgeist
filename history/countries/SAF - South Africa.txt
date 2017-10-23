@@ -53,11 +53,33 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Said bin Taimur"
-	desc = "POLITICS_SAID_BIN_TAIMUR_DESC"
-	picture = "GFX_portrait_oman_said_bin_taimur"
-	expire = "1965.1.1"
+	name = "J. B. M. Hertzog"
+	picture = "j_b_m_hertzog.dds"
+	ideology = conservatistic
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "J. B. M. Hertzog"
+	picture = "j_b_m_hertzog.dds"
 	ideology = absolutism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Moses Kotane"
+	picture = "moses_kotane.dds"
+	ideology = marxist
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Jan Smuts"
+	picture = "jan_smuts.dds"
+	ideology = nazism
 	traits = {
 		#
 	}

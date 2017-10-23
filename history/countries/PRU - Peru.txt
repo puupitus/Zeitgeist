@@ -53,11 +53,33 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Said bin Taimur"
-	desc = "POLITICS_SAID_BIN_TAIMUR_DESC"
-	picture = "GFX_portrait_oman_said_bin_taimur"
-	expire = "1965.1.1"
+	name = "José Bustamante y Rivero"
+	picture = "jose_bustamante_y_rivero.dds"
+	ideology = conservatistic
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Óscar R. Benavides"
+	picture = "oscar_r_benavides.dds"
 	ideology = absolutism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "José Carlos Mariátegui"
+	picture = "jose_carlos_mariategui.dds"
+	ideology = marxist
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Manuel A. Odría"
+	picture = "manuel_a_odria.dds"
+	ideology = nazism
 	traits = {
 		#
 	}

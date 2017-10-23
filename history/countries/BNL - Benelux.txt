@@ -53,11 +53,33 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Said bin Taimur"
-	desc = "POLITICS_SAID_BIN_TAIMUR_DESC"
-	picture = "GFX_portrait_oman_said_bin_taimur"
-	expire = "1965.1.1"
+	name = "Dirk Jan de Geer"
+	picture = "dirk_jan_de_geer.dds"
+	ideology = conservatistic
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Wilhelmina"
+	picture = "wilhelmina.dds"
 	ideology = absolutism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Louis de Visser"
+	picture = "louis_de_visser.dds"
+	ideology = marxist
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Christiaan Cornelissen"
+	picture = "christiaan_cornelissen.dds"
+	ideology = nazism
 	traits = {
 		#
 	}

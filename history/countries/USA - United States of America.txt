@@ -53,11 +53,33 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Said bin Taimur"
-	desc = "POLITICS_SAID_BIN_TAIMUR_DESC"
-	picture = "GFX_portrait_oman_said_bin_taimur"
-	expire = "1965.1.1"
+	name = "Franklin D. Roosevelt"
+	picture = "franklin_d_roosevelt.dds"
+	ideology = conservatistic
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "August von Mackensen"
+	picture = "august_von_mackensen.dds"
 	ideology = absolutism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Norman Thomas"
+	picture = "norman_thomas.dds"
+	ideology = marxist
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Fritz Julius Kuhn"
+	picture = "fritz_julius_kuhn.dds"
+	ideology = nazism
 	traits = {
 		#
 	}
