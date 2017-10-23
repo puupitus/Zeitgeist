@@ -54,7 +54,7 @@ set_politics = {
 
 create_country_leader = {
 	name = "Kurt Schuschnigg"
-	picture = "kurtschuschnigg.dds"
+	picture = "kurt_schuschnigg.dds"
 	ideology = conservatistic
 	traits = {
 		#

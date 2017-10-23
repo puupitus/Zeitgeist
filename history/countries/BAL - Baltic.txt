@@ -53,11 +53,33 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Said bin Taimur"
-	desc = "POLITICS_SAID_BIN_TAIMUR_DESC"
-	picture = "GFX_portrait_oman_said_bin_taimur"
-	expire = "1965.1.1"
+	name = "Konstantin Päts"
+	picture = "konstantin_pats.dds"
+	ideology = conservatistic
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Kārlis Ulmanis"
+	picture = "karlis_ulmanis.dds"
 	ideology = absolutism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Jaan Anvelt"
+	picture = "jaan_anvelt.dds"
+	ideology = marxist
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Roman von Ungern-Sternberg"
+	picture = "roman_von_ungern_sternberg.dds"
+	ideology = nazism
 	traits = {
 		#
 	}
