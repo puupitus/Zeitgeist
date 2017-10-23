@@ -21,6 +21,8 @@ state=
 		victory_points = { 6583 5 }
 		add_core_of = BNL
 		add_core_of = FRA
+		add_core_of = CAF
+
 	}
 
 	provinces=

@@ -8,6 +8,7 @@ state={
 	history={
 		owner = BNL
 		add_core_of = BNL
+		add_core_of = CAF
 		victory_points = { 391 40 }
 		victory_points = { 3211 10 }
 		victory_points = { 9498 15 }
