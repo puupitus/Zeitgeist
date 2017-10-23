@@ -20,6 +20,7 @@ set_technology = {
 	early_battleship = 1
 	early_battlecruiser = 1
 	transport = 1
+	early_carrier = 1
 }
 
 set_convoys = 50
@@ -52,24 +53,24 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Edwin Linkomies"
-	picture = "edwin_linkomies.dds"
-	ideology = absolutism
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Risto Ryti"
-	picture = "risto_ryti.dds"
+	name = "Hugo Graf von Lerchenfeld-Köfering"
+	picture = "hugo_graf_von_lerchenfeld.dds"
 	ideology = conservatistic
 	traits = {
 		#
 	}
 }
 create_country_leader = {
-	name = "Väinö Tanner"
-	picture = "vaino_tanner.dds"
+	name = "Rupprecht von Bayern"
+	picture = "rupprecht_von_bayern.dds"
+	ideology = absolutism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Ernst Thälmann"
+	picture = "ernst_thalmann.dds"
 	ideology = marxist
 	traits = {
 		#
@@ -77,7 +78,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Rosa Luxemburg"
-	picture = "otto_wille_kuusinen.dds"
+	picture = "rosa_luxemburg.dds"
 	ideology = nazism
 	traits = {
 		#

@@ -20,6 +20,7 @@ set_technology = {
 	early_battleship = 1
 	early_battlecruiser = 1
 	transport = 1
+	early_carrier = 1
 }
 
 set_convoys = 50
@@ -52,11 +53,33 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Said bin Taimur"
-	desc = "POLITICS_SAID_BIN_TAIMUR_DESC"
-	picture = "GFX_portrait_oman_said_bin_taimur"
-	expire = "1965.1.1"
+	name = "Levon Mirzoyan"
+	picture = "levon_mirzoyan.dds"
+	ideology = conservatistic
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Levon Mirzoyan"
+	picture = "levon_mirzoyan.dds"
 	ideology = absolutism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Levon Mirzoyan"
+	picture = "levon_mirzoyan.dds"
+	ideology = marxist
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Levon Mirzoyan"
+	picture = "levon_mirzoyan.dds"
+	ideology = nazism
 	traits = {
 		#
 	}
