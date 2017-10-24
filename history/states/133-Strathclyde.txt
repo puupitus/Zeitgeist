@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = BRI
+		owner = IRE
 		victory_points = {
 			3273 15
 		}
@@ -27,6 +27,7 @@ state={
 
 		}
 		add_core_of = BRI
+		add_core_of = IRE
 		1939.1.1 = {
 			buildings = {
 				dockyard = 5

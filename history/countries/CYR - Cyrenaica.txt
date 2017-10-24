@@ -61,8 +61,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Italo Balbo"
-	picture = "italo_balbo.dds"
+	name = "Idris I"
+	picture = "idris_i.dds"
 	ideology = absolutism
 	traits = {
 		#

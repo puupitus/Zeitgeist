@@ -77,8 +77,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Christiaan Cornelissen"
-	picture = "christiaan_cornelissen.dds"
+	name = "Anton Mussert"
+	picture = "anton_mussert.dds"
 	ideology = nazism
 	traits = {
 		#
