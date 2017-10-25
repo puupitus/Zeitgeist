@@ -53,8 +53,8 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Franklin D. Roosevelt"
-	picture = "franklin_d_roosevelt.dds"
+	name = "Harry S. Truman"
+	picture = "harry_s_truman.dds"
 	ideology = conservatistic
 	traits = {
 		#
