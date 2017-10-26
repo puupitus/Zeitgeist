@@ -22,6 +22,7 @@ state={
 		}
 		add_core_of = COL
 		add_core_of = PRU
+		add_core_of = SPA
 		victory_points = {
 			12798 5
 		}

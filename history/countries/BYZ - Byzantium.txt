@@ -61,7 +61,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "George II"
+	name = "Geórgios II"
 	picture = "george_ii.dds"
 	ideology = absolutism
 	traits = {
@@ -83,4 +83,4 @@ create_country_leader = {
 	traits = {
 		#
 	}
-}	
+}

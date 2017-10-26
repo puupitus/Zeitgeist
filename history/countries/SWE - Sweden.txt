@@ -35,7 +35,7 @@ set_politics = {
 			}
 
 			socialism = {
-				popularity = 20
+				popularity = 40
 			}
 
 			republicanism = {
@@ -43,10 +43,10 @@ set_politics = {
 			}
 
 			monarchism = {
-				popularity = 40
+				popularity = 30
 			}
 		}
-	ruling_party = monarchism
+	ruling_party = socialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no

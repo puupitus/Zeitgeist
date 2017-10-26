@@ -1,7 +1,14 @@
 capital = 2
 
 oob = "ITA_1936"
-
+create_faction = "New Commonwealth"
+add_to_faction = BYZ
+add_to_faction = CYR
+add_to_faction = IRA
+add_to_faction = BRI
+add_to_faction = HBC
+add_to_faction = ABY
+add_to_faction = DEN
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

@@ -3,9 +3,9 @@ state={
 	id=481
 	name="STATE_481" # Durango
 	manpower = 1255094
-	
+
 	state_category = rural
-	
+
 	resources={
 		steel=4
 	}
@@ -20,10 +20,11 @@ state={
 			}
 		}
 		add_core_of = MEX
+		add_core_of = CSA
 	}
 
 	provinces={
-		1945 4946 7921 8003 8057 10853 10871 10895 12804 
+		1945 4946 7921 8003 8057 10853 10871 10895 12804
 	}
-	
+
 }

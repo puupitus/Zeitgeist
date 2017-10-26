@@ -13,9 +13,9 @@ bookmarks = {
 			ideas = {	}
 			focuses = { }
 		}
-		"CSA"={
-			history = "CSA_ZEITGEIST_DESC"
-			ideology = republicanism
+		"SPA"={
+			history = "SPA_ZEITGEIST_DESC"
+			ideology = monarchism
 			ideas = {	}
 			focuses = { }
 		}
@@ -54,13 +54,6 @@ bookmarks = {
 			history = "OTHER_ZEITGEIST_DESC"
 		}
 
-		"SPA"={
-			minor = yes
-			history = "SPA_ZEITGEIST_DESC"
-			ideology = monarchism
-			ideas = {	}
-			focuses = { }
-		}
 		"IBE"={
 			minor = yes
 			history = "IBE_ZEITGEIST_DESC"
@@ -96,9 +89,9 @@ bookmarks = {
 			ideas = {	}
 			focuses = { }
 		}
-		"ARA"={
+		"EGY"={
 			minor = yes
-			history = "ARA_ZEITGEIST_DESC"
+			history = "EGY_ZEITGEIST_DESC"
 			ideology = monarchism
 			ideas = {	}
 			focuses = { }
@@ -127,6 +120,90 @@ bookmarks = {
 		"CAF"={
 			minor = yes
 			history = "CAF_ZEITGEIST_DESC"
+			ideology = monarchism
+			ideas = {	}
+			focuses = { }
+		}
+		"CSA"={
+			minor = yes
+			history = "CSA_ZEITGEIST_DESC"
+			ideology = republicanism
+			ideas = {	}
+			focuses = { }
+		}
+		"AST"={
+			minor = yes
+			history = "AST_ZEITGEIST_DESC"
+			ideology = republicanism
+			ideas = {	}
+			focuses = { }
+		}
+		"BOH"={
+			minor = yes
+			history = "BOH_ZEITGEIST_DESC"
+			ideology = monarchism
+			ideas = {	}
+			focuses = { }
+		}
+		"MOR"={
+			minor = yes
+			history = "MOR_ZEITGEIST_DESC"
+			ideology = monarchism
+			ideas = {	}
+			focuses = { }
+		}
+		"KRA"={
+			minor = yes
+			history = "KRA_ZEITGEIST_DESC"
+			ideology = monarchism
+			ideas = {	}
+			focuses = { }
+		}
+		"HUN"={
+			minor = yes
+			history = "HUN_ZEITGEIST_DESC"
+			ideology = monarchism
+			ideas = {	}
+			focuses = { }
+		}
+		"INS"={
+			minor = yes
+			history = "INS_ZEITGEIST_DESC"
+			ideology = republicanism
+			ideas = {	}
+			focuses = { }
+		}
+		"FIN"={
+			minor = yes
+			history = "FIN_ZEITGEIST_DESC"
+			ideology = third_position
+			ideas = {	}
+			focuses = { }
+		}
+		"SOV"={
+			minor = yes
+			history = "SOV_ZEITGEIST_DESC"
+			ideology = third_position
+			ideas = {	}
+			focuses = { }
+		}
+		"UKR"={
+			minor = yes
+			history = "UKR_ZEITGEIST_DESC"
+			ideology = third_position
+			ideas = {	}
+			focuses = { }
+		}
+		"TCS"={
+			minor = yes
+			history = "TCS_ZEITGEIST_DESC"
+			ideology = socialism
+			ideas = {	}
+			focuses = { }
+		}
+		"BYZ"={
+			minor = yes
+			history = "BYZ_ZEITGEIST_DESC"
 			ideology = monarchism
 			ideas = {	}
 			focuses = { }

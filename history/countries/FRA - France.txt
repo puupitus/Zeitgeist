@@ -1,6 +1,16 @@
 capital = 16
 
 oob = "FRA_1936"
+create_faction = "Republican League"
+add_to_faction = FAF
+add_to_faction = SIP
+add_to_faction = AST
+add_to_faction = CAR
+add_to_faction = BAL
+add_to_faction = SIB
+add_to_faction = TUA
+add_to_faction = ALT
+add_to_faction = IND
 
 # Starting tech
 set_technology = {
