@@ -23,6 +23,7 @@ state={
 		add_core_of = HBC
 		add_core_of = QUE
 		add_core_of = IRE
+		add_core_of = USA
 	}
 
 	provinces={

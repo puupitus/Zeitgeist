@@ -8,6 +8,7 @@ state={
 	history={
 		owner = CAR
 		add_core_of = CAR
+		add_core_of = CSA
 		victory_points = {
 			1440 1
 		}

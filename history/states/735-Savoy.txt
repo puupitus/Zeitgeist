@@ -8,6 +8,7 @@ state={
 		owner = FRA
 		add_core_of = FRA
 		add_core_of = ITA
+		add_core_of = SWI
 		victory_points = {
 			778 1
 		}

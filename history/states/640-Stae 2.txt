@@ -10,6 +10,7 @@ state={
 		owner = BEN
 		add_core_of = BEN
 		add_core_of = IND
+		add_core_of = SIA
 		buildings = {
 			infrastructure = 3
 			air_base = 1

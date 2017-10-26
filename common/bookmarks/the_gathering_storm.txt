@@ -37,24 +37,103 @@ bookmarks = {
 			ideas = {	}
 			focuses = { }
 		}
-		"PRC"={
-			history = "PRC_ZEITGEIST_DESC"
-			ideology = socialism
+		"LUS"={
+			history = "LUS_ZEITGEIST_DESC"
+			ideology = third_position
 			ideas = {	}
 			focuses = { }
 		}
-		"BAV"={
-			history = "BAV_ZEITGEIST_DESC"
+		"USA"={
+			history = "USA_ZEITGEIST_DESC"
 			ideology = third_position
 			ideas = {	}
 			focuses = { }
 		}
 
-
-
-		"---"={
+	  "---"={
 			history = "OTHER_ZEITGEIST_DESC"
 		}
+
+		"SPA"={
+			minor = yes
+			history = "SPA_ZEITGEIST_DESC"
+			ideology = monarchism
+			ideas = {	}
+			focuses = { }
+		}
+		"IBE"={
+			minor = yes
+			history = "IBE_ZEITGEIST_DESC"
+			ideology = third_position
+			ideas = {	}
+			focuses = { }
+		}
+		"BRI"={
+			minor = yes
+			history = "BRI_ZEITGEIST_DESC"
+			ideology = monarchism
+			ideas = {	}
+			focuses = { }
+		}
+		"PRC"={
+			minor = yes
+			history = "PRC_ZEITGEIST_DESC"
+			ideology = socialism
+			ideas = {	}
+			focuses = { }
+		}
+		"ROC"={
+			minor = yes
+			history = "ROC_ZEITGEIST_DESC"
+			ideology = republicanism
+			ideas = {	}
+			focuses = { }
+		}
+		"NOR"={
+			minor = yes
+			history = "NOR_ZEITGEIST_DESC"
+			ideology = third_position
+			ideas = {	}
+			focuses = { }
+		}
+		"ARA"={
+			minor = yes
+			history = "ARA_ZEITGEIST_DESC"
+			ideology = monarchism
+			ideas = {	}
+			focuses = { }
+		}
+		"BAV"={
+			minor = yes
+			history = "BAV_ZEITGEIST_DESC"
+			ideology = third_position
+			ideas = {	}
+			focuses = { }
+		}
+		"RHI"={
+			minor = yes
+			history = "RHI_ZEITGEIST_DESC"
+			ideology = socialism
+			ideas = {	}
+			focuses = { }
+		}
+		"PRS"={
+			minor = yes
+			history = "PRS_ZEITGEIST_DESC"
+			ideology = republicanism
+			ideas = {	}
+			focuses = { }
+		}
+		"CAF"={
+			minor = yes
+			history = "CAF_ZEITGEIST_DESC"
+			ideology = monarchism
+			ideas = {	}
+			focuses = { }
+		}
+
+
+
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }

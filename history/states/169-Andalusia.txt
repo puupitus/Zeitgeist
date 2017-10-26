@@ -27,6 +27,7 @@ state={
 			}
 		}
 		add_core_of = IBE
+		add_core_of = LUS
 	}
 
 	provinces={

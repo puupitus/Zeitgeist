@@ -24,6 +24,8 @@ state={
 		}
 		add_core_of = SIP
 		add_core_of = ABY
+		add_core_of = ARA
+		add_core_of = BYZ
 	}
 
 	provinces={

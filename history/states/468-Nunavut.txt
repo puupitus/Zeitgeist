@@ -24,10 +24,10 @@ state={
 		add_core_of = QUE
 		add_core_of = HBC
 		victory_points = {
-			4345 20
+			4345 3
 		}
 		victory_points = {
-			12149 3
+			12149 20
 		}
 
 	}

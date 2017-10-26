@@ -1,4 +1,4 @@
-capital = 515
+capital = 660
 
 oob = "TUA_1936"
 

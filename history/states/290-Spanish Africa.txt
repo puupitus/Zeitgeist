@@ -26,6 +26,9 @@ state={
 		add_core_of = IBE
 		add_core_of = FAF
 		add_core_of = CYR
+		add_core_of = ITA
+		add_core_of = LUS
+		add_core_of = FRA
 	}
 
 	provinces={

@@ -37,16 +37,16 @@ state={
 		}
 		add_core_of = CAL
 		victory_points = {
-			9814 30
+			9814 25
 		}
 		victory_points = {
 			1562 15
 		}
 		victory_points = {
-			9671 25
+			9671 1
 		}
 		victory_points = {
-			9713 1
+			9713 30
 		}
 		1939.1.1 = {
 			buildings = {

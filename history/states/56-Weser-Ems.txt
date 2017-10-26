@@ -25,6 +25,7 @@ state={
 		add_core_of = RHI
 		add_core_of = BAV
 		add_core_of = BNL
+		add_core_of = SWE
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 4
