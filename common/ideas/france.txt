@@ -1,0 +1,42 @@
+ideas = {
+  country = {
+        FRA_lef = {
+
+
+    	  allowed = {
+    		always = no
+    	  }
+
+    	  allowed_civil_war = {
+    		       always = yes
+    	          }
+
+    	  removal_cost = -1
+
+    	  picture = generic_democratic_drift_bonus
+
+    	  modifier = {
+    		republicanism_drift = 0.05
+    	     }
+        }
+        FRA_rm = {
+
+
+    	  allowed = {
+    	  always = no
+    	  }
+
+    	  allowed_civil_war = {
+    		always = yes
+    	  }
+
+    	  removal_cost = -1
+
+    	  picture = low_economic_mobilisation
+
+    	  modifier = {
+    		industrial_capacity_factory = 0.2
+    	     }
+        }
+    }
+}

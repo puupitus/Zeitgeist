@@ -1388,8 +1388,8 @@ country = {
 
   focus = {
     id = FRA_liberte_egalite_fraternite
-    icon = GFX_focus_wonderweapons
-    available = { date > 1937.1.1 }
+    icon = GFX_FRA_liberte_egalite_fraternite
+    available = { has_global_flag = FRENCH_ELECTIONS }
     x = 9
     y = 6
     cost = 10
@@ -1397,8 +1397,9 @@ country = {
     available_if_capitulated = yes
 
     completion_reward = {
-      add_political_power = 150
-      add_national_unity = 0.15
+      add_popularity = { ideology = republicanism popularity = 0.30 }
+      add_ideas = FRA_lef
+      add_ideas = low_economic_mobilisation
 
     }
 
@@ -1417,8 +1418,8 @@ country = {
     available_if_capitulated = yes
 
     completion_reward = {
-      add_political_power = 150
-      add_national_unity = 0.15
+      add_ideas = FRA_rm
+      add_ideas = partial_economic_mobilisation
 
     }
 
@@ -1432,13 +1433,14 @@ country = {
     prerequisite = { focus = FRA_rapid_militarization }
     x = 7
     y = 8
-    cost = 10
+    cost = 15
 
     available_if_capitulated = yes
 
     completion_reward = {
-      add_political_power = 150
-      add_national_unity = 0.15
+    23 = { add_building_construction = { type = dockyard level = 4 instant_build = yes }
+  	}
+  	23 = { add_extra_state_shared_building_slots = 4}
 
     }
 
@@ -1452,13 +1454,24 @@ country = {
     prerequisite = { focus = FRA_la_rochelle_expansion }
     x = 7
     y = 9
-    cost = 10
+    cost = 15
 
     available_if_capitulated = yes
 
     completion_reward = {
-      add_political_power = 150
-      add_national_unity = 0.15
+    set_technology = { synth_oil_experiments = 1 }
+  	23 = { add_building_construction = { type = synthetic_refinery level = 1 instant_build = yes }
+  	}
+  	23 = { add_extra_state_shared_building_slots = 1}
+    14 = { add_building_construction = { type = synthetic_refinery level = 1 instant_build = yes }
+  	}
+  	14 = { add_extra_state_shared_building_slots = 1}
+    21 = { add_building_construction = { type = synthetic_refinery level = 1 instant_build = yes }
+  	}
+  	21 = { add_extra_state_shared_building_slots = 1}
+    15 = { add_building_construction = { type = synthetic_refinery level = 1 instant_build = yes }
+  	}
+  	15 = { add_extra_state_shared_building_slots = 1}
 
     }
 
@@ -1472,13 +1485,14 @@ country = {
     prerequisite = { focus = FRA_rapid_militarization }
     x = 11
     y = 8
-    cost = 10
+    cost = 15
 
     available_if_capitulated = yes
 
     completion_reward = {
-      add_political_power = 150
-      add_national_unity = 0.15
+    16 = { add_building_construction = { type = arms_factory level = 4 instant_build = yes }
+    }
+    16 = { add_extra_state_shared_building_slots = 4}
 
     }
 
@@ -1492,14 +1506,26 @@ country = {
     prerequisite = { focus = FRA_paris_factories }
     x = 11
     y = 9
-    cost = 10
+    cost = 20
 
     available_if_capitulated = yes
 
     completion_reward = {
-      add_political_power = 150
-      add_national_unity = 0.15
-
+    add_resource = {
+      		type = steel
+      		amount = 36
+      		state = 28
+      	}
+    add_resource = {
+      		type = aluminum
+      		amount = 36
+      		state = 22
+      	}
+    add_resource = {
+          type = chromium
+          amount = 36
+          state = 635
+        }
     }
 
     ai_will_do = {
@@ -1510,6 +1536,7 @@ country = {
     id = FRA_vive_la_france
     icon = GFX_focus_wonderweapons
     prerequisite = { focus = FRA_rapid_militarization }
+    available = { has_army_manpower = { size > 500000 } }
     x = 9
     y = 9
     cost = 10
@@ -1523,7 +1550,7 @@ country = {
     }
 
     ai_will_do = {
-      factor = 10
+      factor = 100
     }
   }
   focus = {
@@ -1538,19 +1565,55 @@ country = {
     available_if_capitulated = yes
 
     completion_reward = {
-      add_political_power = 150
-      add_national_unity = 0.15
+    create_wargoal = {
+    type = take_state_focus
+    target = ITA
+    }
+    declare_war_on = { target = ITA type = take_state_focus }
 
     }
 
     ai_will_do = {
-      factor = 10
+      factor = 100
     }
   }
   focus = {
     id = FRA_subjugate_the_english
     icon = GFX_focus_wonderweapons
     prerequisite = { focus = FRA_monarchy_is_dead }
+    available = {
+    126 = { is_controlled_by = FRA }
+    123 = { is_controlled_by = FRA }
+    127 = { is_controlled_by = FRA }
+    338 = { is_controlled_by = FRA }
+    }
+    x = 5
+    y = 11
+    cost = 10
+
+    available_if_capitulated = yes
+
+    completion_reward = {
+    BRI = { country_event = { id = france.1 }
+  	}
+
+    }
+
+    ai_will_do = {
+      factor = 100
+    }
+  }
+  focus = {
+    id = FRA_subjugate_the_italians
+    icon = GFX_focus_wonderweapons
+    prerequisite = { focus = FRA_monarchy_is_dead }
+    available = {
+    2 = { is_controlled_by = FRA }
+    114 = { is_controlled_by = FRA }
+    115 = { is_controlled_by = FRA }
+    158 = { is_controlled_by = FRA }
+    116 = { is_controlled_by = FRA }
+    }
     x = 7
     y = 11
     cost = 10
@@ -1558,13 +1621,13 @@ country = {
     available_if_capitulated = yes
 
     completion_reward = {
-      add_political_power = 150
-      add_national_unity = 0.15
+    ITA = { country_event = { id = france.4 }
+    }
 
     }
 
     ai_will_do = {
-      factor = 10
+      factor = 100
     }
   }
   focus = {
@@ -1579,19 +1642,29 @@ country = {
     available_if_capitulated = yes
 
     completion_reward = {
-      add_political_power = 150
-      add_national_unity = 0.15
+    create_wargoal = {
+    type = puppet_wargoal_focus
+    target = SSA
+    }
+    declare_war_on = { target = SSA type = puppet_wargoal_focus }
 
     }
 
     ai_will_do = {
-      factor = 10
+      factor = 100
     }
   }
   focus = {
     id = FRA_democracy_in_brazil
     icon = GFX_focus_wonderweapons
     prerequisite = { focus = FRA_evil_socialism }
+    available = {
+    500 = { is_controlled_by = FRA }
+    496 = { is_controlled_by = FRA }
+    501 = { is_controlled_by = FRA }
+    499 = { is_controlled_by = FRA }
+    498 = { is_controlled_by = FRA }
+    }
     x = 9
     y = 11
     cost = 10
@@ -1599,13 +1672,13 @@ country = {
     available_if_capitulated = yes
 
     completion_reward = {
-      add_political_power = 150
-      add_national_unity = 0.15
+    SSA = { country_event = { id = france.7 }
+    }
 
     }
 
     ai_will_do = {
-      factor = 10
+      factor = 100
     }
   }
   focus = {
@@ -1620,19 +1693,29 @@ country = {
     available_if_capitulated = yes
 
     completion_reward = {
-      add_political_power = 150
-      add_national_unity = 0.15
+    create_wargoal = {
+    type = puppet_wargoal_focus
+    target = LUS
+    }
+    declare_war_on = { target = LUS type = puppet_wargoal_focus }
 
     }
 
     ai_will_do = {
-      factor = 10
+      factor = 100
     }
   }
   focus = {
     id = FRA_reorganize_lusitania
     icon = GFX_focus_wonderweapons
     prerequisite = { focus = FRA_crush_extremists }
+    available = {
+    112 = { is_controlled_by = FRA }
+    180 = { is_controlled_by = FRA }
+    171 = { is_controlled_by = FRA }
+    174 = { is_controlled_by = FRA }
+    172 = { is_controlled_by = FRA }
+    }
     x = 11
     y = 11
     cost = 10
@@ -1640,13 +1723,13 @@ country = {
     available_if_capitulated = yes
 
     completion_reward = {
-      add_political_power = 150
-      add_national_unity = 0.15
+    LUS = { country_event = { id = france.10 }
+    }
 
     }
 
     ai_will_do = {
-      factor = 10
+      factor = 100
     }
   }
 }
