@@ -1,13 +1,18 @@
 focus_tree = {
-	id = generic_focus
+id = generic_focus
 
-	country = {
-		factor = 1
-	}
+country = {
+	factor = 1
+}
 
 	default = yes
+	continuous_focus_position = { x = 0 y = 2000 }
 	reset_on_civilwar = no
 
+	####################
+	# FOCUSES START HERE
+	####################
+	
 	focus = {
 		id = war_games
 		icon = GFX_goal_generic_build_tank
