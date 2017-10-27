@@ -30,6 +30,7 @@ ideologies = {
     can_send_volunteers = yes
     can_puppet = yes
     can_declare_war_on_same_ideology = yes
+		can_join_factions = no
 		}
 
 		modifiers = {
