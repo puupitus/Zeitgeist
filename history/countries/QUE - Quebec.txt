@@ -31,22 +31,22 @@ set_politics = {
 
 		parties = {
 			third_position = {
-				popularity = 10
-			}
-
-			socialism = {
 				popularity = 30
 			}
 
-			republicanism = {
+			socialism = {
 				popularity = 40
 			}
 
-			monarchism = {
+			republicanism = {
 				popularity = 20
 			}
+
+			monarchism = {
+				popularity = 10
+			}
 		}
-	ruling_party = republicanism
+	ruling_party = socialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
