@@ -88,48 +88,41 @@ create_country_leader = {
 create_corps_commander = {
 	name = "Erik Heinrichs"
 	picture = "erik_heinrichs.dds"
-	traits = { winter_specialist ranger }
-	skill = 3
+	skill = 1
 }
 
 create_corps_commander = {
 	name = "Vilho Petter Nenonen"
 	picture = "vilho_petter_nenonen.dds"
-	traits = { bearer_of_artillery }
-	skill = 4
+	skill = 1
 }
 
 create_corps_commander = {
 	name = "A.F. Airo"
 	picture = "a_f_airo.dds"
-	traits = { winter_specialist commando }
-	skill = 3
+	skill = 1
 }
 
 create_corps_commander = {
 	name = "Karl Lennart Oesch"
 	picture = "karl_lennart_oesch.dds"
-	traits = { urban_assault_specialist fortress_buster }
-	skill = 3
+	skill = 1
 }
 
 create_corps_commander = {
 	name = "Ruben Lagus"
 	picture = "ruben_lagus.dds"
-	traits = { panzer_leader }
-	skill = 4
+	skill = 1
 }
 
 create_navy_leader = {
 	name = "Väinö Valve"
 	picture = "vaino_valve.dds"
-	traits = { superior_tactician spotter }
-	skill = 3
+	skill = 1
 }
 
 create_field_marshal = {
 	name = "C.G.E Mannerheim"
 	picture = "carl_gustaf_emil_mannerheim.dds"
-	traits = { defensive_doctrine }
-	skill = 5
+	skill = 2
 }

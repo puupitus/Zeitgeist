@@ -1398,7 +1398,7 @@ country = {
 
     completion_reward = {
       add_popularity = { ideology = republicanism popularity = 0.30 }
-      add_ideas = FRA_lef
+      add_ideas = rep_drift
       add_ideas = low_economic_mobilisation
 
     }
@@ -1409,7 +1409,7 @@ country = {
   }
   focus = {
     id = FRA_rapid_militarization
-    icon = GFX_focus_wonderweapons
+    icon = GFX_goal_generic_military_sphere
     prerequisite = { focus = FRA_liberte_egalite_fraternite }
     x = 9
     y = 7
@@ -1428,10 +1428,48 @@ country = {
     }
   }
   focus = {
-    id = FRA_la_rochelle_expansion
-    icon = GFX_focus_wonderweapons
+    id = FRA_legion_etrangere
+    icon = GFX_FRA_legion_etrangere
     prerequisite = { focus = FRA_rapid_militarization }
     x = 7
+    y = 8
+    cost = 10
+
+    available_if_capitulated = yes
+
+    completion_reward = {
+      add_ideas = FRA_le
+
+    }
+
+    ai_will_do = {
+      factor = 10
+    }
+  }
+  focus = {
+    id = FRA_mobilize
+    icon = GFX_goal_rhineland
+    prerequisite = { focus = FRA_rapid_militarization }
+    x = 11
+    y = 8
+    cost = 5
+
+    available_if_capitulated = yes
+
+    completion_reward = {
+      add_timed_idea = { idea = FRA_mob days = 365 }
+
+    }
+
+    ai_will_do = {
+      factor = 10
+    }
+  }
+  focus = {
+    id = FRA_la_rochelle_expansion
+    icon = GFX_goal_generic_construct_naval_dockyard
+    prerequisite = { focus = FRA_rapid_militarization }
+    x = 5
     y = 8
     cost = 15
 
@@ -1450,9 +1488,9 @@ country = {
   }
   focus = {
     id = FRA_synthetic_oil_refineries
-    icon = GFX_focus_wonderweapons
+    icon = GFX_goal_generic_oil_refinery
     prerequisite = { focus = FRA_la_rochelle_expansion }
-    x = 7
+    x = 5
     y = 9
     cost = 15
 
@@ -1481,9 +1519,9 @@ country = {
   }
   focus = {
     id = FRA_paris_factories
-    icon = GFX_focus_wonderweapons
+    icon = GFX_goal_generic_construct_mil_factory
     prerequisite = { focus = FRA_rapid_militarization }
-    x = 11
+    x = 13
     y = 8
     cost = 15
 
@@ -1502,9 +1540,9 @@ country = {
   }
   focus = {
     id = FRA_nationalize_excavations
-    icon = GFX_focus_wonderweapons
+    icon = GFX_goal_generic_construction2
     prerequisite = { focus = FRA_paris_factories }
-    x = 11
+    x = 13
     y = 9
     cost = 20
 
@@ -1534,7 +1572,7 @@ country = {
   }
   focus = {
     id = FRA_vive_la_france
-    icon = GFX_focus_wonderweapons
+    icon = GFX_FRA_vive_la_france
     prerequisite = { focus = FRA_rapid_militarization }
     available = { has_army_manpower = { size > 500000 } }
     x = 9
@@ -1555,7 +1593,7 @@ country = {
   }
   focus = {
     id = FRA_monarchy_is_dead
-    icon = GFX_focus_wonderweapons
+    icon = GFX_goal_tfv_sever_ties_with_uk
     prerequisite = { focus = FRA_vive_la_france }
     mutually_exclusive = { focus = FRA_evil_socialism focus = FRA_crush_extremists}
     x = 7
@@ -1579,7 +1617,7 @@ country = {
   }
   focus = {
     id = FRA_subjugate_the_english
-    icon = GFX_focus_wonderweapons
+    icon = GFX_FRA_subjugate_the_english
     prerequisite = { focus = FRA_monarchy_is_dead }
     available = {
     126 = { is_controlled_by = FRA }
@@ -1605,7 +1643,7 @@ country = {
   }
   focus = {
     id = FRA_subjugate_the_italians
-    icon = GFX_focus_wonderweapons
+    icon = GFX_FRA_subjugate_the_italians
     prerequisite = { focus = FRA_monarchy_is_dead }
     available = {
     2 = { is_controlled_by = FRA }
@@ -1632,7 +1670,7 @@ country = {
   }
   focus = {
     id = FRA_evil_socialism
-    icon = GFX_focus_wonderweapons
+    icon = GFX_goal_generic_war_with_comintern
     prerequisite = { focus = FRA_vive_la_france }
     mutually_exclusive = { focus = FRA_monarchy_is_dead focus = FRA_crush_extremists}
     x = 9
@@ -1656,7 +1694,7 @@ country = {
   }
   focus = {
     id = FRA_democracy_in_brazil
-    icon = GFX_focus_wonderweapons
+    icon = GFX_FRA_democracy_in_brazil
     prerequisite = { focus = FRA_evil_socialism }
     available = {
     500 = { is_controlled_by = FRA }
@@ -1683,7 +1721,7 @@ country = {
   }
   focus = {
     id = FRA_crush_extremists
-    icon = GFX_focus_wonderweapons
+    icon = GFX_FRA_crush_extremists
     prerequisite = { focus = FRA_vive_la_france }
     mutually_exclusive = { focus = FRA_monarchy_is_dead focus = FRA_evil_socialism}
     x = 11
@@ -1707,7 +1745,7 @@ country = {
   }
   focus = {
     id = FRA_reorganize_lusitania
-    icon = GFX_focus_wonderweapons
+    icon = GFX_FRA_reorganize_lusitania
     prerequisite = { focus = FRA_crush_extremists }
     available = {
     112 = { is_controlled_by = FRA }
@@ -1724,6 +1762,33 @@ country = {
 
     completion_reward = {
     LUS = { country_event = { id = france.10 }
+    }
+
+    }
+
+    ai_will_do = {
+      factor = 100
+    }
+  }
+  focus = {
+    id = FRA_east_iberia_under_control
+    icon = GFX_FRA_east_iberia_under_control
+    prerequisite = { focus = FRA_crush_extremists }
+    available = {
+    165 = { is_controlled_by = FRA }
+    177 = { is_controlled_by = FRA }
+    290 = { is_controlled_by = FRA }
+    118 = { is_controlled_by = FRA }
+    41 = { is_controlled_by = FRA }
+    }
+    x = 13
+    y = 11
+    cost = 10
+
+    available_if_capitulated = yes
+
+    completion_reward = {
+    IBE = { country_event = { id = france.13 }
     }
 
     }

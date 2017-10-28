@@ -229,3 +229,54 @@ news_event = {		#Reorganize Lusitania
 		name = france.12.a
 	}
 }
+country_event = {		#East iberia Under Control
+	id = france.13
+	title = france.13.t
+	desc = france.13.d
+	picture = GFX_report_event_protests3
+
+	is_triggered_only = yes
+
+	option = {
+		ai_chance = { factor = 100 }
+		name = france.13.a
+		white_peace = FRA
+    FRA = { puppet = IBE }
+		FRA = { transfer_state = 165 }
+		FRA = { transfer_state = 177 }
+		FRA = { transfer_state = 290 }
+		FRA = { transfer_state = 118 }
+		FRA = { news_event = { id = france.14 }
+	}
+	}
+	option = {
+		name = france.13.b
+		add_political_power = 150
+    FRA = { news_event = { id = france.15 } }
+	}
+
+}
+news_event = {		#East iberia Under Control
+	id = france.14
+	title = france.14.t
+	desc = france.14.d
+	picture = GFX_report_event_protests3
+
+	is_triggered_only = yes
+
+	option = {
+		name = france.14.a
+	}
+}
+news_event = {		#East iberia Under Control
+	id = france.15
+	title = france.15.t
+	desc = france.15.d
+	picture = GFX_report_event_protests3
+
+	is_triggered_only = yes
+
+	option = {
+		name = france.15.a
+	}
+}

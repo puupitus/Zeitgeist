@@ -934,5 +934,38 @@ spriteTypes = {
 	name = "GFX_FRA_liberte_egalite_fraternite"
 	texturefile = "gfx/interface/goals/FRA_liberte_egalite_fraternite.dds"
 	}
+	SpriteType = {
+	name = "GFX_FRA_crush_extremists"
+	texturefile = "gfx/interface/goals/FRA_crush_extremists.dds"
+	}
+	SpriteType = {
+	name = "GFX_FRA_democracy_in_brazil"
+	texturefile = "gfx/interface/goals/FRA_democracy_in_brazil.dds"
+	}
+	SpriteType = {
+	name = "GFX_FRA_east_iberia_under_control"
+	texturefile = "gfx/interface/goals/FRA_east_iberia_under_control.dds"
+	}
+	SpriteType = {
+	name = "GFX_FRA_legion_etrangere"
+	texturefile = "gfx/interface/goals/FRA_legion_etrangere.dds"
+	}
+	SpriteType = {
+	name = "GFX_FRA_reorganize_lusitania"
+	texturefile = "gfx/interface/goals/FRA_reorganize_lusitania.dds"
+	}
+	SpriteType = {
+	name = "GFX_FRA_subjugate_the_english"
+	texturefile = "gfx/interface/goals/FRA_subjugate_the_english.dds"
+	}
+	SpriteType = {
+	name = "GFX_FRA_subjugate_the_italians"
+	texturefile = "gfx/interface/goals/FRA_subjugate_the_italians.dds"
+	}
+	SpriteType = {
+	name = "GFX_FRA_vive_la_france"
+	texturefile = "gfx/interface/goals/FRA_vive_la_france.dds"
+	}
+
 
 }

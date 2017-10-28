@@ -498,6 +498,9 @@ ideas = {
 		}
 
 	}
+#########################
+# ZEITGEIST GENERIC IDEAS
+#########################
 
 country = {
 
@@ -555,7 +558,7 @@ coastal_defense = {
 
 	removal_cost = -1
 
-	picture = generic_reserve_divisions
+	picture = generic_coastal_defense_ships
 
 	modifier = {
 		navy_max_range_factor = -0.5
@@ -578,7 +581,7 @@ power_projection = {
 
 	removal_cost = -1
 
-	picture = generic_reserve_divisions
+	picture = generic_sea_focused_navy
 
 	modifier = {
 		navy_max_range_factor = 0.5
@@ -588,6 +591,81 @@ power_projection = {
 
 	}
 }
+rep_drift = {
 
+
+allowed = {
+always = no
+}
+
+allowed_civil_war = {
+			 always = yes
+				}
+
+removal_cost = -1
+
+picture = generic_democratic_drift_bonus
+
+modifier = {
+republicanism_drift = 0.05
+	 }
+}
+soc_drift = {
+
+
+allowed = {
+always = no
+}
+
+allowed_civil_war = {
+			 always = yes
+				}
+
+removal_cost = -1
+
+picture = generic_communism_drift_bonus
+
+modifier = {
+socialism_drift = 0.05
+	 }
+}
+tp_drift = {
+
+
+allowed = {
+always = no
+}
+
+allowed_civil_war = {
+			 always = yes
+				}
+
+removal_cost = -1
+
+picture = generic_fascism_drift_bonus
+
+modifier = {
+third_position_drift = 0.05
+	 }
+}
+mon_drift = {
+
+
+allowed = {
+always = no
+}
+
+allowed_civil_war = {
+			 always = yes
+				}
+
+removal_cost = -1
+
+picture = HUN_hungarian_monarchy
+
+modifier = {
+monarchism_drift = 0.05
+	 }
+}
 }
 }

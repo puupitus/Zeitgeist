@@ -1910,6 +1910,8 @@
  FRA_advanced_technologies:0 "Advanced Technologies"
  FRA_liberte_egalite_fraternite:0 "Liberté, Égalité, Fraternité!"
  FRA_rapid_militarization:0 "Rapid Militarization"
+ FRA_legion_etrangere:0 "Légion Étrangère"
+ FRA_mobilize:0 "Mobilize"
  FRA_la_rochelle_expansion:0 "La Rochelle Expansion"
  FRA_synthetic_oil_refineries:0 "Synthetic Oil Refineries"
  FRA_vive_la_france:0 "Vive La France!"
@@ -1922,3 +1924,4 @@
  FRA_democracy_in_brazil:0 "Democracy in Brazil"
  FRA_crush_extremists:0 "Crush Extremists"
  FRA_reorganize_lusitania:0 "Reorganize Lusitania"
+ FRA_east_iberia_under_control:0 "East Iberia Under Control"

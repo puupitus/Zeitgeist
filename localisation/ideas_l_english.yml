@@ -2476,10 +2476,15 @@
  ############################
  #ZEITGEIST IDEAS
  ############################
- 
+
  elite_training:0 "Elite Training"
  mass_conscription:0 "Mass Conscription"
  coastal_defense:0 "Coastal Defense"
  power_projection:0 "Power Projection"
- FRA_lef:0 "Liberté, Égalité, Fraternité!"
+ rep_drift:0 "Republicanism Drift"
+ soc_drift:0 "Socialism Drift"
+ mon_drift:0 "Monarchism Drift"
+ tp_drift:0 "Third Position Drift"
  FRA_rm:0 "Rapid Militarization"
+ FRA_le:0 "Légion Étrangère"
+ FRA_mob:0 "Mobilize"

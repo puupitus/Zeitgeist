@@ -94,3 +94,20 @@ create_country_leader = {
 		#
 	}
 }
+create_corps_commander = {
+	name = "Maxime Weygand"
+	picture = "maxime_weygand.dds"
+	skill = 1
+}
+
+create_navy_leader = {
+	name = "Émile Muselier"
+	picture = "emile_muselier.dds"
+	skill = 1
+}
+
+create_field_marshal = {
+	name = "Jean de Lattre de Tassigny"
+	picture = "jean_de_lattre_de_tassigny.dds"
+	skill = 2
+}
