@@ -511,7 +511,7 @@
  ITA_republicanism_DEF:0 "The Italian Republic"
  ITA_socialism_DEF:0 "The Italian Syndicate""
  ITA_third_position_DEF:0 "The Fascist Column of Italy"
- ITA_monarchism_ADJ:0 Italian""
+ ITA_monarchism_ADJ:0 "Italian"
  ITA_republicanism_ADJ:0 "Italian"
  ITA_socialism_ADJ:0 "Italian"
  ITA_third_position_ADJ:0 "Italian"
@@ -668,7 +668,7 @@
  POL_monarchism_ADJ:0 "Polish"
  POL_republicanism_ADJ:0 "Polish"
  POL_socialism_ADJ:0 "Polish"
- POL_third_position_ADJ:0 Polish""
+ POL_third_position_ADJ:0 "Polish"
  ################################################################################
 
  PRC_monarchism:0 "Shaanxi Empire"
@@ -682,7 +682,7 @@
  PRC_monarchism_ADJ:0 "Chinese"
  PRC_republicanism_ADJ:0 "Chinese"
  PRC_socialism_ADJ:0 "Chinese"
- PRC_third_position_ADJ:0 Chinese""
+ PRC_third_position_ADJ:0 "Chinese"
  ################################################################################
 
  PRS_monarchism:0 "Kaiserreich"
