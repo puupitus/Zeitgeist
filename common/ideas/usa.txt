@@ -1,0 +1,162 @@
+ideas = {
+  country = {
+
+        USA_riot = {
+
+
+    	  allowed = {
+    	  always = no
+    	  }
+
+    	  allowed_civil_war = {
+    		always = yes
+    	  }
+
+    	  removal_cost = -1
+
+    	  picture = great_depression
+
+    	  modifier = {
+    		consumer_goods_factor  = 0.1
+        unity_factor = -0.3
+    	     }
+        }
+        USA_lw = {
+
+
+    	  allowed = {
+    	  always = no
+    	  }
+
+    	  allowed_civil_war = {
+    		always = yes
+    	  }
+
+    	  removal_cost = -1
+
+    	  picture = generic_infantry_bonus
+
+    	  modifier = {
+    		conscription  = 0.01
+        army_infantry_attack_factor = 0.05
+    	     }
+        }
+        USA_auswaf = {
+
+
+    	  allowed = {
+    	  always = no
+    	  }
+
+    	  allowed_civil_war = {
+    		always = yes
+    	  }
+
+    	  removal_cost = -1
+
+    	  picture = YUG_all_yugoslavian_regiments
+
+    	  modifier = {
+    		non_core_manpower = 0.1
+    	     }
+        }
+        USA_amf = {
+
+
+    	  allowed = {
+    	  always = no
+    	  }
+
+    	  allowed_civil_war = {
+    		always = yes
+    	  }
+
+    	  removal_cost = -1
+
+    	  picture = generic_goods_red_bonus
+
+    	  modifier = {
+    		industrial_capacity_factory = 0.2
+        unity_factor = -0.1
+    	     }
+        }
+        USA_nic = {
+
+
+    	  allowed = {
+    	  always = no
+    	  }
+
+    	  allowed_civil_war = {
+    		always = yes
+    	  }
+
+    	  removal_cost = -1
+
+    	  picture = generic_infantry_bonus
+
+    	  modifier = {
+    		conscription  = 0.05
+    	     }
+        }
+        USA_fa = {
+
+
+    	  allowed = {
+    	  always = no
+    	  }
+
+    	  allowed_civil_war = {
+    		always = yes
+    	  }
+
+    	  removal_cost = -1
+
+    	  picture = generic_infantry_bonus
+
+    	  modifier = {
+    		conscription  = 0.05
+    	     }
+        }
+        USA_vmt = {
+
+
+    	  allowed = {
+    	  always = no
+    	  }
+
+    	  allowed_civil_war = {
+    		always = yes
+    	  }
+
+    	  removal_cost = -1
+
+    	  picture = generic_infantry_bonus
+
+    	  modifier = {
+        army_infantry_defence_factor = 0.05
+        army_infantry_attack_factor = 0.05
+
+    	     }
+        }
+        USA_ita = {
+
+
+    	  allowed = {
+    	  always = no
+    	  }
+
+    	  allowed_civil_war = {
+    		always = yes
+    	  }
+
+    	  removal_cost = -1
+
+    	  picture = generic_goods_red_bonus
+
+    	  modifier = {
+    		consumer_goods_factor = -0.05
+    	     }
+        }
+
+}

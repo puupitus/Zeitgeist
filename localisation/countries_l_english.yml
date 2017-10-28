@@ -575,11 +575,11 @@
 
  MEX_monarchism:0 "Viceroyalty of New Spain"
  MEX_republicanism:0 "Confederate States of Mexico"
- MEX_socialism:0 "Confederate Socialist States of Mexico"
+ MEX_socialism:0 "Socialist States of Mexico"
  MEX_third_position:0 "Synarchist Mexico"
  MEX_monarchism_DEF:0 "The Viceroyalty of New Spain"
  MEX_republicanism_DEF:0 "The Confederate States of Mexico"
- MEX_socialism_DEF:0 "The Confederate Socialist States of Mexico"
+ MEX_socialism_DEF:0 "The Socialist States of Mexico"
  MEX_third_position_DEF:0 "The Synarchist Mexico"
  MEX_monarchism_ADJ:0 "Mexican"
  MEX_republicanism_ADJ:0 "Mexican"

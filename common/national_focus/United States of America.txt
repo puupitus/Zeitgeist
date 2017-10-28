@@ -1387,7 +1387,7 @@ country = {
 #####################
 
 focus = {
-  id = USA_st_patricks_day_march
+  id = USA_handle_st_patricks_day_marchers
   icon = GFX_focus_wonderweapons
   x = 12
   y = 6
@@ -1396,28 +1396,17 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
-    }
+    add_political_power = 150
   }
 
   ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
-    }
+    factor = 10
   }
 }
 focus = {
-  id = USA_neu_berlin_riots
+  id = USA_suppress_neu_berlin_riots
   icon = GFX_focus_wonderweapons
-  prerequisite = { focus = USA_st_patricks_day_march }
+  prerequisite = { focus = USA_handle_st_patricks_day_marchers }
   x = 12
   y = 7
   cost = 10
@@ -1425,28 +1414,17 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
-    }
+    add_political_power = 150
   }
 
   ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
-    }
+    factor = 10
   }
 }
 focus = {
   id = USA_night_of_the_long_knives
   icon = GFX_focus_wonderweapons
-  prerequisite = { focus = USA_neu_berlin_riots }
+  prerequisite = { focus = USA_suppress_neu_berlin_riots }
   mutually_exclusive = { focus = USA_irish_pub_putsch focus = USA_prussian_intervention }
   x = 4
   y = 8
@@ -1455,23 +1433,16 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
-    }
+    add_ideas = tp_drift
+    add_popularity = { ideology = third_position popularity = 0.25 }
+    add_political_power = 50
+    add_national_unity = 0.1
   }
 
   ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
-    }
+    factor = 10
   }
+
 }
 focus = {
   id = USA_amerikanische_reich
@@ -1484,22 +1455,11 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
+    set_cosmetic_tag = USA_amerika_reich
+    remove_ideas = USA_riot
     }
-  }
-
   ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
-    }
+    factor = 10
   }
 }
 focus = {
@@ -1513,22 +1473,15 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
-    }
+  396 = { add_building_construction = { type = industrial_complex level = 2 instant_build = yes }
+  }
+  396 = { add_building_construction = { type = arms_factory level = 2 instant_build = yes }
+  }
+  396 = { add_extra_state_shared_building_slots = 4}
   }
 
   ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
-    }
+    factor = 10
   }
 }
 focus = {
@@ -1542,22 +1495,11 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
-    }
+    add_ideas = USA_lw
   }
 
   ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
-    }
+    factor = 10
   }
 }
 focus = {
@@ -1571,23 +1513,16 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
-    }
+  357 = { add_building_construction = { type = industrial_complex level = 2 instant_build = yes }
+  }
+  357 = { add_building_construction = { type = arms_factory level = 2 instant_build = yes }
+  }
+  357 = { add_extra_state_shared_building_slots = 4}
   }
 
   ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
+    factor = 10
     }
-  }
 }
 focus = {
   id = USA_lebensraum
@@ -1600,28 +1535,33 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
-    }
+  create_wargoal = {
+  type = puppet_wargoal_focus
+  target = CAL
+  }
+  create_wargoal = {
+  type = puppet_wargoal_focus
+  target = HBC
+  }
+  create_wargoal = {
+	type = puppet_wargoal_focus
+	target = CSA
+	}
+  create_wargoal = {
+	type = puppet_wargoal_focus
+	target = QUE
+	}
   }
 
   ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
-    }
-  }
+    factor = 10
+}
 }
 focus = {
   id = USA_plan_nord
   icon = GFX_focus_wonderweapons
   prerequisite = { focus = USA_lebensraum }
+  available = { USA = { is_subject = no } }
   x = 2
   y = 12
   cost = 10
@@ -1629,28 +1569,22 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
+    declare_war_on = { target = HBC type = puppet_wargoal_focus }
+    declare_war_on = { target = QUE type = puppet_wargoal_focus }
     }
-  }
 
   ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
-    }
+    factor = 20
   }
 }
 focus = {
   id = USA_puppet_the_nordiques
   icon = GFX_focus_wonderweapons
   prerequisite = { focus = USA_plan_nord }
+  available = {
+  468 = { is_controlled_by = USA }
+  466 = { is_controlled_by = USA }
+  }
   x = 2
   y = 13
   cost = 10
@@ -1658,28 +1592,25 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
-    }
+  QUE = { country_event = { id = usa.2 }
   }
+ }
 
   ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
-    }
+    factor = 100
   }
 }
 focus = {
   id = USA_hudsons_bay_geschellschaft
   icon = GFX_focus_wonderweapons
   prerequisite = { focus = USA_plan_nord }
+  available = {
+  276 = { is_controlled_by = USA }
+  393 = { is_controlled_by = USA }
+  682 = { is_controlled_by = USA }
+  683 = { is_controlled_by = USA }
+
+  }
   x = 0
   y = 13
   cost = 10
@@ -1687,22 +1618,11 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
-    }
+  HBC = { country_event = { id = usa.5 } }
   }
 
   ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
-    }
+    factor = 100
   }
 }
 focus = {
@@ -1711,27 +1631,16 @@ focus = {
   prerequisite = { focus = USA_lebensraum }
   x = 4
   y = 12
-  cost = 10
+  cost = 5
 
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
-    }
+    LUS = { add_to_faction = USA }
   }
 
   ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
-    }
+    factor = 100
   }
 }
 focus = {
@@ -1745,28 +1654,21 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
-    }
+    add_ideas = USA_auswaf
   }
 
   ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
-    }
+    factor = 10
   }
 }
 focus = {
   id = USA_plan_sud
   icon = GFX_focus_wonderweapons
   prerequisite = { focus = USA_lebensraum }
+  available = {
+  USA = { is_subject = no }
+  NOT = { CSA = { is_in_faction_with = USA } }
+  }
   x = 6
   y = 12
   cost = 10
@@ -1774,28 +1676,28 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
-    }
+    declare_war_on = { target = CSA type = puppet_wargoal_focus }
+    declare_war_on = { target = CAL type = puppet_wargoal_focus }
+
   }
 
   ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
+    factor = 100
     }
-  }
 }
 focus = {
   id = USA_arbeit_macht_frei
   icon = GFX_focus_wonderweapons
   prerequisite = { focus = USA_plan_sud }
+  available = {
+  362 = { is_controlled_by = USA }
+  395 = { is_controlled_by = USA }
+  369 = { is_controlled_by = USA }
+  363 = { is_controlled_by = USA }
+  373 = { is_controlled_by = USA }
+  375 = { is_controlled_by = USA }
+
+  }
   x = 6
   y = 13
   cost = 10
@@ -1803,86 +1705,65 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
-    }
+    add_ideas = USA_amf
+    CSA = { country_event = { id = usa.11 } }
   }
 
   ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
-    }
+    factor = 20
   }
 }
 focus = {
   id = USA_klouds_over_kalifornia
   icon = GFX_focus_wonderweapons
-  prerequisite = { focus = USA_arbeit_macht_frei }
-  x = 6
+  prerequisite = { focus = USA_auslandische_waffen_ss }
+  available = {
+  378 = { is_controlled_by = USA }
+  }
+  x = 4
   y = 14
   cost = 10
 
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
-    }
+  CAL = { country_event = { id = usa.8 } }
   }
 
+
   ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
-    }
+    factor = 100
   }
 }
 focus = {
   id = USA_ein_volk_ein_reich_ein_fuhrer
   icon = GFX_focus_wonderweapons
   prerequisite = { focus = USA_klouds_over_kalifornia }
-  x = 6
+  available = {
+  CSA = { is_puppet_of = USA }
+  CAL = { is_puppet_of = USA }
+  }
+  x = 4
   y = 15
-  cost = 10
+  cost = 15
 
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
-    }
+    CSA = { every_owned_state = { add_core_of = USA } }
+    CAL = { every_owned_state = { add_core_of = USA } }
+    annex_country = { target = CSA }
+    annex_country = { target = CAL }
   }
 
   ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
+    factor = 200
     }
-  }
 }
 focus = {
   id = USA_irish_pub_putsch
   icon = GFX_focus_wonderweapons
-  prerequisite = { focus = USA_neu_berlin_riots }
+  prerequisite = { focus = USA_suppress_neu_berlin_riots }
   mutually_exclusive = { focus = USA_night_of_the_long_knives focus = USA_prussian_intervention }
   x = 12
   y = 8
@@ -1891,22 +1772,12 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
-    }
+    add_ideas = rep_drift
+    add_political_power = 150
   }
 
   ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
-    }
+    factor = 10
   }
 }
 focus = {
@@ -1920,22 +1791,14 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
-    }
+  add_popularity = { ideology = republicanism popularity = 0.25 }
+  set_politics = { ruling_party = republicanism elections_allowed = no }
+  add_political_power = 150
+  remove_ideas = USA_riot
   }
 
   ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
-    }
+    factor = 10
   }
 }
 focus = {
@@ -1949,28 +1812,20 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
-    }
+    add_political_power = 50
+    add_national_unity = 0.1
+    set_province_name = { id = 6732 name = "Boston" }
   }
 
   ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
-    }
+    factor = 10
   }
 }
 focus = {
   id = USA_territorial_demands
   icon = GFX_focus_wonderweapons
   prerequisite = { focus = USA_boston_again }
+  available = { USA = { is_subject = no } }
   x = 10
   y = 11
   cost = 10
@@ -1978,28 +1833,29 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
-    }
+  create_wargoal = {
+  type = take_state_focus
+  target = HBC
+  }
+  create_wargoal = {
+  type = take_state_focus
+  target = CSA
+  }
+  create_wargoal = {
+  type = take_state_focus
+  target = QUE
+  }
   }
 
   ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
-    }
+    factor = 10
   }
 }
 focus = {
-  id = USA_negotiate_with_csa
+  id = USA_ultimatum_with_csa
   icon = GFX_focus_wonderweapons
   prerequisite = { focus = USA_territorial_demands }
+  available = { USA = { is_subject = no } }
   x = 8
   y = 12
   cost = 10
@@ -2007,57 +1863,19 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
-    }
+  CSA = { country_event = { id = usa.14 }
+  }
   }
 
   ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
+    factor = 10
     }
-  }
 }
 focus = {
-  id = USA_strike_csa
-  icon = GFX_focus_wonderweapons
-  prerequisite = { focus = USA_negotiate_with_csa }
-  x = 8
-  y = 13
-  cost = 10
-
-  available_if_capitulated = yes
-
-  completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
-    }
-  }
-
-  ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
-    }
-  }
-}
-focus = {
-  id = USA_negotiate_with_quebec
+  id = USA_ultimatum_with_quebec
   icon = GFX_focus_wonderweapons
   prerequisite = { focus = USA_territorial_demands }
+  available = { USA = { is_subject = no } }
   x = 10
   y = 12
   cost = 10
@@ -2065,57 +1883,20 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
-    }
+  QUE = { country_event = { id = usa.17 }
+  }
   }
 
   ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
-    }
+    factor = 10
   }
 }
+
 focus = {
-  id = USA_strike_quebec
-  icon = GFX_focus_wonderweapons
-  prerequisite = { focus = USA_negotiate_with_quebec }
-  x = 10
-  y = 13
-  cost = 10
-
-  available_if_capitulated = yes
-
-  completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
-    }
-  }
-
-  ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
-    }
-  }
-}
-focus = {
-  id = USA_negotiate_with_hbc
+  id = USA_ultimatum_with_hbc
   icon = GFX_focus_wonderweapons
   prerequisite = { focus = USA_territorial_demands }
+  available = { USA = { is_subject = no } }
   x = 12
   y = 12
   cost = 10
@@ -2123,53 +1904,15 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
+    HBC = { country_event = { id = usa.20 }
     }
   }
 
   ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
-    }
+    factor = 10
   }
 }
-focus = {
-  id = USA_strike_hudsons_bay_company
-  icon = GFX_focus_wonderweapons
-  prerequisite = { focus = USA_negotiate_with_hbc }
-  x = 12
-  y = 13
-  cost = 10
 
-  available_if_capitulated = yes
-
-  completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
-    }
-  }
-
-  ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
-    }
-  }
-}
 focus = {
   id = USA_new_york_ports
   icon = GFX_focus_wonderweapons
@@ -2181,22 +1924,13 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
-    }
+  358 = { add_building_construction = { type = dockyard level = 4 instant_build = yes }
+  }
+  358 = { add_extra_state_shared_building_slots = 4}
   }
 
   ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
-    }
+    factor = 5
   }
 }
 focus = {
@@ -2210,22 +1944,13 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
-    }
+  261 = { add_building_construction = { type = industrial_complex level = 4 instant_build = yes }
+  }
+  261 = { add_extra_state_shared_building_slots = 4}
   }
 
   ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
-    }
+    factor = 5
   }
 }
 focus = {
@@ -2234,27 +1959,16 @@ focus = {
   prerequisite = { focus = USA_boston_again }
   x = 16
   y = 11
-  cost = 10
+  cost = 5
 
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
-    }
+    FRA = { add_to_faction = USA }
   }
 
   ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
-    }
+    factor = 100
   }
 }
 focus = {
@@ -2268,28 +1982,17 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
-    }
+    add_ideas = USA_nic
   }
 
   ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
-    }
+    factor = 5
   }
 }
 focus = {
   id = USA_prussian_intervention
   icon = GFX_focus_wonderweapons
-  prerequisite = { focus = USA_neu_berlin_riots }
+  prerequisite = { focus = USA_suppress_neu_berlin_riots }
   mutually_exclusive = { focus = USA_irish_pub_putcsh focus = USA_night_of_the_long_knives }
   x = 20
   y = 8
@@ -2298,22 +2001,12 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
-    }
+    add_political_power = 150
+    add_ideas = mon_drift
   }
 
   ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
-    }
+    factor = 10
   }
 }
 focus = {
@@ -2327,22 +2020,14 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
-    }
+    remove_ideas = USA_riot
+    add_national_unity = 0.1
+    add_popularity = { ideology = monarchism popularity = 0.25 }
+  	set_politics = { ruling_party = monarchism elections_allowed = no }
   }
 
   ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
-    }
+    factor = 10
   }
 }
 focus = {
@@ -2356,22 +2041,19 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
-    }
+  358 = { add_building_construction = { type = dockyard level = 2 instant_build = yes }
+  }
+  358 = { add_extra_state_shared_building_slots = 2}
+  357 = { add_building_construction = { type = industrial_complex level = 3 instant_build = yes }
+  }
+  357 = { add_building_construction = { type = arms_factory level = 3 instant_build = yes }
+  }
+  357 = { add_extra_state_shared_building_slots = 6}
+
   }
 
   ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
-    }
+    factor = 10
   }
 }
 focus = {
@@ -2385,22 +2067,11 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
-    }
+    add_ideas = USA_fa
   }
 
   ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
-    }
+    factor = 5
   }
 }
 focus = {
@@ -2414,22 +2085,11 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
-    }
+    add_ideas = USA_vmt
   }
 
   ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
-    }
+    factor = 5
   }
 }
 focus = {
@@ -2443,22 +2103,23 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
+    create_wargoal = {
+    type = puppet_wargoal_focus
+    target = CAL
     }
+    create_wargoal = {
+    type = puppet_wargoal_focus
+    target = CSA
+    }
+    create_wargoal = {
+    type = puppet_wargoal_focus
+    target = QUE
+    }
+
   }
 
   ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
-    }
+    factor = 10
   }
 }
 focus = {
@@ -2472,28 +2133,27 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
-    }
+    CSA = { country_event = { id = usa.14 }
+  }
   }
 
   ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
-    }
+    factor = 10
   }
 }
 focus = {
   id = USA_vassalize_csa
   icon = GFX_focus_wonderweapons
   prerequisite = { focus = USA_ultimatum_to_csa }
+  available = {
+  362 = { is_controlled_by = USA }
+  395 = { is_controlled_by = USA }
+  369 = { is_controlled_by = USA }
+  363 = { is_controlled_by = USA }
+  373 = { is_controlled_by = USA }
+  375 = { is_controlled_by = USA }
+
+  }
   x = 18
   y = 13
   cost = 10
@@ -2501,22 +2161,11 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
-    }
+    CSA = { country_event = { id = usa.11 } }
   }
 
   ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
-    }
+    factor = 10
   }
 }
 focus = {
@@ -2525,27 +2174,16 @@ focus = {
   prerequisite = { focus = USA_offensichtlichte_bestimmung }
   x = 20
   y = 12
-  cost = 10
+  cost = 5
 
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
-    }
+    ITA = { add_to_faction = USA }
   }
 
   ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
-    }
+    factor = 100
   }
 }
 focus = {
@@ -2559,22 +2197,11 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
-    }
+    add_ideas = USA_ita
   }
 
   ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
-    }
+    factor = 5
   }
 }
 focus = {
@@ -2610,6 +2237,10 @@ focus = {
   id = USA_vassalize_quebec
   icon = GFX_focus_wonderweapons
   prerequisite = { focus = USA_ultimatum_to_quebec }
+  available = {
+  468 = { is_controlled_by = USA }
+  466 = { is_controlled_by = USA }
+  }
   x = 22
   y = 13
   cost = 10
@@ -2617,28 +2248,21 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
-    }
+  QUE = { country_event = { id = usa.2 }
+  }
   }
 
   ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
-    }
+    factor = 10
   }
 }
 focus = {
   id = USA_vassalize_california
   icon = GFX_focus_wonderweapons
   prerequisite = { focus = USA_vassalize_quebec focus = USA_vassalize_csa}
+  available = {
+  378 = { is_controlled_by = USA }
+  }
   x = 20
   y = 14
   cost = 10
@@ -2646,21 +2270,11 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
-    }
+  CAL = { country_event = { id = usa.8 } }
+  }
   }
 
   ai_will_do = {
-    factor = 1
-    modifier = {
-      factor = 0.25
-      always = yes
-    }
+    factor = 10
   }
 }
