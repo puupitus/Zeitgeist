@@ -1389,6 +1389,7 @@ country = {
 focus = {
   id = USA_handle_st_patricks_day_marchers
   icon = GFX_focus_wonderweapons
+  available = { has_country_flag = ST_PATRICKS_DAY_MARCH }
   x = 12
   y = 6
   cost = 10
@@ -1425,7 +1426,7 @@ focus = {
   id = USA_night_of_the_long_knives
   icon = GFX_focus_wonderweapons
   prerequisite = { focus = USA_suppress_neu_berlin_riots }
-  mutually_exclusive = { focus = USA_irish_pub_putsch focus = USA_prussian_intervention }
+  mutually_exclusive = { focus = USA_irish_pub_putsch focus = USA_italian_intervention }
   x = 4
   y = 8
   cost = 10
@@ -1764,7 +1765,7 @@ focus = {
   id = USA_irish_pub_putsch
   icon = GFX_focus_wonderweapons
   prerequisite = { focus = USA_suppress_neu_berlin_riots }
-  mutually_exclusive = { focus = USA_night_of_the_long_knives focus = USA_prussian_intervention }
+  mutually_exclusive = { focus = USA_night_of_the_long_knives focus = USA_italian_intervention }
   x = 12
   y = 8
   cost = 10
@@ -1794,6 +1795,7 @@ focus = {
   add_popularity = { ideology = republicanism popularity = 0.25 }
   set_politics = { ruling_party = republicanism elections_allowed = no }
   add_political_power = 150
+  set_cosmetic_tag = USA_usni
   remove_ideas = USA_riot
   }
 
@@ -1812,9 +1814,13 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-    add_political_power = 50
     add_national_unity = 0.1
     set_province_name = { id = 6732 name = "Boston" }
+    357 = { set_state_name = "New Ireland" }
+    357 = { add_building_construction = { type = arms_factory level = 4 instant_build = yes }
+    }
+    357 = { add_extra_state_shared_building_slots = 4}
+
   }
 
   ai_will_do = {
@@ -1990,10 +1996,10 @@ focus = {
   }
 }
 focus = {
-  id = USA_prussian_intervention
+  id = USA_italian_intervention
   icon = GFX_focus_wonderweapons
   prerequisite = { focus = USA_suppress_neu_berlin_riots }
-  mutually_exclusive = { focus = USA_irish_pub_putcsh focus = USA_night_of_the_long_knives }
+  mutually_exclusive = { focus = USA_irish_pub_putsch focus = USA_night_of_the_long_knives }
   x = 20
   y = 8
   cost = 10
@@ -2012,7 +2018,7 @@ focus = {
 focus = {
   id = USA_ein_amerika_ein_konig
   icon = GFX_focus_wonderweapons
-  prerequisite = { focus = USA_prussian_intervention }
+  prerequisite = { focus = USA_italian_intervention }
   x = 20
   y = 9
   cost = 10
@@ -2022,8 +2028,9 @@ focus = {
   completion_reward = {
     remove_ideas = USA_riot
     add_national_unity = 0.1
-    add_popularity = { ideology = monarchism popularity = 0.25 }
+    add_popularity = { ideology = monarchism popularity = 0.35 }
   	set_politics = { ruling_party = monarchism elections_allowed = no }
+    set_cosmetic_tag = USA_new_prussia
   }
 
   ai_will_do = {
@@ -2031,7 +2038,7 @@ focus = {
   }
 }
 focus = {
-  id = USA_prussian_investments
+  id = USA_italian_investments
   icon = GFX_focus_wonderweapons
   prerequisite = { focus = USA_ein_amerika_ein_konig }
   x = 20
@@ -2059,7 +2066,7 @@ focus = {
 focus = {
   id = USA_freikorps_amerika
   icon = GFX_focus_wonderweapons
-  prerequisite = { focus = USA_prussian_investments }
+  prerequisite = { focus = USA_italian_investments }
   x = 18
   y = 11
   cost = 10
@@ -2077,7 +2084,7 @@ focus = {
 focus = {
   id = USA_von_mackensens_tactics
   icon = GFX_focus_wonderweapons
-  prerequisite = { focus = USA_prussian_investments }
+  prerequisite = { focus = USA_italian_investments }
   x = 22
   y = 11
   cost = 10
@@ -2095,7 +2102,7 @@ focus = {
 focus = {
   id = USA_offensichtlichte_bestimmung
   icon = GFX_focus_wonderweapons
-  prerequisite = { focus = USA_prussian_investments }
+  prerequisite = { focus = USA_italian_investments }
   x = 20
   y = 11
   cost = 10
@@ -2272,7 +2279,7 @@ focus = {
   completion_reward = {
   CAL = { country_event = { id = usa.8 } }
   }
-  }
+
 
   ai_will_do = {
     factor = 10

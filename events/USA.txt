@@ -100,7 +100,7 @@ country_event = {		#Hudson's Bay Geschellschaft
     USA = { transfer_state = 682 }
     USA = { puppet = HBC }
 		USA = { news_event = { id = usa.6 } }
-    HBC = { set_cosmetic_tag = { HBC_geschellschaft } }
+    HBC = { set_cosmetic_tag = HBC_geschellschaft }
 
 	}
 	option = {
