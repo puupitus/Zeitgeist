@@ -1,0 +1,27 @@
+##################
+# RHINE EVENTS  #
+##################
+
+add_namespace = rhi
+add_namespace = RHI_exact_date_trigger
+
+country_event = {		#Hold Elections
+	id = rhi.1
+	title = rhi.1.t
+	desc = rhi.1.d
+	picture = GFX_report_event_protests3
+
+	is_triggered_only = yes
+
+	option = {
+		ai_chance = { factor = 50 }
+		name = rhi.1.a
+    set_country_flag = SYNDICATE_VICTORY
+	}
+	option = {
+    ai_chance = { factor = 50 }
+		name = rhi.1.b
+    set_country_flag = REPUBLICAN_VICTORY
+	}
+
+}

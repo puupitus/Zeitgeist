@@ -23,3 +23,11 @@ CSA_protektorat = {
 	color = rgb { 200  0  0 }
 	color_ui = rgb { 200  0  0 }
 }
+RHI_weimar_syndicate = {
+	color = rgb { 128 128 128 }
+	color_ui = rgb { 128 128 128 }
+}
+RHI_weimar_republic = {
+	color = rgb { 128 128 128 }
+	color_ui = rgb { 128 128 128 }
+}
