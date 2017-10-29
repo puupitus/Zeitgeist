@@ -56,7 +56,7 @@ create_country_leader = {
 	name = "Juan Bautista Sacasa"
 	picture = "juan_bautista_sacasa.dds"
 	ideology = conservatistic
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -64,7 +64,7 @@ create_country_leader = {
 	name = "Jorge Ubico Castañeda"
 	picture = "jorge_ubico_castaneda.dds"
 	ideology = absolutism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -72,7 +72,7 @@ create_country_leader = {
 	name = "Augusto César Sandino"
 	picture = "augusto_cesar_sandino.dds"
 	ideology = marxist
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -80,7 +80,7 @@ create_country_leader = {
 	name = "Jacobo Árbenz Guzmán"
 	picture = "jacobo_arbenz_guzman.dds"
 	ideology = nazism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }

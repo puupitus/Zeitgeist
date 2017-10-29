@@ -1030,6 +1030,34 @@ spriteTypes = {
 	name = "GFX_USA_von_mackensens_tactics"
 	texturefile = "gfx/interface/goals/USA_von_mackensens_tactics.dds"
 	}
+	SpriteType = {
+	name = "GFX_USA_ein_volk_ein_reich_ein_fuhrer"
+	texturefile = "gfx/interface/goals/USA_ein_volk_ein_reich_ein_fuhrer.dds"
+	}
+	SpriteType = {
+	name = "GFX_BAV_anarchist_landwehr"
+	texturefile = "gfx/interface/goals/BAV_anarchist_landwehr.dds"
+	}
+	SpriteType = {
+	name = "GFX_BAV_anarchist_wrath"
+	texturefile = "gfx/interface/goals/BAV_anarchist_wrath.dds"
+	}
+	SpriteType = {
+	name = "GFX_BAV_attack_batavia"
+	texturefile = "gfx/interface/goals/BAV_attack_batavia.dds"
+	}
+	SpriteType = {
+	name = "GFX_BAV_attack_france"
+	texturefile = "gfx/interface/goals/BAV_attack_france.dds"
+	}
+	SpriteType = {
+	name = "GFX_BAV_attack_swiss_austria"
+	texturefile = "gfx/interface/goals/BAV_attack_swiss_austria.dds"
+	}
+	SpriteType = {
+	name = "GFX_BAV_german_unification"
+	texturefile = "gfx/interface/goals/BAV_german_unification.dds"
+	}
 
 
 }

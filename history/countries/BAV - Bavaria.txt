@@ -56,7 +56,7 @@ create_country_leader = {
 	name = "Franz Josef Strauß"
 	picture = "franz_josef_strauss.dds"
 	ideology = conservatistic
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -64,7 +64,7 @@ create_country_leader = {
 	name = "Rupprecht von Bayern"
 	picture = "rupprecht_von_bayern.dds"
 	ideology = absolutism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -72,7 +72,7 @@ create_country_leader = {
 	name = "Ernst Thälmann"
 	picture = "ernst_thalmann.dds"
 	ideology = marxist
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -80,7 +80,7 @@ create_country_leader = {
 	name = "Rosa Luxemburg"
 	picture = "rosa_luxemburg.dds"
 	ideology = nazism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }

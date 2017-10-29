@@ -59,7 +59,7 @@ create_country_leader = {
 	name = "Farouk"
 	picture = "farouk.dds"
 	ideology = conservatistic
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -67,7 +67,7 @@ create_country_leader = {
 	name = "Farouk"
 	picture = "farouk.dds"
 	ideology = absolutism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -75,7 +75,7 @@ create_country_leader = {
 	name = "Farouk"
 	picture = "farouk.dds"
 	ideology = marxist
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -83,7 +83,7 @@ create_country_leader = {
 	name = "Farouk"
 	picture = "farouk.dds"
 	ideology = nazism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }

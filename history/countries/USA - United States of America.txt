@@ -56,7 +56,7 @@ create_country_leader = {
 	name = "Harry S. Truman"
 	picture = "harry_s_truman.dds"
 	ideology = conservatistic
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -64,7 +64,7 @@ create_country_leader = {
 	name = "August von Mackensen"
 	picture = "august_von_mackensen.dds"
 	ideology = absolutism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -72,7 +72,7 @@ create_country_leader = {
 	name = "Norman Thomas"
 	picture = "norman_thomas.dds"
 	ideology = marxist
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -80,7 +80,7 @@ create_country_leader = {
 	name = "Fritz Julius Kuhn"
 	picture = "fritz_julius_kuhn.dds"
 	ideology = nazism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }

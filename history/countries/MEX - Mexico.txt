@@ -56,7 +56,7 @@ create_country_leader = {
 	name = "Lázaro Cárdenas"
 	picture = "lazaro_cardenas.dds"
 	ideology = conservatistic
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -64,7 +64,7 @@ create_country_leader = {
 	name = "Plutarco Elías Calles"
 	picture = "plutarco_elias_calles.dds"
 	ideology = absolutism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -72,7 +72,7 @@ create_country_leader = {
 	name = "Emiliano Zapata"
 	picture = "emiliano_zapata.dds"
 	ideology = marxist
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -80,7 +80,7 @@ create_country_leader = {
 	name = "Ricardo Flores Magón"
 	picture = "ricardo_flores_magon.dds"
 	ideology = nazism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }

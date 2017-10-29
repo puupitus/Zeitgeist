@@ -55,7 +55,7 @@ create_country_leader = {
 	name = "Edvard Beneš"
 	picture = "edvard_benes.dds"
 	ideology = conservatistic
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -63,7 +63,7 @@ create_country_leader = {
 	name = "Otto von Habsburg"
 	picture = "otto_von_habsburg.dds"
 	ideology = absolutism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -71,7 +71,7 @@ create_country_leader = {
 	name = "Klement Gottwald"
 	picture = "klement_gottwald.dds"
 	ideology = marxist
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -79,7 +79,7 @@ create_country_leader = {
 	name = "Otto Strasser"
 	picture = "otto_strasser.dds"
 	ideology = nazism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }

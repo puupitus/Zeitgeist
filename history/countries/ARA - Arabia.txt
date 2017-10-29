@@ -56,7 +56,7 @@ create_country_leader = {
 	name = "Abdulaziz Ibn Saud"
 	picture = "ibn_saud.dds"
 	ideology = conservatistic
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -64,7 +64,7 @@ create_country_leader = {
 	name = "Abdulaziz Ibn Saud"
 	picture = "ibn_saud.dds"
 	ideology = absolutism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -72,7 +72,7 @@ create_country_leader = {
 	name = "Abdulaziz Ibn Saud"
 	picture = "ibn_saud.dds"
 	ideology = marxist
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -80,7 +80,7 @@ create_country_leader = {
 	name = "Rashid Rida"
 	picture = "rashid_rida.dds"
 	ideology = nazism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }

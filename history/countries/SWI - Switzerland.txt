@@ -56,7 +56,7 @@ create_country_leader = {
 	name = "Kurt Schuschnigg"
 	picture = "kurt_schuschnigg.dds"
 	ideology = conservatistic
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -64,7 +64,7 @@ create_country_leader = {
 	name = "Joseph Ferdinand"
 	picture = "joseph_ferdinand.dds"
 	ideology = absolutism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -72,7 +72,7 @@ create_country_leader = {
 	name = "Robert Grimm"
 	picture = "robert_grimm.dds"
 	ideology = marxist
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -80,7 +80,7 @@ create_country_leader = {
 	name = "Engelbert Dollfuss"
 	picture = "engelbert_dollfuss.dds"
 	ideology = nazism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }

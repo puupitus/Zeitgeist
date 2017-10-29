@@ -56,7 +56,7 @@ create_country_leader = {
 	name = "Radasłaŭ Astroŭski"
 	picture = "radaslau_astrouski.dds"
 	ideology = conservatistic
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -64,7 +64,7 @@ create_country_leader = {
 	name = "Eitel Friedrich"
 	picture = "eitel_friedrich.dds"
 	ideology = absolutism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -72,7 +72,7 @@ create_country_leader = {
 	name = "Panteleimon Ponomarenko"
 	picture = "panteleimon_ponomarenko.dds"
 	ideology = marxist
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -80,7 +80,7 @@ create_country_leader = {
 	name = "Michał Vituška"
 	picture = "michal_vituska.dds"
 	ideology = nazism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }

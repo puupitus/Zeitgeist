@@ -56,7 +56,7 @@ create_country_leader = {
 	name = "Robert Menzies"
 	picture = "robert_menzies.dds"
 	ideology = conservatistic
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -64,7 +64,7 @@ create_country_leader = {
 	name = "Alexander Hore-Ruthven"
 	picture = "alexander_hore_ruthven.dds"
 	ideology = absolutism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -72,7 +72,7 @@ create_country_leader = {
 	name = "Adela Pankhurst"
 	picture = "adela_pankhurst.dds"
 	ideology = marxist
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -80,7 +80,7 @@ create_country_leader = {
 	name = "Gilbert Casey"
 	picture = "gilbert_casey.dds"
 	ideology = nazism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }

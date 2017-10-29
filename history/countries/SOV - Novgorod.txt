@@ -56,7 +56,7 @@ create_country_leader = {
 	name = "Ivan Ilyin"
 	picture = "ivan_ilyin.dds"
 	ideology = conservatistic
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -64,7 +64,7 @@ create_country_leader = {
 	name = "Felix Yusupov"
 	picture = "felix_yusupov.dds"
 	ideology = absolutism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -72,7 +72,7 @@ create_country_leader = {
 	name = "Nadezhda Krupskaya"
 	picture = "nadezhda_krupskaya.dds"
 	ideology = marxist
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -80,7 +80,7 @@ create_country_leader = {
 	name = "Alexander Kerensky"
 	picture = "alexander_kerensky.dds"
 	ideology = nazism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }

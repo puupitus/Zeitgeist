@@ -1669,6 +1669,7 @@ focus = {
   available = {
   USA = { is_subject = no }
   NOT = { CSA = { is_in_faction_with = USA } }
+  NOT = { CSA = { has_government = third_position } }
   }
   x = 6
   y = 12
@@ -1678,6 +1679,27 @@ focus = {
 
   completion_reward = {
     declare_war_on = { target = CSA type = puppet_wargoal_focus }
+
+  }
+
+  ai_will_do = {
+    factor = 100
+    }
+}
+focus = {
+  id = USA_plan_west
+  icon = GFX_goal_generic_position_armies
+  prerequisite = { focus = USA_plan_sud focus = USA_auslandische_waffen_ss }
+  available = {
+  USA = { is_subject = no }
+  }
+  x = 6
+  y = 13
+  cost = 10
+
+  available_if_capitulated = yes
+
+  completion_reward = {
     declare_war_on = { target = CAL type = puppet_wargoal_focus }
 
   }
@@ -1689,7 +1711,7 @@ focus = {
 focus = {
   id = USA_arbeit_macht_frei
   icon = GFX_USA_arbeit_macht_frei
-  prerequisite = { focus = USA_plan_sud }
+  prerequisite = { focus = USA_plan_west focus = USA_auslandische_waffen_ss }
   available = {
   362 = { is_controlled_by = USA }
   395 = { is_controlled_by = USA }
@@ -1700,7 +1722,7 @@ focus = {
 
   }
   x = 6
-  y = 13
+  y = 14
   cost = 10
 
   available_if_capitulated = yes
@@ -1738,7 +1760,7 @@ focus = {
 }
 focus = {
   id = USA_ein_volk_ein_reich_ein_fuhrer
-  icon = GFX_goal_support_fascism
+  icon = GFX_USA_ein_volk_ein_reich_ein_fuhrer
   prerequisite = { focus = USA_klouds_over_kalifornia }
   available = {
   CSA = { is_puppet_of = USA }
@@ -1861,7 +1883,10 @@ focus = {
   id = USA_ultimatum_with_csa
   icon = GFX_USA_arbeit_macht_frei
   prerequisite = { focus = USA_territorial_demands }
-  available = { USA = { is_subject = no } }
+  available = {
+  USA = { is_subject = no }
+  NOT = { CSA = { has_government = republicanism } }
+  }
   x = 8
   y = 12
   cost = 10

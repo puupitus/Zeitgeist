@@ -56,7 +56,7 @@ create_country_leader = {
 	name = "Mohandas Karamchand Gandhi"
 	picture = "mohandas_karamchand_gandhi.dds"
 	ideology = conservatistic
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -64,7 +64,7 @@ create_country_leader = {
 	name = "Osman Ali Khan"
 	picture = "osman_ali_khan.dds"
 	ideology = absolutism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -72,7 +72,7 @@ create_country_leader = {
 	name = "Hemanta Kumar Sarkar"
 	picture = "hemanta_kumar_sarkar.dds"
 	ideology = marxist
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -80,7 +80,7 @@ create_country_leader = {
 	name = "M. N. Govindan Nair"
 	picture = "m_n_govindan_nair.dds"
 	ideology = nazism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }

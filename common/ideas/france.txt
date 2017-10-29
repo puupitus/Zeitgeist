@@ -36,7 +36,7 @@ ideas = {
     	  picture = tfv_can_conscription_crisis
 
     	  modifier = {
-    		conscription = 0.01
+    		conscription = 0.03
         special_forces_attack_factor = 0.1
         special_forces_defence_factor = 0.1
     	     }

@@ -56,7 +56,7 @@ create_country_leader = {
 	name = "Niceto Alcalá-Zamora"
 	picture = "niceto_alcala_zamora.dds"
 	ideology = conservatistic
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -64,7 +64,7 @@ create_country_leader = {
 	name = "Xavier I"
 	picture = "xavier.dds"
 	ideology = absolutism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -72,7 +72,7 @@ create_country_leader = {
 	name = "José Díaz"
 	picture = "jose_diaz.dds"
 	ideology = marxist
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -80,7 +80,7 @@ create_country_leader = {
 	name = "Buenaventura Durruti"
 	picture = "jose_buenaventura_durruti_dumange.dds"
 	ideology = nazism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }

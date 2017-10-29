@@ -65,7 +65,7 @@ create_country_leader = {
 	name = "Charles de Gaulle"
 	picture = "charles_de_gaulle.dds"
 	ideology = conservatistic
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -73,7 +73,7 @@ create_country_leader = {
 	name = "Napoleon VI"
 	picture = "napoleon_vi.dds"
 	ideology = absolutism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -81,7 +81,7 @@ create_country_leader = {
 	name = "Pierre Laval"
 	picture = "pierre_laval.dds"
 	ideology = marxist
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -89,7 +89,7 @@ create_country_leader = {
 	name = "Philippe Pétain"
 	picture = "philippe_petain.dds"
 	ideology = nazism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }

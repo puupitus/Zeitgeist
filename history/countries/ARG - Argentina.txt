@@ -56,7 +56,7 @@ create_country_leader = {
 	name = "Agustín Pedro Justo"
 	picture = "agustin_pedro_justo.dds"
 	ideology = conservatistic
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -64,7 +64,7 @@ create_country_leader = {
 	name = "José Félix Uriburu"
 	picture = "jose_felix_uriburu.dds"
 	ideology = absolutism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -72,7 +72,7 @@ create_country_leader = {
 	name = "Fanny Edelman"
 	picture = "fanny_edelman.dds"
 	ideology = marxist
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -80,7 +80,7 @@ create_country_leader = {
 	name = "Juan Perón"
 	picture = "juan_peron.dds"
 	ideology = nazism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }

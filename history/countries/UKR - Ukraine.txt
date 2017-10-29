@@ -56,7 +56,7 @@ create_country_leader = {
 	name = "Nikita Khrushchev"
 	picture = "nikita_khrushchev.dds"
 	ideology = conservatistic
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -64,7 +64,7 @@ create_country_leader = {
 	name = "Pavlo Skoropadskyi"
 	picture = "pavlo_skoropadskyi.dds"
 	ideology = absolutism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -72,7 +72,7 @@ create_country_leader = {
 	name = "Lev Kamenev"
 	picture = "lev_kamenev.dds"
 	ideology = marxist
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -80,7 +80,7 @@ create_country_leader = {
 	name = "Nestor Makhno"
 	picture = "nestor_makhno.dds"
 	ideology = nazism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }

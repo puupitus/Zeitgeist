@@ -56,7 +56,7 @@ create_country_leader = {
 	name = "Konrad Adenauer"
 	picture = "konrad_adenauer.dds"
 	ideology = conservatistic
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -64,7 +64,7 @@ create_country_leader = {
 	name = "Friedrich Karl"
 	picture = "friedrich_karl.dds"
 	ideology = absolutism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -72,7 +72,7 @@ create_country_leader = {
 	name = "Karl Liebknecht"
 	picture = "karl_liebknecht.dds"
 	ideology = marxist
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -80,7 +80,7 @@ create_country_leader = {
 	name = "Rudolf Rocker"
 	picture = "rudolf_rocker.dds"
 	ideology = nazism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }

@@ -56,7 +56,7 @@ create_country_leader = {
 	name = "Armand Călinescu"
 	picture = "armand_calinescu.dds"
 	ideology = conservatistic
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -64,7 +64,7 @@ create_country_leader = {
 	name = "Carol II"
 	picture = "carol_ii.dds"
 	ideology = absolutism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -72,7 +72,7 @@ create_country_leader = {
 	name = "Constantin Pîrvulescu"
 	picture = "constantin_pirvulescu.dds"
 	ideology = marxist
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -80,7 +80,7 @@ create_country_leader = {
 	name = "Corneliu Zelea Codreanu"
 	picture = "corneliu_zelea_codreanu.dds"
 	ideology = nazism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }

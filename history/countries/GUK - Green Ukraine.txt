@@ -56,7 +56,7 @@ create_country_leader = {
 	name = "Grigory Semyonov"
 	picture = "grigory_semyonov.dds"
 	ideology = conservatistic
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -64,7 +64,7 @@ create_country_leader = {
 	name = "Grigory Semyonov"
 	picture = "grigory_semyonov.dds"
 	ideology = absolutism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -72,7 +72,7 @@ create_country_leader = {
 	name = "Grigory Semyonov"
 	picture = "grigory_semyonov.dds"
 	ideology = marxist
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -80,7 +80,7 @@ create_country_leader = {
 	name = "Grigory Semyonov"
 	picture = "grigory_semyonov.dds"
 	ideology = nazism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }

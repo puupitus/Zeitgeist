@@ -56,7 +56,7 @@ create_country_leader = {
 	name = "Ngo Dinh Diem"
 	picture = "ngo_dinh_diem.dds"
 	ideology = conservatistic
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -64,7 +64,7 @@ create_country_leader = {
 	name = "Bảo Đại"
 	picture = "bao_dai.dds"
 	ideology = absolutism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -72,7 +72,7 @@ create_country_leader = {
 	name = "Hồ Chí Minh"
 	picture = "ho_chi_minh.dds"
 	ideology = marxist
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -80,7 +80,7 @@ create_country_leader = {
 	name = "Hồ Chí Minh"
 	picture = "ho_chi_minh.dds"
 	ideology = nazism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }

@@ -251,7 +251,6 @@ country_event = {		#ultimatum With CSA
     USA = { transfer_state = 373 }
     USA = { transfer_state = 369 }
     USA = { transfer_state = 362 }
-		white_peace = USA
 		USA = { news_event = { id = usa.15 } }
 
 	}
@@ -298,7 +297,6 @@ country_event = {		#ultimatum With Quebec
 	option = {
 		ai_chance = { factor = 100 }
 		name = usa.17.a
-		white_peace = USA
     USA = { transfer_state = 464 }
     USA = { transfer_state = 465 }
 		USA = { news_event = { id = usa.18 }
@@ -348,7 +346,6 @@ country_event = {		#ultimatum with HBC
 	option = {
 		ai_chance = { factor = 100 }
 		name = usa.20.a
-		white_peace = USA
     USA = { transfer_state = 276 }
     USA = { transfer_state = 393 }
     USA = { transfer_state = 394 }

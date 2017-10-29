@@ -56,7 +56,7 @@ create_country_leader = {
 	name = "Mustafa Kemal Atatürk"
 	picture = "mustafa_kemal_ataturk.dds"
 	ideology = conservatistic
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -64,7 +64,7 @@ create_country_leader = {
 	name = "Abdulmejid II"
 	picture = "abdulmejid_ii.dds"
 	ideology = absolutism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -72,7 +72,7 @@ create_country_leader = {
 	name = "Şefik Hüsnü"
 	picture = "sefik_husnu.dds"
 	ideology = marxist
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -80,7 +80,7 @@ create_country_leader = {
 	name = "Mustafa Kemal Atatürk"
 	picture = "mustafa_kemal_ataturk.dds"
 	ideology = nazism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }

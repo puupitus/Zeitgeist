@@ -56,7 +56,7 @@ create_country_leader = {
 	name = "Alfonso López Pumarejo"
 	picture = "alfonso_lopez_pumarejo.dds"
 	ideology = conservatistic
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -64,7 +64,7 @@ create_country_leader = {
 	name = "Gustavo Rojas Pinilla"
 	picture = "gustavo_rojas_pinilla.dds"
 	ideology = absolutism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -72,7 +72,7 @@ create_country_leader = {
 	name = "María Cano"
 	picture = "maria_cano.dds"
 	ideology = marxist
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -80,7 +80,7 @@ create_country_leader = {
 	name = "Elíseo Arango Ramos"
 	picture = "eliseo_arango_ramos.dds"
 	ideology = nazism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }

@@ -1,0 +1,41 @@
+ideas = {
+  country = {
+
+        BAV_ger_uni = {
+
+
+    	  allowed = {
+    	  always = no
+    	  }
+
+    	  allowed_civil_war = {
+    		always = yes
+    	  }
+
+    	  removal_cost = -1
+
+    	  picture = generic_goods_red_bonus
+
+    	  modifier = {
+    		industrial_capacity_factory = 0.25
+    	     }
+        }
+        BAV_al = {
+
+
+    	  allowed = {
+    	  always = no
+    	  }
+
+    	  allowed_civil_war = {
+    		always = yes
+    	  }
+
+    	  removal_cost = -1
+
+    	  picture = tfv_can_conscription_crisis
+
+    	  modifier = {
+    		conscription = 0.03
+    	     }
+        }

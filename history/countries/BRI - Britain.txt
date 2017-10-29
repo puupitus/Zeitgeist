@@ -55,7 +55,7 @@ create_country_leader = {
 	name = "Winston Churchill"
 	picture = "winston_churchill.dds"
 	ideology = conservatistic
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -63,7 +63,7 @@ create_country_leader = {
 	name = "George VI"
 	picture = "george_vi.dds"
 	ideology = absolutism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -71,7 +71,7 @@ create_country_leader = {
 	name = "Harry Pollitt"
 	picture = "harry_pollitt.dds"
 	ideology = marxist
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -79,7 +79,7 @@ create_country_leader = {
 	name = "Oswald Mosley"
 	picture = "oswald_mosley.dds"
 	ideology = nazism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }

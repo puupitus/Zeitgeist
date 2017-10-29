@@ -56,7 +56,7 @@ create_country_leader = {
 	name = "Zdzisław Lubomirski"
 	picture = "zdzislaw_lubomirski.dds"
 	ideology = conservatistic
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -64,7 +64,7 @@ create_country_leader = {
 	name = "Karol Olbracht Habsburg-Lotaryński"
 	picture = "karl_albrecht.dds"
 	ideology = absolutism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -72,7 +72,7 @@ create_country_leader = {
 	name = "Maria Koszutska"
 	picture = "maria_koszutska.dds"
 	ideology = marxist
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -80,7 +80,7 @@ create_country_leader = {
 	name = "Karl Radek"
 	picture = "karl_radek.dds"
 	ideology = nazism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }

@@ -56,7 +56,7 @@ create_country_leader = {
 	name = "Reza Shah Pahlavi"
 	picture = "reza_shah_pahlavi.dds"
 	ideology = conservatistic
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -64,7 +64,7 @@ create_country_leader = {
 	name = "Reza Shah Pahlavi"
 	picture = "reza_shah_pahlavi.dds"
 	ideology = absolutism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -72,7 +72,7 @@ create_country_leader = {
 	name = "Iraj Eskandari"
 	picture = "iraj_eskandari.dds"
 	ideology = marxist
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -80,7 +80,7 @@ create_country_leader = {
 	name = "Iraj Eskandari"
 	picture = "iraj_eskandari.dds"
 	ideology = nazism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }

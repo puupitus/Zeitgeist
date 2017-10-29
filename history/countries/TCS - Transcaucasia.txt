@@ -56,7 +56,7 @@ create_country_leader = {
 	name = "Noe Zhordania"
 	picture = "noe_zhordania.dds"
 	ideology = conservatistic
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -64,7 +64,7 @@ create_country_leader = {
 	name = "Giorgi Mazniashvili"
 	picture = "giorgi_mazniashvili.dds"
 	ideology = absolutism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -72,7 +72,7 @@ create_country_leader = {
 	name = "Josif Stalin"
 	picture = "josif_stalin.dds"
 	ideology = marxist
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -80,7 +80,7 @@ create_country_leader = {
 	name = "Maria Nikiforova"
 	picture = "maria_nikiforova.dds"
 	ideology = nazism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }

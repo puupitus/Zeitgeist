@@ -56,7 +56,7 @@ create_country_leader = {
 	name = "J. B. M. Hertzog"
 	picture = "j_b_m_hertzog.dds"
 	ideology = conservatistic
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -64,7 +64,7 @@ create_country_leader = {
 	name = "J. B. M. Hertzog"
 	picture = "j_b_m_hertzog.dds"
 	ideology = absolutism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -72,7 +72,7 @@ create_country_leader = {
 	name = "Moses Kotane"
 	picture = "moses_kotane.dds"
 	ideology = marxist
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -80,7 +80,7 @@ create_country_leader = {
 	name = "Jan Smuts"
 	picture = "jan_smuts.dds"
 	ideology = nazism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }

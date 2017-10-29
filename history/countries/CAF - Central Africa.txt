@@ -56,7 +56,7 @@ create_country_leader = {
 	name = "Hubert Pierlot"
 	picture = "hubert_pierlot.dds"
 	ideology = conservatistic
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -64,7 +64,7 @@ create_country_leader = {
 	name = "Leopold III"
 	picture = "leopold_iii.dds"
 	ideology = absolutism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -72,7 +72,7 @@ create_country_leader = {
 	name = "Julien Lahaut"
 	picture = "julien_lahaut.dds"
 	ideology = marxist
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -80,7 +80,7 @@ create_country_leader = {
 	name = "Louis Mercier-Vega"
 	picture = "louis_mercier_vega.dds"
 	ideology = nazism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
-}	
+}

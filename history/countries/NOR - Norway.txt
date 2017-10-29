@@ -56,7 +56,7 @@ create_country_leader = {
 	name = "Johan Henrik Andresen"
 	picture = "johan_henrik_andresen.dds"
 	ideology = conservatistic
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -64,7 +64,7 @@ create_country_leader = {
 	name = "Haakon VII"
 	picture = "haakon_vii.dds"
 	ideology = absolutism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -72,7 +72,7 @@ create_country_leader = {
 	name = "Adam Egede-Nissen"
 	picture = "adam_egede_nissen.dds"
 	ideology = marxist
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -80,7 +80,7 @@ create_country_leader = {
 	name = "Vidkun Quisling"
 	picture = "vidkun_quisling.dds"
 	ideology = nazism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }

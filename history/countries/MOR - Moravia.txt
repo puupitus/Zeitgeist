@@ -56,7 +56,7 @@ create_country_leader = {
 	name = "Vojtech Tuka"
 	picture = "vojtech_tuka.dds"
 	ideology = conservatistic
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -64,7 +64,7 @@ create_country_leader = {
 	name = "Adelheid von Habsburg-Lothringen"
 	picture = "adelheid_von_habsburg_lothringen.dds"
 	ideology = absolutism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -72,7 +72,7 @@ create_country_leader = {
 	name = "Jan Šverma"
 	picture = "jan_sverma.dds"
 	ideology = marxist
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -80,7 +80,7 @@ create_country_leader = {
 	name = "Jozef Tiso"
 	picture = "jozef_tiso.dds"
 	ideology = nazism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }

@@ -56,7 +56,7 @@ create_country_leader = {
 	name = "Patricio Aylwin"
 	picture = "patricio_aylwin.dds"
 	ideology = conservatistic
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -64,7 +64,7 @@ create_country_leader = {
 	name = "Marmaduke Grove"
 	picture = "marmaduke_grove.dds"
 	ideology = absolutism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -72,7 +72,7 @@ create_country_leader = {
 	name = "Salvador Allende"
 	picture = "salvador_allende.dds"
 	ideology = marxist
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -80,7 +80,7 @@ create_country_leader = {
 	name = "Augusto Pinochet"
 	picture = "augusto_pinochet.dds"
 	ideology = nazism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }

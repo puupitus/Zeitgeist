@@ -60,7 +60,7 @@ create_country_leader = {
 	name = "Artur da Silva Bernardes"
 	picture = "artur_da_silva_bernardes.dds"
 	ideology = conservatistic
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -68,7 +68,7 @@ create_country_leader = {
 	name = "Getúlio Vargas"
 	picture = "getulio_vargas.dds"
 	ideology = absolutism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -76,7 +76,7 @@ create_country_leader = {
 	name = "Leon Trotsky"
 	picture = "leon_trotsky.dds"
 	ideology = marxist
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -84,7 +84,7 @@ create_country_leader = {
 	name = "José Oiticica"
 	picture = "jose_oiticica.dds"
 	ideology = nazism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
