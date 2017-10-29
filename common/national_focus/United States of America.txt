@@ -1388,7 +1388,7 @@ country = {
 
 focus = {
   id = USA_handle_st_patricks_day_marchers
-  icon = GFX_focus_wonderweapons
+  icon = GFX_USA_handle_st_patricks_day_marchers
   available = { has_country_flag = ST_PATRICKS_DAY_MARCH }
   x = 12
   y = 6
@@ -1406,7 +1406,7 @@ focus = {
 }
 focus = {
   id = USA_suppress_neu_berlin_riots
-  icon = GFX_focus_wonderweapons
+  icon = GFX_goal_continuous_suppression
   prerequisite = { focus = USA_handle_st_patricks_day_marchers }
   x = 12
   y = 7
@@ -1424,7 +1424,7 @@ focus = {
 }
 focus = {
   id = USA_night_of_the_long_knives
-  icon = GFX_focus_wonderweapons
+  icon = GFX_goal_generic_major_war
   prerequisite = { focus = USA_suppress_neu_berlin_riots }
   mutually_exclusive = { focus = USA_irish_pub_putsch focus = USA_italian_intervention }
   x = 4
@@ -1447,7 +1447,7 @@ focus = {
 }
 focus = {
   id = USA_amerikanische_reich
-  icon = GFX_focus_wonderweapons
+  icon = GFX_USA_amerikanische_reich
   prerequisite = { focus = USA_night_of_the_long_knives }
   x = 4
   y = 9
@@ -1465,7 +1465,7 @@ focus = {
 }
 focus = {
   id = USA_westgau
-  icon = GFX_focus_wonderweapons
+  icon = GFX_goal_generic_construct_civ_factory
   prerequisite = { focus = USA_amerikanische_reich }
   x = 2
   y = 10
@@ -1487,7 +1487,7 @@ focus = {
 }
 focus = {
   id = USA_landwehr
-  icon = GFX_focus_wonderweapons
+  icon = GFX_USA_landwehr
   prerequisite = { focus = USA_amerikanische_reich }
   x = 4
   y = 10
@@ -1505,7 +1505,7 @@ focus = {
 }
 focus = {
   id = USA_ostgau
-  icon = GFX_focus_wonderweapons
+  icon = GFX_goal_generic_construct_civ_factory
   prerequisite = { focus = USA_amerikanische_reich }
   x = 6
   y = 10
@@ -1527,7 +1527,7 @@ focus = {
 }
 focus = {
   id = USA_lebensraum
-  icon = GFX_focus_wonderweapons
+  icon = GFX_goal_tfv_saf_anti_colonialist_crusade
   prerequisite = { focus = USA_landwehr }
   x = 4
   y = 11
@@ -1560,7 +1560,7 @@ focus = {
 }
 focus = {
   id = USA_plan_nord
-  icon = GFX_focus_wonderweapons
+  icon = GFX_goal_generic_position_armies
   prerequisite = { focus = USA_lebensraum }
   available = { USA = { is_subject = no } }
   x = 2
@@ -1580,7 +1580,7 @@ focus = {
 }
 focus = {
   id = USA_puppet_the_nordiques
-  icon = GFX_focus_wonderweapons
+  icon = GFX_USA_puppet_the_nordiques
   prerequisite = { focus = USA_plan_nord }
   available = {
   468 = { is_controlled_by = USA }
@@ -1603,7 +1603,7 @@ focus = {
 }
 focus = {
   id = USA_hudsons_bay_geschellschaft
-  icon = GFX_focus_wonderweapons
+  icon = GFX_USA_hudsons_bay_geschellschaft
   prerequisite = { focus = USA_plan_nord }
   available = {
   276 = { is_controlled_by = USA }
@@ -1628,7 +1628,7 @@ focus = {
 }
 focus = {
   id = USA_join_zeitgeist_pact
-  icon = GFX_focus_wonderweapons
+  icon = GFX_USA_join_zeitgeist_pact
   prerequisite = { focus = USA_lebensraum }
   x = 4
   y = 12
@@ -1646,7 +1646,7 @@ focus = {
 }
 focus = {
   id = USA_auslandische_waffen_ss
-  icon = GFX_focus_wonderweapons
+  icon = GFX_USA_auslandische_waffen_ss
   prerequisite = { focus = USA_join_zeitgeist_pact }
   x = 4
   y = 13
@@ -1664,7 +1664,7 @@ focus = {
 }
 focus = {
   id = USA_plan_sud
-  icon = GFX_focus_wonderweapons
+  icon = GFX_goal_generic_position_armies
   prerequisite = { focus = USA_lebensraum }
   available = {
   USA = { is_subject = no }
@@ -1688,7 +1688,7 @@ focus = {
 }
 focus = {
   id = USA_arbeit_macht_frei
-  icon = GFX_focus_wonderweapons
+  icon = GFX_USA_arbeit_macht_frei
   prerequisite = { focus = USA_plan_sud }
   available = {
   362 = { is_controlled_by = USA }
@@ -1716,7 +1716,7 @@ focus = {
 }
 focus = {
   id = USA_klouds_over_kalifornia
-  icon = GFX_focus_wonderweapons
+  icon = GFX_USA_klouds_over_kalifornia
   prerequisite = { focus = USA_auslandische_waffen_ss }
   available = {
   378 = { is_controlled_by = USA }
@@ -1738,7 +1738,7 @@ focus = {
 }
 focus = {
   id = USA_ein_volk_ein_reich_ein_fuhrer
-  icon = GFX_focus_wonderweapons
+  icon = GFX_goal_support_fascism
   prerequisite = { focus = USA_klouds_over_kalifornia }
   available = {
   CSA = { is_puppet_of = USA }
@@ -1763,7 +1763,7 @@ focus = {
 }
 focus = {
   id = USA_irish_pub_putsch
-  icon = GFX_focus_wonderweapons
+  icon = GFX_goal_generic_demand_territory
   prerequisite = { focus = USA_suppress_neu_berlin_riots }
   mutually_exclusive = { focus = USA_night_of_the_long_knives focus = USA_italian_intervention }
   x = 12
@@ -1783,7 +1783,7 @@ focus = {
 }
 focus = {
   id = USA_takeover
-  icon = GFX_focus_wonderweapons
+  icon = GFX_USA_takeover
   prerequisite = { focus = USA_irish_pub_putsch }
   x = 12
   y = 9
@@ -1805,7 +1805,7 @@ focus = {
 }
 focus = {
   id = USA_boston_again
-  icon = GFX_focus_wonderweapons
+  icon = GFX_goal_generic_construct_mil_factory
   prerequisite = { focus = USA_takeover }
   x = 12
   y = 10
@@ -1829,7 +1829,7 @@ focus = {
 }
 focus = {
   id = USA_territorial_demands
-  icon = GFX_focus_wonderweapons
+  icon = GFX_goal_tfv_saf_anti_colonialist_crusade
   prerequisite = { focus = USA_boston_again }
   available = { USA = { is_subject = no } }
   x = 10
@@ -1859,7 +1859,7 @@ focus = {
 }
 focus = {
   id = USA_ultimatum_with_csa
-  icon = GFX_focus_wonderweapons
+  icon = GFX_USA_arbeit_macht_frei
   prerequisite = { focus = USA_territorial_demands }
   available = { USA = { is_subject = no } }
   x = 8
@@ -1879,7 +1879,7 @@ focus = {
 }
 focus = {
   id = USA_ultimatum_with_quebec
-  icon = GFX_focus_wonderweapons
+  icon = GFX_USA_ultimatum_to_quebec
   prerequisite = { focus = USA_territorial_demands }
   available = { USA = { is_subject = no } }
   x = 10
@@ -1900,7 +1900,7 @@ focus = {
 
 focus = {
   id = USA_ultimatum_with_hbc
-  icon = GFX_focus_wonderweapons
+  icon = GFX_USA_ultimatum_to_hbc
   prerequisite = { focus = USA_territorial_demands }
   available = { USA = { is_subject = no } }
   x = 12
@@ -1921,7 +1921,7 @@ focus = {
 
 focus = {
   id = USA_new_york_ports
-  icon = GFX_focus_wonderweapons
+  icon = GFX_goal_generic_construct_naval_dockyard
   prerequisite = { focus = USA_boston_again }
   x = 14
   y = 11
@@ -1941,7 +1941,7 @@ focus = {
 }
 focus = {
   id = USA_ohio_factories
-  icon = GFX_focus_wonderweapons
+  icon = GFX_goal_generic_construct_civ_factory
   prerequisite = { focus = USA_new_york_ports }
   x = 14
   y = 12
@@ -1961,7 +1961,7 @@ focus = {
 }
 focus = {
   id = USA_join_republican_league
-  icon = GFX_focus_wonderweapons
+  icon = GFX_USA_join_republican_league
   prerequisite = { focus = USA_boston_again }
   x = 16
   y = 11
@@ -1979,7 +1979,7 @@ focus = {
 }
 focus = {
   id = USA_new_ireland_conscription
-  icon = GFX_focus_wonderweapons
+  icon = GFX_goal_rhineland
   prerequisite = { focus = USA_join_republican_league }
   x = 16
   y = 12
@@ -1997,7 +1997,7 @@ focus = {
 }
 focus = {
   id = USA_italian_intervention
-  icon = GFX_focus_wonderweapons
+  icon = GFX_focus_generic_italy_first
   prerequisite = { focus = USA_suppress_neu_berlin_riots }
   mutually_exclusive = { focus = USA_irish_pub_putsch focus = USA_night_of_the_long_knives }
   x = 20
@@ -2017,7 +2017,7 @@ focus = {
 }
 focus = {
   id = USA_ein_amerika_ein_konig
-  icon = GFX_focus_wonderweapons
+  icon = GFX_USA_ein_amerika_ein_konig
   prerequisite = { focus = USA_italian_intervention }
   x = 20
   y = 9
@@ -2039,7 +2039,7 @@ focus = {
 }
 focus = {
   id = USA_italian_investments
-  icon = GFX_focus_wonderweapons
+  icon = GFX_goal_generic_construction
   prerequisite = { focus = USA_ein_amerika_ein_konig }
   x = 20
   y = 10
@@ -2065,7 +2065,7 @@ focus = {
 }
 focus = {
   id = USA_freikorps_amerika
-  icon = GFX_focus_wonderweapons
+  icon = GFX_goal_generic_axis_build_infantry
   prerequisite = { focus = USA_italian_investments }
   x = 18
   y = 11
@@ -2083,7 +2083,7 @@ focus = {
 }
 focus = {
   id = USA_von_mackensens_tactics
-  icon = GFX_focus_wonderweapons
+  icon = GFX_USA_von_mackensens_tactics
   prerequisite = { focus = USA_italian_investments }
   x = 22
   y = 11
@@ -2101,7 +2101,7 @@ focus = {
 }
 focus = {
   id = USA_offensichtlichte_bestimmung
-  icon = GFX_focus_wonderweapons
+  icon = GFX_goal_tfv_saf_anti_colonialist_crusade
   prerequisite = { focus = USA_italian_investments }
   x = 20
   y = 11
@@ -2131,7 +2131,7 @@ focus = {
 }
 focus = {
   id = USA_ultimatum_to_csa
-  icon = GFX_focus_wonderweapons
+  icon = GFX_USA_arbeit_macht_frei
   prerequisite = { focus = USA_offensichtlichte_bestimmung }
   x = 18
   y = 12
@@ -2150,7 +2150,7 @@ focus = {
 }
 focus = {
   id = USA_vassalize_csa
-  icon = GFX_focus_wonderweapons
+  icon = GFX_goal_generic_occupy_states_ongoing_war
   prerequisite = { focus = USA_ultimatum_to_csa }
   available = {
   362 = { is_controlled_by = USA }
@@ -2177,7 +2177,7 @@ focus = {
 }
 focus = {
   id = USA_join_new_commonwealth
-  icon = GFX_focus_wonderweapons
+  icon = GFX_USA_join_new_commonwealth
   prerequisite = { focus = USA_offensichtlichte_bestimmung }
   x = 20
   y = 12
@@ -2195,7 +2195,7 @@ focus = {
 }
 focus = {
   id = USA_italian_goods
-  icon = GFX_focus_wonderweapons
+  icon = GFX_goal_generic_consumer_goods
   prerequisite = { focus = USA_join_new_commonwealth }
   x = 20
   y = 13
@@ -2213,7 +2213,7 @@ focus = {
 }
 focus = {
   id = USA_ultimatum_to_quebec
-  icon = GFX_focus_wonderweapons
+  icon = GFX_USA_ultimatum_to_quebec
   prerequisite = { focus = USA_offensichtlichte_bestimmung }
   x = 22
   y = 12
@@ -2236,7 +2236,7 @@ focus = {
 }
 focus = {
   id = USA_vassalize_quebec
-  icon = GFX_focus_wonderweapons
+  icon = GFX_goal_generic_occupy_states_ongoing_war
   prerequisite = { focus = USA_ultimatum_to_quebec }
   available = {
   468 = { is_controlled_by = USA }
@@ -2259,7 +2259,7 @@ focus = {
 }
 focus = {
   id = USA_vassalize_california
-  icon = GFX_focus_wonderweapons
+  icon = GFX_goal_generic_occupy_states_ongoing_war
   prerequisite = { focus = USA_vassalize_quebec focus = USA_vassalize_csa}
   available = {
   378 = { is_controlled_by = USA }

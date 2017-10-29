@@ -1,0 +1,68 @@
+##################
+# BAVARIA EVENTS  #
+##################
+
+add_namespace = bav
+add_namespace = BAV_exact_date_trigger
+
+country_event = {
+	id = BAV_exact_date_trigger.1
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		date > 1936.3.1
+	}
+
+	option = {
+		BAV = { news_event = { id = bav.1  } }
+    RHI = { news_event = { id = bav.1  } }
+    RHI = { news_event = { id = bav.1  } }
+	}
+}
+country_event = {
+	id = BAV_exact_date_trigger.2
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		date > 1936.4.1
+	}
+
+	option = {
+		all_country  = { news_event = { id = bav.2  } }
+    BAV = { create_wargoal = { type = annex_everything target = PRS } }
+    BAV = { create_wargoal = { type = annex_everything target = RHI } }
+    RHI = { create_wargoal = { type = annex_everything target = PRS } }
+    RHI = { create_wargoal = { type = annex_everything target = BAV } }
+    PRS = { create_wargoal = { type = annex_everything target = RHI } }
+    PRS = { create_wargoal = { type = annex_everything target = BAV } }
+    BAV = { declare_war_on = { target = PRS type = annex_everything } }
+    BAV = { declare_war_on = { target = RHI type = annex_everything } }
+    RHI = { declare_war_on = { target = PRS type = annex_everything } }
+    set_global_flag = GERMAN_WAR
+}
+news_event = {		#Tensions Rise
+	id = bav.1
+	title = bav.1.t
+	desc = bav.1.d
+	picture = GFX_report_event_protests3
+
+	is_triggered_only = yes
+
+	option = {
+		name = bav.1.a
+	}
+}
+news_event = {		#German War!
+	id = bav.2
+	title = bav.2.t
+	desc = bav.2.d
+	picture = GFX_report_event_protests3
+
+	is_triggered_only = yes
+
+	option = {
+		name = bav.2.a
+	}
+}

@@ -966,6 +966,70 @@ spriteTypes = {
 	name = "GFX_FRA_vive_la_france"
 	texturefile = "gfx/interface/goals/FRA_vive_la_france.dds"
 	}
+	SpriteType = {
+	name = "GFX_USA_amerikanische_reich"
+	texturefile = "gfx/interface/goals/USA_amerikanische_reich.dds"
+	}
+	SpriteType = {
+	name = "GFX_USA_arbeit_macht_frei"
+	texturefile = "gfx/interface/goals/USA_arbeit_macht_frei.dds"
+	}
+	SpriteType = {
+	name = "GFX_USA_auslandische_waffen_ss"
+	texturefile = "gfx/interface/goals/USA_auslandische_waffen_ss.dds"
+	}
+	SpriteType = {
+	name = "GFX_USA_ein_amerika_ein_konig"
+	texturefile = "gfx/interface/goals/USA_ein_amerika_ein_konig.dds"
+	}
+	SpriteType = {
+	name = "GFX_USA_handle_st_patricks_day_marchers"
+	texturefile = "gfx/interface/goals/USA_handle_st_patricks_day_marchers.dds"
+	}
+	SpriteType = {
+	name = "GFX_USA_hudsons_bay_geschellschaft"
+	texturefile = "gfx/interface/goals/USA_hudsons_bay_geschellschaft.dds"
+	}
+	SpriteType = {
+	name = "GFX_USA_join_new_commonwealth"
+	texturefile = "gfx/interface/goals/USA_join_new_commonwealth.dds"
+	}
+	SpriteType = {
+	name = "GFX_USA_join_republican_league"
+	texturefile = "gfx/interface/goals/USA_join_republican_league.dds"
+	}
+	SpriteType = {
+	name = "GFX_USA_join_zeitgeist_pact"
+	texturefile = "gfx/interface/goals/USA_join_zeitgeist_pact.dds"
+	}
+	SpriteType = {
+	name = "GFX_USA_klouds_over_kalifornia"
+	texturefile = "gfx/interface/goals/USA_klouds_over_kalifornia.dds"
+	}
+	SpriteType = {
+	name = "GFX_USA_landwehr"
+	texturefile = "gfx/interface/goals/USA_landwehr.dds"
+	}
+	SpriteType = {
+	name = "GFX_USA_puppet_the_nordiques"
+	texturefile = "gfx/interface/goals/USA_puppet_the_nordiques.dds"
+	}
+	SpriteType = {
+	name = "GFX_USA_takeover"
+	texturefile = "gfx/interface/goals/USA_takeover.dds"
+	}
+	SpriteType = {
+	name = "GFX_USA_ultimatum_to_hbc"
+	texturefile = "gfx/interface/goals/USA_ultimatum_to_hbc.dds"
+	}
+	SpriteType = {
+	name = "GFX_USA_ultimatum_to_quebec"
+	texturefile = "gfx/interface/goals/USA_ultimatum_to_quebec.dds"
+	}
+	SpriteType = {
+	name = "GFX_USA_von_mackensens_tactics"
+	texturefile = "gfx/interface/goals/USA_von_mackensens_tactics.dds"
+	}
 
 
 }
