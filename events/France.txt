@@ -25,7 +25,7 @@ news_event = {		#French Elections
 	title = france.99.t
 	desc = france.99.d
 	picture = GFX_report_event_protests3
-
+	major = yes
 	is_triggered_only = yes
 
 	option = {

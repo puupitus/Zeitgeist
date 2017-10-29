@@ -1,0 +1,272 @@
+##################################
+# A SONG OF ICE AND FIRE EVENTS  #
+##################################
+
+add_namespace = asoiaf
+add_namespace = ASOIAF_exact_date_trigger
+
+country_event = {
+	id = ASOIAF_exact_date_trigger.1
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		date > 1936.2.1
+	}
+
+	option = {
+		news_event = { id = asoiaf.1  }
+	}
+}
+country_event = {
+	id = ASOIAF_exact_date_trigger.2
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		date > 1936.3.1
+	}
+
+	option = {
+		news_event = { id = asoiaf.2  }
+    BOH = { create_wargoal = { type = puppet_wargoal_focus target = MOR } }
+    MOR = { create_wargoal = { type = puppet_wargoal_focus target = BOH } }
+    BOH = { declare_war_on = { target = MOR type = puppet_wargoal_focus } }
+    set_global_flag = ASOIAF
+    }
+}
+country_event = {
+	id = ASOIAF_exact_date_trigger.3
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+  has_global_flag = ASOIAF
+  BOH = { has_war = no }
+  MOR = { has_war = no }
+	}
+
+	option = {
+		news_event = { id = asoiaf.3  }
+    HUN = { create_wargoal = { type = puppet_wargoal_focus target = YUG } }
+    YUG = { create_wargoal = { type = puppet_wargoal_focus target = HUN } }
+    HUN = { declare_war_on = { target = YUG type = puppet_wargoal_focus } }
+    set_global_flag = ASOIAF_ACT_2
+    }
+}
+country_event = {
+	id = ASOIAF_exact_date_trigger.4
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+  has_global_flag = ASOIAF_ACT_2
+  HUN = { has_war = no }
+  YUG = { has_war = no }
+	}
+
+	option = {
+		news_event = { id = asoiaf.4  }
+    ROM = { create_wargoal = { type = puppet_wargoal_focus target = BUL } }
+    BUL = { create_wargoal = { type = puppet_wargoal_focus target = ROM } }
+    ROM = { declare_war_on = { target = BUL type = puppet_wargoal_focus } }
+    set_global_flag = ASOIAF_ACT_3
+    }
+}
+country_event = {
+	id = ASOIAF_exact_date_trigger.5
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+  has_global_flag = ASOIAF_ACT_3
+  ROM = { has_war = no }
+  BUL = { has_war = no }
+	}
+
+	option = {
+		news_event = { id = asoiaf.5  }
+    BOH = { create_wargoal = { type = puppet_wargoal_focus target = KRA } }
+    MOR = { create_wargoal = { type = puppet_wargoal_focus target = KRA } }
+    KRA = { create_wargoal = { type = puppet_wargoal_focus target = BOH } }
+    KRA = { create_wargoal = { type = puppet_wargoal_focus target = MOR } }
+    BOH = { declare_war_on = { target = KRA type = puppet_wargoal_focus } }
+    MOR = { declare_war_on = { target = KRA type = puppet_wargoal_focus } }
+    set_global_flag = ASOIAF_ACT_4
+    }
+}
+country_event = {
+	id = ASOIAF_exact_date_trigger.6
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+  has_global_flag = ASOIAF_ACT_4
+  BOH = { has_war = no }
+  MOR = { has_war = no }
+  KRA = { has_war = no }
+	}
+
+	option = {
+		news_event = { id = asoiaf.6  }
+    BOH = { create_wargoal = { type = puppet_wargoal_focus target = ROM } }
+    BOH = { create_wargoal = { type = puppet_wargoal_focus target = BUL } }
+    MOR = { create_wargoal = { type = puppet_wargoal_focus target = ROM } }
+    MOR = { create_wargoal = { type = puppet_wargoal_focus target = BUL } }
+    KRA = { create_wargoal = { type = puppet_wargoal_focus target = ROM } }
+    KRA = { create_wargoal = { type = puppet_wargoal_focus target = BUL } }
+    ROM = { create_wargoal = { type = puppet_wargoal_focus target = BOH } }
+    ROM = { create_wargoal = { type = puppet_wargoal_focus target = MOR } }
+    ROM = { create_wargoal = { type = puppet_wargoal_focus target = KRA } }
+    BUL = { create_wargoal = { type = puppet_wargoal_focus target = BOH } }
+    BUL = { create_wargoal = { type = puppet_wargoal_focus target = MOR } }
+    BUL = { create_wargoal = { type = puppet_wargoal_focus target = KRA } }
+    BOH = { declare_war_on = { target = ROM type = puppet_wargoal_focus } }
+    MOR = { declare_war_on = { target = ROM type = puppet_wargoal_focus } }
+    KRA = { declare_war_on = { target = ROM type = puppet_wargoal_focus } }
+    BOH = { declare_war_on = { target = BUL type = puppet_wargoal_focus } }
+    MOR = { declare_war_on = { target = BUL type = puppet_wargoal_focus } }
+    KRA = { declare_war_on = { target = BUL type = puppet_wargoal_focus } }
+    set_global_flag = ASOIAF_ACT_5
+    }
+}
+country_event = {
+	id = ASOIAF_exact_date_trigger.7
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+  has_global_flag = ASOIAF_ACT_5
+  BOH = { has_war = no }
+  MOR = { has_war = no }
+  KRA = { has_war = no }
+  ROM = { has_war = no }
+  BUL = { has_war = no }
+	}
+
+	option = {
+		news_event = { id = asoiaf.7  }
+    BOH = { create_wargoal = { type = puppet_wargoal_focus target = YUG } }
+    BOH = { create_wargoal = { type = puppet_wargoal_focus target = HUN } }
+    MOR = { create_wargoal = { type = puppet_wargoal_focus target = YUG } }
+    MOR = { create_wargoal = { type = puppet_wargoal_focus target = HUN } }
+    KRA = { create_wargoal = { type = puppet_wargoal_focus target = YUG } }
+    KRA = { create_wargoal = { type = puppet_wargoal_focus target = HUN } }
+    ROM = { create_wargoal = { type = puppet_wargoal_focus target = YUG } }
+    ROM = { create_wargoal = { type = puppet_wargoal_focus target = HUN } }
+    BUL = { create_wargoal = { type = puppet_wargoal_focus target = YUG } }
+    BUL = { create_wargoal = { type = puppet_wargoal_focus target = HUN } }
+    YUG = { create_wargoal = { type = puppet_wargoal_focus target = BOH } }
+    YUG = { create_wargoal = { type = puppet_wargoal_focus target = MOR } }
+    YUG = { create_wargoal = { type = puppet_wargoal_focus target = KRA } }
+    YUG = { create_wargoal = { type = puppet_wargoal_focus target = ROM } }
+    YUG = { create_wargoal = { type = puppet_wargoal_focus target = BUL } }
+    HUN = { create_wargoal = { type = puppet_wargoal_focus target = BOH } }
+    HUN = { create_wargoal = { type = puppet_wargoal_focus target = MOR } }
+    HUN = { create_wargoal = { type = puppet_wargoal_focus target = KRA } }
+    HUN = { create_wargoal = { type = puppet_wargoal_focus target = ROM } }
+    HUN = { create_wargoal = { type = puppet_wargoal_focus target = BUL } }
+    BOH = { declare_war_on = { target = YUG type = puppet_wargoal_focus } }
+    MOR = { declare_war_on = { target = YUG type = puppet_wargoal_focus } }
+    KRA = { declare_war_on = { target = YUG type = puppet_wargoal_focus } }
+    ROM = { declare_war_on = { target = YUG type = puppet_wargoal_focus } }
+    BUL = { declare_war_on = { target = YUG type = puppet_wargoal_focus } }
+    BOH = { declare_war_on = { target = HUN type = puppet_wargoal_focus } }
+    MOR = { declare_war_on = { target = HUN type = puppet_wargoal_focus } }
+    KRA = { declare_war_on = { target = HUN type = puppet_wargoal_focus } }
+    ROM = { declare_war_on = { target = HUN type = puppet_wargoal_focus } }
+    BUL = { declare_war_on = { target = HUN type = puppet_wargoal_focus } }
+    set_global_flag = ASOIAF_ACT_6
+    }
+}
+news_event = {		#A Song of Ice and Fire
+	id = asoiaf.1
+	title = asoiaf.1.t
+	desc = asoiaf.1.d
+	major = yes
+	picture = GFX_report_event_protests3
+
+	is_triggered_only = yes
+
+	option = {
+		name = asoiaf.2.a
+	}
+}
+news_event = {		#A Song of Ice and Fire Act 1
+	id = asoiaf.2
+	title = asoiaf.2.t
+	desc = asoiaf.2.d
+	major = yes
+	picture = GFX_report_event_protests3
+
+	is_triggered_only = yes
+
+	option = {
+		name = asoiaf.2.a
+	}
+}
+news_event = {		#A Song of Ice and Fire Act 2
+	id = asoiaf.3
+	title = asoiaf.3.t
+	desc = asoiaf.3.d
+	major = yes
+	picture = GFX_report_event_protests3
+
+	is_triggered_only = yes
+
+	option = {
+		name = asoiaf.3.a
+	}
+}
+news_event = {		#A Song of Ice and Fire Act 3
+	id = asoiaf.4
+	title = asoiaf.4.t
+	desc = asoiaf.4.d
+	major = yes
+	picture = GFX_report_event_protests3
+
+	is_triggered_only = yes
+
+	option = {
+		name = asoiaf.4.a
+	}
+}
+news_event = {		#A Song of Ice and Fire Act 4
+	id = asoiaf.5
+	title = asoiaf.5.t
+	desc = asoiaf.5.d
+	major = yes
+	picture = GFX_report_event_protests3
+
+	is_triggered_only = yes
+
+	option = {
+		name = asoiaf.5.a
+	}
+}
+news_event = {		#A Song of Ice and Fire Act 5
+	id = asoiaf.6
+	title = asoiaf.6.t
+	desc = asoiaf.6.d
+	major = yes
+	picture = GFX_report_event_protests3
+
+	is_triggered_only = yes
+
+	option = {
+		name = asoiaf.6.a
+	}
+}
+news_event = {		#A Song of Ice and Fire Act 6
+	id = asoiaf.7
+	title = asoiaf.7.t
+	desc = asoiaf.7.d
+	major = yes
+	picture = GFX_report_event_protests3
+
+	is_triggered_only = yes
+
+	option = {
+		name = asoiaf.7.a
+	}
+}
