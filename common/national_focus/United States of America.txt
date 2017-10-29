@@ -1389,7 +1389,7 @@ country = {
 focus = {
   id = USA_handle_st_patricks_day_marchers
   icon = GFX_USA_handle_st_patricks_day_marchers
-  available = { has_country_flag = ST_PATRICKS_DAY_MARCH }
+  available = { has_global_flag = ST_PATRICKS_DAY_MARCH }
   x = 12
   y = 6
   cost = 10

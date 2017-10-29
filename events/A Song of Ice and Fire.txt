@@ -15,7 +15,7 @@ country_event = {
 	}
 
 	option = {
-		news_event = { id = asoiaf.1  }
+		every_country = { news_event = { id = asoiaf.1  } }
 	}
 }
 country_event = {
@@ -28,7 +28,7 @@ country_event = {
 	}
 
 	option = {
-		news_event = { id = asoiaf.2  }
+		every_country = { news_event = { id = asoiaf.2  } }
     BOH = { create_wargoal = { type = puppet_wargoal_focus target = MOR } }
     MOR = { create_wargoal = { type = puppet_wargoal_focus target = BOH } }
     BOH = { declare_war_on = { target = MOR type = puppet_wargoal_focus } }
@@ -47,7 +47,7 @@ country_event = {
 	}
 
 	option = {
-		news_event = { id = asoiaf.3  }
+		every_country = { news_event = { id = asoiaf.3  } }
     HUN = { create_wargoal = { type = puppet_wargoal_focus target = YUG } }
     YUG = { create_wargoal = { type = puppet_wargoal_focus target = HUN } }
     HUN = { declare_war_on = { target = YUG type = puppet_wargoal_focus } }
@@ -66,7 +66,7 @@ country_event = {
 	}
 
 	option = {
-		news_event = { id = asoiaf.4  }
+		every_country = { news_event = { id = asoiaf.4  } }
     ROM = { create_wargoal = { type = puppet_wargoal_focus target = BUL } }
     BUL = { create_wargoal = { type = puppet_wargoal_focus target = ROM } }
     ROM = { declare_war_on = { target = BUL type = puppet_wargoal_focus } }
@@ -85,7 +85,7 @@ country_event = {
 	}
 
 	option = {
-		news_event = { id = asoiaf.5  }
+		every_country = { news_event = { id = asoiaf.5  } }
     BOH = { create_wargoal = { type = puppet_wargoal_focus target = KRA } }
     MOR = { create_wargoal = { type = puppet_wargoal_focus target = KRA } }
     KRA = { create_wargoal = { type = puppet_wargoal_focus target = BOH } }
@@ -108,25 +108,19 @@ country_event = {
 	}
 
 	option = {
-		news_event = { id = asoiaf.6  }
-    BOH = { create_wargoal = { type = puppet_wargoal_focus target = ROM } }
-    BOH = { create_wargoal = { type = puppet_wargoal_focus target = BUL } }
-    MOR = { create_wargoal = { type = puppet_wargoal_focus target = ROM } }
-    MOR = { create_wargoal = { type = puppet_wargoal_focus target = BUL } }
-    KRA = { create_wargoal = { type = puppet_wargoal_focus target = ROM } }
-    KRA = { create_wargoal = { type = puppet_wargoal_focus target = BUL } }
-    ROM = { create_wargoal = { type = puppet_wargoal_focus target = BOH } }
-    ROM = { create_wargoal = { type = puppet_wargoal_focus target = MOR } }
-    ROM = { create_wargoal = { type = puppet_wargoal_focus target = KRA } }
-    BUL = { create_wargoal = { type = puppet_wargoal_focus target = BOH } }
-    BUL = { create_wargoal = { type = puppet_wargoal_focus target = MOR } }
-    BUL = { create_wargoal = { type = puppet_wargoal_focus target = KRA } }
-    BOH = { declare_war_on = { target = ROM type = puppet_wargoal_focus } }
-    MOR = { declare_war_on = { target = ROM type = puppet_wargoal_focus } }
-    KRA = { declare_war_on = { target = ROM type = puppet_wargoal_focus } }
-    BOH = { declare_war_on = { target = BUL type = puppet_wargoal_focus } }
-    MOR = { declare_war_on = { target = BUL type = puppet_wargoal_focus } }
-    KRA = { declare_war_on = { target = BUL type = puppet_wargoal_focus } }
+		every_country = { news_event = { id = asoiaf.6  } }
+    ROM = { create_wargoal = { type = puppet_wargoal_focus target = HUN } }
+    ROM = { create_wargoal = { type = puppet_wargoal_focus target = YUG } }
+    BUL = { create_wargoal = { type = puppet_wargoal_focus target = HUN } }
+    BUL = { create_wargoal = { type = puppet_wargoal_focus target = YUG } }
+    HUN = { create_wargoal = { type = puppet_wargoal_focus target = ROM } }
+    HUN = { create_wargoal = { type = puppet_wargoal_focus target = BUL } }
+    YUG = { create_wargoal = { type = puppet_wargoal_focus target = ROM } }
+    YUG = { create_wargoal = { type = puppet_wargoal_focus target = BUL } }
+    ROM = { declare_war_on = { target = HUN type = puppet_wargoal_focus } }
+    ROM = { declare_war_on = { target = YUG type = puppet_wargoal_focus } }
+    BUL = { declare_war_on = { target = HUN type = puppet_wargoal_focus } }
+    BUL = { declare_war_on = { target = YUG type = puppet_wargoal_focus } }
     set_global_flag = ASOIAF_ACT_5
     }
 }
@@ -137,45 +131,50 @@ country_event = {
 
 	trigger = {
   has_global_flag = ASOIAF_ACT_5
-  BOH = { has_war = no }
-  MOR = { has_war = no }
-  KRA = { has_war = no }
+  YUG = { has_war = no }
+  HUN = { has_war = no }
   ROM = { has_war = no }
   BUL = { has_war = no }
 	}
 
 	option = {
-		news_event = { id = asoiaf.7  }
+		every_country = { news_event = { id = asoiaf.7  } }
     BOH = { create_wargoal = { type = puppet_wargoal_focus target = YUG } }
     BOH = { create_wargoal = { type = puppet_wargoal_focus target = HUN } }
+    BOH = { create_wargoal = { type = puppet_wargoal_focus target = ROM } }
+    BOH = { create_wargoal = { type = puppet_wargoal_focus target = BUL } }
     MOR = { create_wargoal = { type = puppet_wargoal_focus target = YUG } }
     MOR = { create_wargoal = { type = puppet_wargoal_focus target = HUN } }
+    MOR = { create_wargoal = { type = puppet_wargoal_focus target = ROM } }
+    MOR = { create_wargoal = { type = puppet_wargoal_focus target = BUL } }
     KRA = { create_wargoal = { type = puppet_wargoal_focus target = YUG } }
     KRA = { create_wargoal = { type = puppet_wargoal_focus target = HUN } }
-    ROM = { create_wargoal = { type = puppet_wargoal_focus target = YUG } }
-    ROM = { create_wargoal = { type = puppet_wargoal_focus target = HUN } }
-    BUL = { create_wargoal = { type = puppet_wargoal_focus target = YUG } }
-    BUL = { create_wargoal = { type = puppet_wargoal_focus target = HUN } }
+    KRA = { create_wargoal = { type = puppet_wargoal_focus target = ROM } }
+    KRA = { create_wargoal = { type = puppet_wargoal_focus target = BUL } }
+    ROM = { create_wargoal = { type = puppet_wargoal_focus target = BOH } }
+    ROM = { create_wargoal = { type = puppet_wargoal_focus target = MOR } }
+    ROM = { create_wargoal = { type = puppet_wargoal_focus target = KRA } }
+    BUL = { create_wargoal = { type = puppet_wargoal_focus target = BOH } }
+    BUL = { create_wargoal = { type = puppet_wargoal_focus target = MOR } }
+    BUL = { create_wargoal = { type = puppet_wargoal_focus target = KRA } }
     YUG = { create_wargoal = { type = puppet_wargoal_focus target = BOH } }
     YUG = { create_wargoal = { type = puppet_wargoal_focus target = MOR } }
     YUG = { create_wargoal = { type = puppet_wargoal_focus target = KRA } }
-    YUG = { create_wargoal = { type = puppet_wargoal_focus target = ROM } }
-    YUG = { create_wargoal = { type = puppet_wargoal_focus target = BUL } }
     HUN = { create_wargoal = { type = puppet_wargoal_focus target = BOH } }
     HUN = { create_wargoal = { type = puppet_wargoal_focus target = MOR } }
     HUN = { create_wargoal = { type = puppet_wargoal_focus target = KRA } }
-    HUN = { create_wargoal = { type = puppet_wargoal_focus target = ROM } }
-    HUN = { create_wargoal = { type = puppet_wargoal_focus target = BUL } }
-    BOH = { declare_war_on = { target = YUG type = puppet_wargoal_focus } }
-    MOR = { declare_war_on = { target = YUG type = puppet_wargoal_focus } }
-    KRA = { declare_war_on = { target = YUG type = puppet_wargoal_focus } }
-    ROM = { declare_war_on = { target = YUG type = puppet_wargoal_focus } }
-    BUL = { declare_war_on = { target = YUG type = puppet_wargoal_focus } }
-    BOH = { declare_war_on = { target = HUN type = puppet_wargoal_focus } }
-    MOR = { declare_war_on = { target = HUN type = puppet_wargoal_focus } }
-    KRA = { declare_war_on = { target = HUN type = puppet_wargoal_focus } }
-    ROM = { declare_war_on = { target = HUN type = puppet_wargoal_focus } }
-    BUL = { declare_war_on = { target = HUN type = puppet_wargoal_focus } }
+    YUG = { declare_war_on = { target = BOH type = puppet_wargoal_focus } }
+    HUN = { declare_war_on = { target = BOH type = puppet_wargoal_focus } }
+    ROM = { declare_war_on = { target = BOH type = puppet_wargoal_focus } }
+    BUL = { declare_war_on = { target = BOH type = puppet_wargoal_focus } }
+    YUG = { declare_war_on = { target = MOR type = puppet_wargoal_focus } }
+    HUN = { declare_war_on = { target = MOR type = puppet_wargoal_focus } }
+    ROM = { declare_war_on = { target = MOR type = puppet_wargoal_focus } }
+    BUL = { declare_war_on = { target = MOR type = puppet_wargoal_focus } }
+    YUG = { declare_war_on = { target = KRA type = puppet_wargoal_focus } }
+    HUN = { declare_war_on = { target = KRA type = puppet_wargoal_focus } }
+    ROM = { declare_war_on = { target = KRA type = puppet_wargoal_focus } }
+    BUL = { declare_war_on = { target = KRA type = puppet_wargoal_focus } }
     set_global_flag = ASOIAF_ACT_6
     }
 }

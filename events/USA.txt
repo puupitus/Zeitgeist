@@ -16,7 +16,7 @@ country_event = {
 
 	option = {
 		USA = { news_event = { id = usa.1  } }
-    set_country_flag = ST_PATRICKS_DAY_MARCH
+    set_global_flag = ST_PATRICKS_DAY_MARCH
 	}
 }
 news_event = {		#St. Patrick's Day March

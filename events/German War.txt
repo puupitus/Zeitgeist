@@ -30,7 +30,7 @@ country_event = {
 	}
 
 	option = {
-		news_event = { id = got.2  }
+		every_country = { news_event = { id = gwa.2  } }
     BAV = { create_wargoal = { type = annex_everything target = PRS } }
     BAV = { create_wargoal = { type = annex_everything target = RHI } }
     RHI = { create_wargoal = { type = annex_everything target = PRS } }
@@ -42,7 +42,7 @@ country_event = {
     RHI = { declare_war_on = { target = PRS type = annex_everything } }
     set_global_flag = GERMAN_WAR
     }
-}    
+}
 news_event = {		#Tensions Rise
 	id = gwa.1
 	title = gwa.1.t
