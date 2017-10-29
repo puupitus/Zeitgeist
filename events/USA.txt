@@ -100,7 +100,7 @@ country_event = {		#Hudson's Bay Geschellschaft
     USA = { transfer_state = 682 }
     USA = { puppet = HBC }
 		USA = { news_event = { id = usa.6 } }
-    HBC = { set_cosmetic_tag = HBC_geschellschaft }
+    set_cosmetic_tag = HBC_geschellschaft
 
 	}
 	option = {
@@ -147,6 +147,7 @@ country_event = {		#Klouds Over Kalifornia
 		name = usa.8.a
 		white_peace = USA
     USA = { puppet = CAL }
+		set_cosmetic_tag = CAL_protektorat
 		USA = { news_event = { id = usa.9 } }
 
 	}
@@ -198,6 +199,7 @@ country_event = {		#Arbeit Macht Frei
     USA = { transfer_state = 369 }
     USA = { transfer_state = 362 }
 		white_peace = USA
+		set_cosmetic_tag = CSA_protektorat
     USA = { puppet = CSA }
 		USA = { news_event = { id = usa.12 } }
 
@@ -385,5 +387,58 @@ news_event = {		#ultimatum with HBC
 
 	option = {
 		name = usa.22.a
+	}
+}
+country_event = {		#Vassalize CSA
+	id = usa.23
+	title = usa.23.t
+	desc = usa.23.d
+	picture = GFX_report_event_protests3
+
+	is_triggered_only = yes
+
+	option = {
+		ai_chance = { factor = 100 }
+		name = usa.23.a
+    USA = { transfer_state = 395 }
+    USA = { transfer_state = 392 }
+    USA = { transfer_state = 373 }
+    USA = { transfer_state = 369 }
+    USA = { transfer_state = 362 }
+		white_peace = USA
+    USA = { puppet = CSA }
+		set_cosmetic_tag = CSA_protektorat
+		USA = { news_event = { id = usa.24 } }
+
+	}
+	option = {
+		name = usa.23.b
+		add_political_power = 150
+    USA = { news_event = { id = usa.25 } }
+	}
+
+}
+news_event = {		#Vassalize CSA
+	id = usa.24
+	title = usa.24.t
+	desc = usa.24.d
+	picture = GFX_report_event_protests3
+
+	is_triggered_only = yes
+
+	option = {
+		name = usa.24.a
+	}
+}
+news_event = {		#Vassalize CSA
+	id = usa.25
+	title = usa.25.t
+	desc = usa.25.d
+	picture = GFX_report_event_protests3
+
+	is_triggered_only = yes
+
+	option = {
+		name = usa.25.a
 	}
 }

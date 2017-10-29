@@ -2168,7 +2168,7 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-    CSA = { country_event = { id = usa.11 } }
+    CSA = { country_event = { id = usa.23 } }
   }
 
   ai_will_do = {
@@ -2222,14 +2222,8 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-    add_tech_bonus = {
-      name = secret_bonus
-      bonus = 0.5
-      uses = 2
-      category = electronics
-      category = nuclear
-      category = rocketry
-    }
+  QUE = { country_event = { id = usa.17 }
+  }
   }
 
   ai_will_do = {
