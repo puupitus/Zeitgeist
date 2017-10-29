@@ -1416,6 +1416,7 @@ focus = {
 
   completion_reward = {
     add_political_power = 150
+    country_event = usa.99
   }
 
   ai_will_do = {
@@ -1427,6 +1428,7 @@ focus = {
   icon = GFX_goal_generic_major_war
   prerequisite = { focus = USA_suppress_neu_berlin_riots }
   mutually_exclusive = { focus = USA_irish_pub_putsch focus = USA_italian_intervention }
+  available = { has_country_flag = ELIMINATE_OPPOSITION }
   x = 4
   y = 8
   cost = 10
@@ -1788,6 +1790,7 @@ focus = {
   icon = GFX_goal_generic_demand_territory
   prerequisite = { focus = USA_suppress_neu_berlin_riots }
   mutually_exclusive = { focus = USA_night_of_the_long_knives focus = USA_italian_intervention }
+  available = { has_country_flag = IRISH_PUTSCH }
   x = 12
   y = 8
   cost = 10
@@ -2025,6 +2028,7 @@ focus = {
   icon = GFX_focus_generic_italy_first
   prerequisite = { focus = USA_suppress_neu_berlin_riots }
   mutually_exclusive = { focus = USA_irish_pub_putsch focus = USA_night_of_the_long_knives }
+  available = { has_country_flag = ITALIAN_INTERVENTION }
   x = 20
   y = 8
   cost = 10

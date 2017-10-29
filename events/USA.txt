@@ -32,6 +32,31 @@ news_event = {		#St. Patrick's Day March
     USA = { add_ideas = USA_riot }
 	}
 }
+country_event = {		#Neu-Berlin Riots
+	id = usa.99
+	title = usa.99.t
+	desc = usa.99.d
+	picture = GFX_report_event_protests3
+
+	is_triggered_only = yes
+
+	option = {
+		ai_chance = { factor = 33 }
+		name = usa.99.a
+		set_country_flag = ELIMINATE_OPPOSITION
+	}
+	option = {
+	  ai_chance = { factor = 33 }
+		name = usa.99.b
+		set_country_flag = IRISH_PUTSCH
+	}
+	option = {
+		ai_chance = { factor = 33 }
+		name = usa.99.c
+		set_country_flag = ITALIAN_INTERVENTION
+	}
+
+}
 country_event = {		#Puppet the Nordiques
 	id = usa.2
 	title = usa.2.t
