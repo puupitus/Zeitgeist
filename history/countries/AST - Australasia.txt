@@ -1,7 +1,7 @@
 capital = 520
 
 oob = "AST_1936"
-
+set_major = yes
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

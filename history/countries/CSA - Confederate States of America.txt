@@ -1,6 +1,7 @@
 capital = 362
 
 oob = "CSA_1936"
+set_major = yes 
 
 # Starting tech
 set_technology = {

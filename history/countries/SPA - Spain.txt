@@ -1,6 +1,7 @@
 capital = 307
 
 oob = "SPA_1936"
+set_major = yes
 create_faction = "Imperio Español"
 # Starting tech
 set_technology = {

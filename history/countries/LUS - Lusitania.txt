@@ -1,6 +1,7 @@
 capital = 112
 
 oob = "LUS_1936"
+set_major = yes
 create_faction = "Zeitgeist Pact"
 add_to_faction = IBE
 add_to_faction = PAK

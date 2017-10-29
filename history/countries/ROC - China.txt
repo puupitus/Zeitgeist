@@ -1,6 +1,7 @@
 capital = 592
 
 oob = "ROC_1936"
+set_major = yes
 
 # Starting tech
 set_technology = {
@@ -56,7 +57,7 @@ create_country_leader = {
 	name = "Chiang Kai-shek"
 	picture = "chiang_kai_shek.dds"
 	ideology = conservatistic
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -64,7 +65,7 @@ create_country_leader = {
 	name = "Yan Xishan"
 	picture = "yan_xishan.dds"
 	ideology = absolutism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -72,7 +73,7 @@ create_country_leader = {
 	name = "Zhang Wentian"
 	picture = "zhang_wentian.dds"
 	ideology = marxist
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -80,7 +81,7 @@ create_country_leader = {
 	name = "Wang Jingwei"
 	picture = "wang_jingwei.dds"
 	ideology = nazism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }

@@ -55,7 +55,7 @@ create_country_leader = {
 	name = "Pyotr Nikolayevich Wrangel"
 	picture = "pyotr_nikolayevich_wrangel.dds"
 	ideology = conservatistic
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -63,7 +63,7 @@ create_country_leader = {
 	name = "Nikolai II"
 	picture = "nicholas_ii.dds"
 	ideology = absolutism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -71,7 +71,7 @@ create_country_leader = {
 	name = "Pyotr Nikolayevich Wrangel"
 	picture = "pyotr_nikolayevich_wrangel.dds"
 	ideology = marxist
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -79,7 +79,7 @@ create_country_leader = {
 	name = "Pyotr Nikolayevich Wrangel"
 	picture = "pyotr_nikolayevich_wrangel.dds"
 	ideology = nazism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }

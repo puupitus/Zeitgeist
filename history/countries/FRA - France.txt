@@ -1,6 +1,7 @@
 capital = 16
 
 oob = "FRA_1936"
+set_major = yes
 create_faction = "Republican League"
 add_to_faction = AST
 add_to_faction = CAR
