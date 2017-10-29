@@ -1058,6 +1058,50 @@ spriteTypes = {
 	name = "GFX_BAV_german_unification"
 	texturefile = "gfx/interface/goals/BAV_german_unification.dds"
 	}
+	SpriteType = {
+	name = "GFX_RHI_attack_denmark"
+	texturefile = "gfx/interface/goals/RHI_attack_denmark.dds"
+	}
+	SpriteType = {
+	name = "GFX_RHI_attack_norway"
+	texturefile = "gfx/interface/goals/RHI_attack_norway.dds"
+	}
+	SpriteType = {
+	name = "GFX_RHI_attack_poland"
+	texturefile = "gfx/interface/goals/RHI_attack_poland.dds"
+	}
+	SpriteType = {
+	name = "GFX_RHI_attack_sweden"
+	texturefile = "gfx/interface/goals/RHI_attack_sweden.dds"
+	}
+	SpriteType = {
+	name = "GFX_RHI_german_unification"
+	texturefile = "gfx/interface/goals/RHI_german_unification.dds"
+	}
+	SpriteType = {
+	name = "GFX_RHI_join_socialist_confederacy"
+	texturefile = "gfx/interface/goals/RHI_join_socialist_confederacy.dds"
+	}
+	SpriteType = {
+	name = "GFX_RHI_landwehr"
+	texturefile = "gfx/interface/goals/RHI_landwehr.dds"
+	}
+	SpriteType = {
+	name = "GFX_RHI_organize_syndicates"
+	texturefile = "gfx/interface/goals/RHI_organize_syndicates.dds"
+	}
+	SpriteType = {
+	name = "GFX_RHI_rotsturm"
+	texturefile = "gfx/interface/goals/RHI_rotsturm.dds"
+	}
+	SpriteType = {
+	name = "GFX_RHI_unify_weimar_republic"
+	texturefile = "gfx/interface/goals/RHI_unify_weimar_republic.dds"
+	}
+	SpriteType = {
+	name = "GFX_RHI_unify_weimar_syndicate"
+	texturefile = "gfx/interface/goals/RHI_unify_weimar_syndicate.dds"
+	}
 
 
 }

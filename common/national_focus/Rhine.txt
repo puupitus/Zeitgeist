@@ -1388,7 +1388,7 @@ country = {
 
 focus = {
   id = RHI_german_unification
-  icon = GFX_goal_generic_radar
+  icon = GFX_RHI_german_unification
   available = {
   51 = { is_owned_by = BAV }
   5 = { is_owned_by = BAV }
@@ -1435,7 +1435,7 @@ focus = {
     }
     focus = {
       id = RHI_organize_syndicates
-      icon = GFX_goal_generic_radar
+      icon = GFX_RHI_organize_syndicates
       prerequisite = { focus = RHI_hold_elections }
       mutually_exclusive = { focus = RHI_democratic_councils }
       available = { has_country_flag = SYNDICATE_VICTORY }
@@ -1558,7 +1558,7 @@ focus = {
     }
     focus = {
       id = RHI_unify_weimar_syndicate
-      icon = GFX_goal_generic_radar
+      icon = GFX_RHI_unify_weimar_syndicate
       prerequisite = { focus = RHI_prussian_syndicate focus = RHI_bavarian_syndicate focus = RHI_rhineland_syndicate }
       x = 5
       y = 10
@@ -1580,7 +1580,7 @@ focus = {
     }
     focus = {
       id = RHI_rotsturm
-      icon = GFX_goal_generic_radar
+      icon = GFX_RHI_rotsturm
       prerequisite = { focus = RHI_unify_weimar_syndicate }
       x = 5
       y = 11
@@ -1600,7 +1600,7 @@ focus = {
     }
     focus = {
       id = RHI_join_socialist_confederacy
-      icon = GFX_goal_generic_radar
+      icon = GFX_RHI_join_socialist_confederacy
       prerequisite = { focus = RHI_rotsturm }
       x = 3
       y = 12
@@ -1695,7 +1695,7 @@ focus = {
     }
     focus = {
       id = RHI_attack_poland
-      icon = GFX_goal_generic_radar
+      icon = GFX_RHI_attack_poland
       prerequisite = { focus = RHI_syndicalist_irredentism }
       available = {
       NOT = { POL = { has_government = socialism } }
@@ -1824,7 +1824,7 @@ focus = {
     }
     focus = {
       id = RHI_unify_weimar_republic
-      icon = GFX_goal_generic_radar
+      icon = GFX_RHI_unify_weimar_republic
       prerequisite = { focus = RHI_develop_prussia focus = RHI_develop_bavaria focus = RHI_develop_rhineland }
       x = 13
       y = 10
@@ -1868,7 +1868,7 @@ focus = {
     }
     focus = {
       id = RHI_landwehr
-      icon = GFX_goal_generic_radar
+      icon = GFX_RHI_landwehr
       prerequisite = { focus = RHI_unify_weimar_republic }
       x = 13
       y = 11
@@ -1929,7 +1929,7 @@ focus = {
     }
     focus = {
       id = RHI_attack_denmark
-      icon = GFX_goal_generic_radar
+      icon = GFX_RHI_attack_denmark
       prerequisite = { focus = RHI_secure_scandinavia }
       available = {
       NOT = { DEN = { has_government = republicanism } }
@@ -1956,7 +1956,7 @@ focus = {
     }
     focus = {
       id = RHI_attack_sweden
-      icon = GFX_goal_generic_radar
+      icon = GFX_RHI_attack_sweden
       prerequisite = { focus = RHI_secure_scandinavia }
       available = {
       NOT = { SWE = { has_government = republicanism } }
@@ -1984,7 +1984,7 @@ focus = {
     }
     focus = {
       id = RHI_attack_norway
-      icon = GFX_goal_generic_radar
+      icon = GFX_RHI_attack_norway
       prerequisite = { focus = RHI_secure_scandinavia }
       available = {
       NOT = { NOR = { has_government = republicanism } }
