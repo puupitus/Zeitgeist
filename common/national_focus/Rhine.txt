@@ -1441,7 +1441,7 @@ focus = {
       available = { has_country_flag = SYNDICATE_VICTORY }
       x = 5
       y = 8
-      cost = 10
+      cost = 0
 
       available_if_capitulated = yes
 
@@ -1453,7 +1453,7 @@ focus = {
 
       completion_reward = {
         add_national_unity = 0.05
-        add_political_power = 150
+        add_ideas = soc_drift
         }
     }
     focus = {
@@ -1559,7 +1559,9 @@ focus = {
     focus = {
       id = RHI_unify_weimar_syndicate
       icon = GFX_RHI_unify_weimar_syndicate
-      prerequisite = { focus = RHI_prussian_syndicate focus = RHI_bavarian_syndicate focus = RHI_rhineland_syndicate }
+      prerequisite = { focus = RHI_prussian_syndicate }
+      prerequisite = { focus = RHI_bavarian_syndicate }
+      prerequisite = { focus = RHI_rhineland_syndicate }
       x = 5
       y = 10
       cost = 10
@@ -1575,6 +1577,7 @@ focus = {
       completion_reward = {
       add_political_power = 150
       add_national_unity = 0.05
+      add_popularity = { ideology = socialism popularity = 0.25 }
       set_cosmetic_tag = RHI_weimar_syndicate
         }
     }
@@ -1728,7 +1731,7 @@ focus = {
       available = { has_country_flag = REPUBLICAN_VICTORY }
       x = 13
       y = 8
-      cost = 10
+      cost = 0
 
       available_if_capitulated = yes
 
@@ -1739,8 +1742,8 @@ focus = {
 
 
       completion_reward = {
-      add_political_power = 150
       add_national_unity = 0.05
+      add_ideas = rep_drift
         }
     }
     focus = {
@@ -1825,7 +1828,9 @@ focus = {
     focus = {
       id = RHI_unify_weimar_republic
       icon = GFX_RHI_unify_weimar_republic
-      prerequisite = { focus = RHI_develop_prussia focus = RHI_develop_bavaria focus = RHI_develop_rhineland }
+      prerequisite = { focus = RHI_develop_rhineland }
+      prerequisite = { focus = RHI_develop_bavaria }
+      prerequisite = { focus = RHI_develop_prussia }
       x = 13
       y = 10
       cost = 10
@@ -1841,6 +1846,8 @@ focus = {
       completion_reward = {
       add_political_power = 150
       add_national_unity = 0.05
+      add_popularity = { ideology = republicanism popularity = 0.25 }
+      set_politics = { ruling_party = republicanism elections_allowed = no }
       set_cosmetic_tag = RHI_weimar_republic
         }
     }
