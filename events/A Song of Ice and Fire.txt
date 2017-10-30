@@ -31,7 +31,7 @@ country_event = {
 		every_country = { news_event = { id = asoiaf.2  } }
     BOH = { create_wargoal = { type = puppet_wargoal_focus target = MOR } }
     MOR = { create_wargoal = { type = puppet_wargoal_focus target = BOH } }
-    MOR = { declare_war_on = { target = BOH type = puppet_wargoal_focus } }
+    BOH = { declare_war_on = { target = MOR type = puppet_wargoal_focus } }
     set_global_flag = ASOIAF
     }
 }
