@@ -1400,6 +1400,8 @@ country = {
       add_popularity = { ideology = republicanism popularity = 0.30 }
       add_ideas = rep_drift
       add_political_power = 50
+      create_faction = "Republican League"
+      every_country = { news_event = france.98 }
 
     }
 

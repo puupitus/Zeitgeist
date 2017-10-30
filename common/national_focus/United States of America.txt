@@ -1431,7 +1431,7 @@ focus = {
   available = { has_country_flag = ELIMINATE_OPPOSITION }
   x = 4
   y = 8
-  cost = 10
+  cost = 0
 
   available_if_capitulated = yes
 
@@ -1801,7 +1801,7 @@ focus = {
   available = { has_country_flag = IRISH_PUTSCH }
   x = 12
   y = 8
-  cost = 10
+  cost = 0
 
   available_if_capitulated = yes
 
@@ -2045,7 +2045,7 @@ focus = {
   available = { has_country_flag = ITALIAN_INTERVENTION }
   x = 20
   y = 8
-  cost = 10
+  cost = 0
 
   available_if_capitulated = yes
 

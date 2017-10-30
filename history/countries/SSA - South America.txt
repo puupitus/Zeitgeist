@@ -3,10 +3,7 @@ capital = 500
 oob = "SSA_1936"
 set_major = yes
 create_faction = "Socialist Confederacy"
-add_to_faction = TCS
-add_to_faction = SWE
 add_to_faction = MEX
-add_to_faction = QUE
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

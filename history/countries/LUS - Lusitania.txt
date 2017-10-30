@@ -4,10 +4,6 @@ oob = "LUS_1936"
 set_major = yes
 create_faction = "Zeitgeist Pact"
 add_to_faction = IBE
-add_to_faction = PAK
-add_to_faction = NOR
-add_to_faction = SOV
-add_to_faction = SAF
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
