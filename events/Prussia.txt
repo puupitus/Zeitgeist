@@ -1,0 +1,27 @@
+###################
+# PRUSSIA EVENTS  #
+###################
+
+add_namespace = prs
+add_namespace = PRS_exact_date_trigger
+
+country_event = {		#Hold Elections
+	id = prs.1
+	title = prs.1.t
+	desc = prs.1.d
+	picture = GFX_report_event_protests3
+
+	is_triggered_only = yes
+
+	option = {
+		ai_chance = { factor = 50 }
+		name = prs.1.a
+    set_country_flag = ADOLF_HITLER
+	}
+	option = {
+    ai_chance = { factor = 50 }
+		name = prs.1.b
+    set_country_flag = WILHELM_II
+	}
+
+}

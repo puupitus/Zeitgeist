@@ -1,0 +1,41 @@
+ideas = {
+  country = {
+
+        PRS_sa = {
+
+
+    	  allowed = {
+    	  always = no
+    	  }
+
+    	  allowed_civil_war = {
+    		always = yes
+    	  }
+
+    	  removal_cost = -1
+
+    	  picture = tfv_can_conscription_crisis
+
+    	  modifier = {
+    		conscription = 0.03
+    	     }
+        }
+        PRS_rw = {
+
+
+    	  allowed = {
+    	  always = no
+    	  }
+
+    	  allowed_civil_war = {
+    		always = yes
+    	  }
+
+    	  removal_cost = -1
+
+    	  picture = tfv_can_conscription_crisis
+
+    	  modifier = {
+    		conscription = 0.03
+    	     }
+        }

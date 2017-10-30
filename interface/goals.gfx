@@ -1102,6 +1102,50 @@ spriteTypes = {
 	name = "GFX_RHI_unify_weimar_syndicate"
 	texturefile = "gfx/interface/goals/RHI_unify_weimar_syndicate.dds"
 	}
+	SpriteType = {
+	name = "GFX_PRS_a_new_vizekanzler"
+	texturefile = "gfx/interface/goals/PRS_a_new_vizekanzler.dds"
+	}
+	SpriteType = {
+	name = "GFX_PRS_attack_byelorussia"
+	texturefile = "gfx/interface/goals/PRS_attack_byelorussia.dds"
+	}
+	SpriteType = {
+	name = "GFX_PRS_attack_byelorussia"
+	texturefile = "gfx/interface/goals/PRS_attack_byelorussia.dds"
+	}
+	SpriteType = {
+	name = "GFX_PRS_attack_livonia"
+	texturefile = "gfx/interface/goals/PRS_attack_livonia.dds"
+	}
+	SpriteType = {
+	name = "GFX_PRS_form_kaiserreich"
+	texturefile = "gfx/interface/goals/PRS_form_kaiserreich.dds"
+	}
+	SpriteType = {
+	name = "GFX_PRS_german_unification"
+	texturefile = "gfx/interface/goals/PRS_german_unification.dds"
+	}
+	SpriteType = {
+	name = "GFX_PRS_kaiser_wilhelm_ii"
+	texturefile = "gfx/interface/goals/PRS_kaiser_wilhelm_ii.dds"
+	}
+	SpriteType = {
+	name = "GFX_PRS_reichswehr"
+	texturefile = "gfx/interface/goals/PRS_reichswehr.dds"
+	}
+	SpriteType = {
+	name = "GFX_PRS_seizure_of_power"
+	texturefile = "gfx/interface/goals/PRS_attack_byelorussia.dds"
+	}
+	SpriteType = {
+	name = "GFX_PRS_sturmabteilung"
+	texturefile = "gfx/interface/goals/PRS_sturmabteilung.dds"
+	}
+	SpriteType = {
+	name = "GFX_PRS_vizekanzler_adolf_hitler"
+	texturefile = "gfx/interface/goals/PRS_vizekanzler_adolf_hitler.dds"
+	}
 
 
 }
