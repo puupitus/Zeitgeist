@@ -5,10 +5,11 @@ state={
 	state_category = small_island
 
 	history={
-		owner = CAR
+		owner = SPA
 		add_core_of = CAR
 		add_core_of = CSA
 		add_core_of = USA
+		add_core_of = SPA
 		buildings = {
 			infrastructure = 4
 			13010 = {

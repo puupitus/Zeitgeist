@@ -6,9 +6,10 @@ state={
 	state_category = tiny_island
 
 	history={
-		owner = CAR
+		owner = SPA
 		add_core_of = CAR
 		add_core_of = BRI
+		add_core_of = SPA
 		buildings = {
 			infrastructure = 4
 			4450 = {

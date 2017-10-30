@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = CAR
+		owner = COL
 		add_core_of = CAR
 		add_core_of = COL
 		add_core_of = SSA

@@ -6,9 +6,10 @@ state={
 	state_category = rural
 
 	history={
-		owner = CAR
+		owner = SPA
 		add_core_of = CAR
 		add_core_of = CSA
+		add_core_of = SPA
 		victory_points = {
 			1440 1
 		}
