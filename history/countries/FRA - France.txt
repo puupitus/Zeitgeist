@@ -63,8 +63,8 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Charles de Gaulle"
-	picture = "charles_de_gaulle.dds"
+	name = "Albert Sarraut"
+	picture = "albert_sarraut.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default
 		#

@@ -1390,9 +1390,9 @@ country = {
     id = PRS_german_unification
     icon = GFX_PRS_german_unification
     available = {
-    51 = { is_owned_by = BAV }
-    5 = { is_owned_by = BAV }
-    52 = { is_owned_by = BAV }
+    51 = { is_owned_by = PRS }
+    5 = { is_owned_by = PRS }
+    52 = { is_owned_by = PRS }
     }
     x = 9
     y = 6
@@ -1441,7 +1441,7 @@ country = {
     available = { has_country_flag = ADOLF_HITLER }
     x = 5
     y = 8
-    cost = 10
+    cost = 0
 
     available_if_capitulated = yes
 
@@ -1579,6 +1579,7 @@ country = {
     add_national_unity = 0.05
     add_popularity = { ideology = third_position popularity = 0.25 }
     set_politics = { ruling_party = third_position elections_allowed = no }
+    set_cosmetic_tag = PRS_prussian_reich
       }
   }
   focus = {
@@ -1634,7 +1635,7 @@ country = {
 
 
     ai_will_do = {
-      factor = 10
+      factor = 20
     }
 
 
@@ -1731,7 +1732,7 @@ country = {
     available = { has_country_flag = WILHELM_II }
     x = 13
     y = 8
-    cost = 10
+    cost = 0
 
     available_if_capitulated = yes
 
@@ -1869,6 +1870,7 @@ country = {
     add_national_unity = 0.05
     add_popularity = { ideology = monarchism popularity = 0.25 }
     set_politics = { ruling_party = monarchism elections_allowed = no }
+    set_cosmetic_tag = PRS_kaiserreich
       }
   }
   focus = {
@@ -1924,7 +1926,7 @@ country = {
 
 
     ai_will_do = {
-      factor = 10
+      factor = 20
     }
 
 

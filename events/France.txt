@@ -17,6 +17,13 @@ country_event = {
 	option = {
 		every_country = { news_event = france.99 }
     set_global_flag = FRENCH_ELECTIONS
+		FRA = { create_country_leader = {
+		name = "Charles de Gaulle"
+		picture = "gfx/leaders/FRA/charles_de_gaulle.dds"
+		ideology = conservatistic
+		traits = { zeitgeist_default }
+		  }
+		}
 	}
 }
 

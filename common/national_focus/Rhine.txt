@@ -1390,9 +1390,9 @@ focus = {
   id = RHI_german_unification
   icon = GFX_RHI_german_unification
   available = {
-  51 = { is_owned_by = BAV }
-  5 = { is_owned_by = BAV }
-  52 = { is_owned_by = BAV }
+  51 = { is_owned_by = RHI }
+  5 = { is_owned_by = RHI }
+  52 = { is_owned_by = RHI }
   }
   x = 9
   y = 6
@@ -1613,7 +1613,7 @@ focus = {
 
 
       ai_will_do = {
-        factor = 10
+        factor = 20
       }
 
 
@@ -1926,7 +1926,7 @@ focus = {
 
 
       ai_will_do = {
-        factor = 10
+        factor = 20
       }
 
 

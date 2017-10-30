@@ -31,3 +31,11 @@ RHI_weimar_republic = {
 	color = rgb { 128 128 128 }
 	color_ui = rgb { 128 128 128 }
 }
+PRS_prussian_reich = {
+	color = rgb { 128 128 128 }
+	color_ui = rgb { 128 128 128 }
+}
+PRS_kaiserreich = {
+	color = rgb { 128 128 128 }
+	color_ui = rgb { 128 128 128 }
+}

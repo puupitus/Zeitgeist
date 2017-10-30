@@ -1392,14 +1392,14 @@ country = {
     available = { has_global_flag = FRENCH_ELECTIONS }
     x = 9
     y = 6
-    cost = 10
+    cost = 0
 
     available_if_capitulated = yes
 
     completion_reward = {
       add_popularity = { ideology = republicanism popularity = 0.30 }
       add_ideas = rep_drift
-      add_ideas = low_economic_mobilisation
+      add_political_power = 50
 
     }
 
@@ -1419,7 +1419,7 @@ country = {
 
     completion_reward = {
       add_ideas = FRA_rm
-      add_ideas = partial_economic_mobilisation
+      add_ideas = low_economic_mobilisation
 
     }
 
@@ -1452,12 +1452,13 @@ country = {
     prerequisite = { focus = FRA_rapid_militarization }
     x = 11
     y = 8
-    cost = 5
+    cost = 10
 
     available_if_capitulated = yes
 
     completion_reward = {
       add_timed_idea = { idea = FRA_mob days = 365 }
+      add_ideas = partial_economic_mobilisation
 
     }
 
