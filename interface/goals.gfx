@@ -1136,7 +1136,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 	name = "GFX_PRS_seizure_of_power"
-	texturefile = "gfx/interface/goals/PRS_attack_byelorussia.dds"
+	texturefile = "gfx/interface/goals/PRS_seizure_of_power.dds"
 	}
 	SpriteType = {
 	name = "GFX_PRS_sturmabteilung"
