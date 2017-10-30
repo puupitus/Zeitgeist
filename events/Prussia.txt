@@ -5,11 +5,11 @@
 add_namespace = prs
 add_namespace = PRS_exact_date_trigger
 
-country_event = {		#Hold Elections
+country_event = {		#A New Vizekanzler
 	id = prs.1
 	title = prs.1.t
 	desc = prs.1.d
-	picture = GFX_report_event_protests3
+	picture = GFX_zeitgeist2
 
 	is_triggered_only = yes
 

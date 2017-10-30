@@ -1462,6 +1462,7 @@ focus = {
     remove_ideas = USA_riot
     add_political_power = 50
     add_national_unity = 0.05
+    news_event = usa.27
     }
   ai_will_do = {
     factor = 10
@@ -1787,6 +1788,7 @@ focus = {
     CAL = { every_owned_state = { add_core_of = USA } }
     annex_country = { target = CSA }
     annex_country = { target = CAL }
+    every_country = { news_event = usa.26 }
   }
 
   ai_will_do = {

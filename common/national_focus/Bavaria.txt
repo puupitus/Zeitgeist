@@ -1411,6 +1411,7 @@ country = {
       add_national_unity = 0.1
       add_ideas = BAV_ger_uni
       set_major = yes
+      every_country = { news_event = gwa.3 }
     }
   }
   focus = {

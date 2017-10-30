@@ -23,7 +23,7 @@ news_event = {		#St. Patrick's Day March
 	id = usa.1
 	title = usa.1.t
 	desc = usa.1.d
-	picture = GFX_report_event_protests3
+	picture = GFX_zeitgeist
 
 	is_triggered_only = yes
 
@@ -36,7 +36,7 @@ country_event = {		#Neu-Berlin Riots
 	id = usa.99
 	title = usa.99.t
 	desc = usa.99.d
-	picture = GFX_report_event_protests3
+	picture = GFX_zeitgeist2
 
 	is_triggered_only = yes
 
@@ -61,7 +61,7 @@ country_event = {		#Puppet the Nordiques
 	id = usa.2
 	title = usa.2.t
 	desc = usa.2.d
-	picture = GFX_report_event_protests3
+	picture = GFX_zeitgeist2
 
 	is_triggered_only = yes
 
@@ -86,7 +86,7 @@ news_event = {		#Puppet the Nordiques
 	id = usa.3
 	title = usa.3.t
 	desc = usa.3.d
-	picture = GFX_report_event_protests3
+	picture = GFX_zeitgeist
 
 	is_triggered_only = yes
 
@@ -98,7 +98,7 @@ news_event = {		#Puppet the Nordiques
 	id = usa.4
 	title = usa.4.t
 	desc = usa.4.d
-	picture = GFX_report_event_protests3
+	picture = GFX_zeitgeist
 
 	is_triggered_only = yes
 
@@ -110,7 +110,7 @@ country_event = {		#Hudson's Bay Geschellschaft
 	id = usa.5
 	title = usa.5.t
 	desc = usa.5.d
-	picture = GFX_report_event_protests3
+	picture = GFX_zeitgeist2
 
 	is_triggered_only = yes
 
@@ -139,7 +139,7 @@ news_event = {		#Hudson's Bay Geschellschaft
 	id = usa.6
 	title = usa.6.t
 	desc = usa.6.d
-	picture = GFX_report_event_protests3
+	picture = GFX_zeitgeist
 
 	is_triggered_only = yes
 
@@ -151,7 +151,7 @@ news_event = {		#Hudson's Bay Geschellschaft
 	id = usa.7
 	title = usa.7.t
 	desc = usa.7.d
-	picture = GFX_report_event_protests3
+	picture = GFX_zeitgeist
 
 	is_triggered_only = yes
 
@@ -163,7 +163,7 @@ country_event = {		#Klouds Over Kalifornia
 	id = usa.8
 	title = usa.8.t
 	desc = usa.8.d
-	picture = GFX_report_event_protests3
+	picture = GFX_zeitgeist2
 
 	is_triggered_only = yes
 
@@ -187,7 +187,7 @@ news_event = {		#Klouds Over Kalifornia
 	id = usa.9
 	title = usa.9.t
 	desc = usa.9.d
-	picture = GFX_report_event_protests3
+	picture = GFX_zeitgeist
 
 	is_triggered_only = yes
 
@@ -199,7 +199,7 @@ news_event = {		#Klouds Over Kalifornia
 	id = usa.10
 	title = usa.10.t
 	desc = usa.10.d
-	picture = GFX_report_event_protests3
+	picture = GFX_zeitgeist
 
 	is_triggered_only = yes
 
@@ -211,7 +211,7 @@ country_event = {		#Arbeit Macht Frei
 	id = usa.11
 	title = usa.11.t
 	desc = usa.11.d
-	picture = GFX_report_event_protests3
+	picture = GFX_zeitgeist2
 
 	is_triggered_only = yes
 
@@ -240,7 +240,7 @@ news_event = {		#Arbeit Macht Frei
 	id = usa.12
 	title = usa.12.t
 	desc = usa.12.d
-	picture = GFX_report_event_protests3
+	picture = GFX_zeitgeist
 
 	is_triggered_only = yes
 
@@ -252,7 +252,7 @@ news_event = {		#Arbeit Macht Frei
 	id = usa.13
 	title = usa.13.t
 	desc = usa.13.d
-	picture = GFX_report_event_protests3
+	picture = GFX_zeitgeist
 
 	is_triggered_only = yes
 
@@ -264,7 +264,7 @@ country_event = {		#ultimatum With CSA
 	id = usa.14
 	title = usa.14.t
 	desc = usa.14.d
-	picture = GFX_report_event_protests3
+	picture = GFX_zeitgeist2
 
 	is_triggered_only = yes
 
@@ -291,7 +291,7 @@ news_event = {		#ultimatum With CSA
 	id = usa.15
 	title = usa.15.t
 	desc = usa.15.d
-	picture = GFX_report_event_protests3
+	picture = GFX_zeitgeist
 
 	is_triggered_only = yes
 
@@ -303,7 +303,7 @@ news_event = {		#ultimatum With CSA
 	id = usa.16
 	title = usa.16.t
 	desc = usa.16.d
-	picture = GFX_report_event_protests3
+	picture = GFX_zeitgeist
 
 	is_triggered_only = yes
 
@@ -315,7 +315,7 @@ country_event = {		#ultimatum With Quebec
 	id = usa.17
 	title = usa.17.t
 	desc = usa.17.d
-	picture = GFX_report_event_protests3
+	picture = GFX_zeitgeist2
 
 	is_triggered_only = yes
 
@@ -339,7 +339,7 @@ news_event = {		#ultimatum With Quebec
 	id = usa.18
 	title = usa.18.t
 	desc = usa.18.d
-	picture = GFX_report_event_protests3
+	picture = GFX_zeitgeist
 
 	is_triggered_only = yes
 
@@ -351,7 +351,7 @@ news_event = {		#ultimatum With Quebec
 	id = usa.19
 	title = usa.19.t
 	desc = usa.19.d
-	picture = GFX_report_event_protests3
+	picture = GFX_zeitgeist
 
 	is_triggered_only = yes
 
@@ -364,7 +364,7 @@ country_event = {		#ultimatum with HBC
 	id = usa.20
 	title = usa.20.t
 	desc = usa.20.d
-	picture = GFX_report_event_protests3
+	picture = GFX_zeitgeist2
 
 	is_triggered_only = yes
 
@@ -391,7 +391,7 @@ news_event = {		#ultimatum with HBC
 	id = usa.21
 	title = usa.21.t
 	desc = usa.21.d
-	picture = GFX_report_event_protests3
+	picture = GFX_zeitgeist
 
 	is_triggered_only = yes
 
@@ -403,7 +403,7 @@ news_event = {		#ultimatum with HBC
 	id = usa.22
 	title = usa.22.t
 	desc = usa.22.d
-	picture = GFX_report_event_protests3
+	picture = GFX_zeitgeist
 
 	is_triggered_only = yes
 
@@ -415,7 +415,7 @@ country_event = {		#Vassalize CSA
 	id = usa.23
 	title = usa.23.t
 	desc = usa.23.d
-	picture = GFX_report_event_protests3
+	picture = GFX_zeitgeist2
 
 	is_triggered_only = yes
 
@@ -444,7 +444,7 @@ news_event = {		#Vassalize CSA
 	id = usa.24
 	title = usa.24.t
 	desc = usa.24.d
-	picture = GFX_report_event_protests3
+	picture = GFX_zeitgeist
 
 	is_triggered_only = yes
 
@@ -456,11 +456,35 @@ news_event = {		#Vassalize CSA
 	id = usa.25
 	title = usa.25.t
 	desc = usa.25.d
-	picture = GFX_report_event_protests3
+	picture = GFX_zeitgeist
 
 	is_triggered_only = yes
 
 	option = {
 		name = usa.25.a
+	}
+}
+news_event = {		#Ein Volk, Ein Reich, Ein Führer
+	id = usa.26
+	title = usa.26.t
+	desc = usa.26.d
+	picture = GFX_ein_volk_ein_reich_ein_fuhrer
+
+	is_triggered_only = yes
+
+	option = {
+		name = usa.26.a
+	}
+}
+news_event = {		#Amerikanische Reich
+	id = usa.27
+	title = usa.27.t
+	desc = usa.27.d
+	picture = GFX_amerikanische_reich
+
+	is_triggered_only = yes
+
+	option = {
+		name = usa.27.a
 	}
 }

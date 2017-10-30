@@ -47,7 +47,7 @@ news_event = {		#Tensions Rise
 	id = gwa.1
 	title = gwa.1.t
 	desc = gwa.1.d
-	picture = GFX_report_event_protests3
+	picture = GFX_zeitgeist
 
 	is_triggered_only = yes
 
@@ -60,7 +60,7 @@ news_event = {		#German War!
 	title = gwa.2.t
 	desc = gwa.2.d
 	major = yes
-	picture = GFX_report_event_protests3
+	picture = GFX_zeitgeist
 
 	is_triggered_only = yes
 
@@ -72,7 +72,7 @@ news_event = {		#German War Over!
 	id = gwa.3
 	title = gwa.3.t
 	desc = gwa.3.d
-	picture = GFX_report_event_protests3
+	picture = GFX_zeitgeist
 
 	is_triggered_only = yes
 

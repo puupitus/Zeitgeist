@@ -31,7 +31,7 @@ country_event = {
 		every_country = { news_event = { id = asoiaf.2  } }
     BOH = { create_wargoal = { type = puppet_wargoal_focus target = MOR } }
     MOR = { create_wargoal = { type = puppet_wargoal_focus target = BOH } }
-    BOH = { declare_war_on = { target = MOR type = puppet_wargoal_focus } }
+    MOR = { declare_war_on = { target = BOH type = puppet_wargoal_focus } }
     set_global_flag = ASOIAF
     }
 }
@@ -183,12 +183,12 @@ news_event = {		#A Song of Ice and Fire
 	title = asoiaf.1.t
 	desc = asoiaf.1.d
 	major = yes
-	picture = GFX_report_event_protests3
+	picture = GFX_asoiaf
 
 	is_triggered_only = yes
 
 	option = {
-		name = asoiaf.2.a
+		name = asoiaf.1.a
 	}
 }
 news_event = {		#A Song of Ice and Fire Act 1
@@ -196,7 +196,7 @@ news_event = {		#A Song of Ice and Fire Act 1
 	title = asoiaf.2.t
 	desc = asoiaf.2.d
 	major = yes
-	picture = GFX_report_event_protests3
+	picture = GFX_act1
 
 	is_triggered_only = yes
 
@@ -209,7 +209,7 @@ news_event = {		#A Song of Ice and Fire Act 2
 	title = asoiaf.3.t
 	desc = asoiaf.3.d
 	major = yes
-	picture = GFX_report_event_protests3
+	picture = GFX_act2
 
 	is_triggered_only = yes
 
@@ -222,7 +222,7 @@ news_event = {		#A Song of Ice and Fire Act 3
 	title = asoiaf.4.t
 	desc = asoiaf.4.d
 	major = yes
-	picture = GFX_report_event_protests3
+	picture = GFX_act3
 
 	is_triggered_only = yes
 
@@ -235,7 +235,7 @@ news_event = {		#A Song of Ice and Fire Act 4
 	title = asoiaf.5.t
 	desc = asoiaf.5.d
 	major = yes
-	picture = GFX_report_event_protests3
+	picture = GFX_act4
 
 	is_triggered_only = yes
 
@@ -248,7 +248,7 @@ news_event = {		#A Song of Ice and Fire Act 5
 	title = asoiaf.6.t
 	desc = asoiaf.6.d
 	major = yes
-	picture = GFX_report_event_protests3
+	picture = GFX_act5
 
 	is_triggered_only = yes
 
@@ -261,11 +261,24 @@ news_event = {		#A Song of Ice and Fire Act 6
 	title = asoiaf.7.t
 	desc = asoiaf.7.d
 	major = yes
-	picture = GFX_report_event_protests3
+	picture = GFX_act6
 
 	is_triggered_only = yes
 
 	option = {
 		name = asoiaf.7.a
+	}
+}
+news_event = {		#A Song of Ice and Fire Act 7
+	id = asoiaf.8
+	title = asoiaf.8.t
+	desc = asoiaf.8.d
+	major = yes
+	picture = GFX_act7
+
+	is_triggered_only = yes
+
+	option = {
+		name = asoiaf.8.a
 	}
 }
