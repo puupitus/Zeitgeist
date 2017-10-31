@@ -33,10 +33,7 @@ country_event = {
     MOR = { create_wargoal = { type = puppet_wargoal_focus target = BOH } }
 		MOR = { declare_war_on = { target = BOH type = puppet_wargoal_focus } }
     set_global_flag = ASOIAF
-		random_list = {
-		50 = { MOR = { add_timed_idea = { idea = asoiaf_ei days = 120 } } }
-		50 = { MOR = { add_political_power = 1 } }
-		 }
+
     }
 }
 country_event = {
@@ -56,10 +53,6 @@ country_event = {
     YUG = { create_wargoal = { type = puppet_wargoal_focus target = HUN } }
 		YUG = { declare_war_on = { target = HUN type = puppet_wargoal_focus } }
     set_global_flag = ASOIAF_ACT_2
-		random_list = {
-		50 = { YUG = { add_timed_idea = { idea = asoiaf_ei days = 120 } } }
-		50 = { YUG = { add_political_power = 1 } }
-		 }
     }
 }
 country_event = {
@@ -79,10 +72,6 @@ country_event = {
     BUL = { create_wargoal = { type = puppet_wargoal_focus target = ROM } }
 		BUL = { declare_war_on = { target = ROM type = puppet_wargoal_focus } }
     set_global_flag = ASOIAF_ACT_3
-		random_list = {
-		50 = { BUL = { add_timed_idea = { idea = asoiaf_ei days = 120 } } }
-		50 = { BUL = { add_political_power = 1 } }
-		 }
     }
 }
 country_event = {
@@ -107,10 +96,6 @@ country_event = {
 		KRA = { declare_war_on = { target = BOH type = puppet_wargoal_focus } }
 		KRA = { declare_war_on = { target = MOR type = puppet_wargoal_focus } }
     set_global_flag = ASOIAF_ACT_4
-		random_list = {
-		50 = { KRA = { add_timed_idea = { idea = asoiaf_ei days = 120 } } }
-		50 = { KRA = { add_political_power = 1 } }
-		 }
     }
 }
 country_event = {

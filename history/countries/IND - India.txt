@@ -1,5 +1,6 @@
 capital = 439
-
+send_volunteer_size = 3
+send_volunteer_divisions_required = -0.5  
 oob = "IND_1936"
 set_major = yes
 # Starting tech
