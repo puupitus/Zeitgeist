@@ -1577,7 +1577,7 @@ country = {
     id = FRA_vive_la_france
     icon = GFX_FRA_vive_la_france
     prerequisite = { focus = FRA_rapid_militarization }
-    available = { has_army_manpower = { size > 300000 } }
+    available = { has_army_manpower = { size > 500000 } }
     x = 9
     y = 9
     cost = 10

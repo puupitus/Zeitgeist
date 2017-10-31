@@ -17,11 +17,13 @@ country_event = {		#Hold Elections
 		ai_chance = { factor = 50 }
 		name = rhi.1.a
     set_country_flag = SYNDICATE_VICTORY
+		RHI = { complete_national_focus = RHI_organize_syndicates }
 	}
 	option = {
     ai_chance = { factor = 50 }
 		name = rhi.1.b
     set_country_flag = REPUBLICAN_VICTORY
+		RHI = { complete_national_focus = RHI_democratic_councils }
 	}
 
 }

@@ -130,6 +130,30 @@ units = {
 		start_equipment_factor = 1
 
 	}
+	division = {
+    name = "11. Infantry Division"
+		location = 9427
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division = {
+    name = "12. Infantry Division"
+		location = 9427
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division = {
+    name = "13. Infantry Division"
+		location = 9427
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
 
 	division = {
     name = "1. Artillery Regiment"
@@ -141,6 +165,22 @@ units = {
 	}
 	division = {
     name = "2. Artillery Regiment"
+		location = 9427
+		division_template = "Artillery Regiment"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division = {
+    name = "3. Artillery Regiment"
+		location = 9427
+		division_template = "Artillery Regiment"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division = {
+    name = "4. Artillery Regiment"
 		location = 9427
 		division_template = "Artillery Regiment"
 		start_experience_factor = 0.3

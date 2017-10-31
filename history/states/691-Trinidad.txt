@@ -10,7 +10,7 @@ state={
 
 
 	history={
-		owner = SPA
+		owner = CAR
 		add_core_of = CAR
 		add_core_of = SPA
 		buildings = {

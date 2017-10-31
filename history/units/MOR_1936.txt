@@ -147,6 +147,7 @@ units = {
 		start_equipment_factor = 1
 
 	}
+
 	division = {
     name = "1. Cavalry Regiment"
 		location = 3569

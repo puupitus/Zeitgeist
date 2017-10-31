@@ -24,6 +24,7 @@ country_event = {
 		traits = { zeitgeist_default }
 		  }
 		}
+		FRA = { complete_national_focus = FRA_liberte_egalite_fraternite }
 	}
 }
 country_event = {

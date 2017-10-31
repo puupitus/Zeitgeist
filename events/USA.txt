@@ -11,7 +11,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		date > 1936.3.17
+		date > 1937.3.17
 	}
 
 	option = {
@@ -44,16 +44,19 @@ country_event = {		#Neu-Berlin Riots
 		ai_chance = { factor = 33 }
 		name = usa.99.a
 		set_country_flag = ELIMINATE_OPPOSITION
+		USA = { complete_national_focus = USA_night_of_the_long_knives }
 	}
 	option = {
 	  ai_chance = { factor = 33 }
 		name = usa.99.b
 		set_country_flag = IRISH_PUTSCH
+		USA = { complete_national_focus = USA_irish_pub_putsch }
 	}
 	option = {
 		ai_chance = { factor = 33 }
 		name = usa.99.c
 		set_country_flag = ITALIAN_INTERVENTION
+		USA = { complete_national_focus = USA_italian_intervention }
 	}
 
 }

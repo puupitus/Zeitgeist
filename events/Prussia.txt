@@ -17,11 +17,13 @@ country_event = {		#A New Vizekanzler
 		ai_chance = { factor = 50 }
 		name = prs.1.a
     set_country_flag = ADOLF_HITLER
+		PRS = { complete_national_focus = PRS_vizekanzler_adolf_hitler }
 	}
 	option = {
     ai_chance = { factor = 50 }
 		name = prs.1.b
     set_country_flag = WILHELM_II
+		PRS = { complete_national_focus = PRS_kaiser_wilhelm_ii }
 	}
 
 }

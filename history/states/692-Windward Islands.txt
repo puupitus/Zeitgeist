@@ -5,7 +5,7 @@ state={
 	state_category = small_island
 
 	history={
-		owner = SPA
+		owner = CAR
 		add_core_of = CAR
 		add_core_of = SPA
 		buildings = {

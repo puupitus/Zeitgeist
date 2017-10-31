@@ -115,7 +115,7 @@ ideas = {
     	  picture = generic_infantry_bonus
 
     	  modifier = {
-    		conscription  = 0.05
+    		conscription  = 0.03
     	     }
         }
         USA_vmt = {

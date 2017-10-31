@@ -1,0 +1,53 @@
+##################
+# SPAIN  EVENTS  #
+##################
+
+add_namespace = spa
+add_namespace = SPA_exact_date_trigger
+
+country_event = {
+	id = SPA_exact_date_trigger.1
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		date > 1936.3.15
+	}
+
+	option = {
+		every_country = { news_event = { id = spa.1  } }
+    SPA = { create_wargoal = { type = puppet_wargoal_focus target = COL } }
+    SPA = { create_wargoal = { type = puppet_wargoal_focus target = PRU } }
+    SPA = { create_wargoal = { type = puppet_wargoal_focus target = CHL } }
+    SPA = { create_wargoal = { type = puppet_wargoal_focus target = ARG } }
+    SPA = { declare_war_on = { target = COL type = puppet_wargoal_focus } }
+    SPA = { declare_war_on = { target = PRU type = puppet_wargoal_focus } }
+    SPA = { declare_war_on = { target = CHL type = puppet_wargoal_focus } }
+    SPA = { declare_war_on = { target = ARG type = puppet_wargoal_focus } }
+    set_global_flag = RECONQUISTA
+		COL = { create_faction = "La Resistencia" }
+		COL = { add_to_faction = PRU }
+		COL = { add_to_faction = CHL }
+		COL = { add_to_faction = ARG }
+    SPA = { add_timed_idea = { idea = SPA_rec days = 180 } }
+		SPA = { puppet = CAR }
+		SPA = { add_to_faction = CAR }
+		COL = { puppet = PRU }
+		COL = { puppet = CHL }
+		COL = { puppet = ARG }
+		SPA = { add_ideas = limited_conscription }
+	}
+}
+
+news_event = {		#Reconquista!
+	id = spa.1
+	title = spa.1.t
+	desc = spa.1.d
+	picture = GFX_zeitgeist
+
+	is_triggered_only = yes
+
+	option = {
+		name = spa.1.a
+	}
+}
