@@ -187,6 +187,24 @@ units = {
 		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1  } } }
 		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1  } } }
 		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1  } } }
+		ship = { definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 } } }
+		ship = { definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 } } }
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1  } } }
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1  } } }
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1  } } }
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1  } } }
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1  } } }
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1  } } }
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1  } } }
+		ship = { definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 } } }
+		ship = { definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 } } }
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1  } } }
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1  } } }
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1  } } }
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1  } } }
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1  } } }
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1  } } }
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1  } } }
 	}
 
 }

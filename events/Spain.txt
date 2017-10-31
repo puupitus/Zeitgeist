@@ -20,22 +20,28 @@ country_event = {
     SPA = { create_wargoal = { type = puppet_wargoal_focus target = PRU } }
     SPA = { create_wargoal = { type = puppet_wargoal_focus target = CHL } }
     SPA = { create_wargoal = { type = puppet_wargoal_focus target = ARG } }
+		SPA = { create_wargoal = { type = puppet_wargoal_focus target = CAM } }
+		SPA = { create_wargoal = { type = puppet_wargoal_focus target = CAR } }
     SPA = { declare_war_on = { target = COL type = puppet_wargoal_focus } }
     SPA = { declare_war_on = { target = PRU type = puppet_wargoal_focus } }
     SPA = { declare_war_on = { target = CHL type = puppet_wargoal_focus } }
     SPA = { declare_war_on = { target = ARG type = puppet_wargoal_focus } }
+		SPA = { declare_war_on = { target = CAR type = puppet_wargoal_focus } }
+    SPA = { declare_war_on = { target = CAM type = puppet_wargoal_focus } }
     set_global_flag = RECONQUISTA
 		COL = { create_faction = "La Resistencia" }
 		COL = { add_to_faction = PRU }
-		COL = { add_to_faction = CHL }
+		COL = { add_to_faction = CAR }
 		COL = { add_to_faction = ARG }
-    SPA = { add_timed_idea = { idea = SPA_rec days = 180 } }
-		SPA = { puppet = CAR }
-		SPA = { add_to_faction = CAR }
-		COL = { puppet = PRU }
+		COL = { add_to_faction = CAM }
+		COL = { add_to_faction = CHL }
 		COL = { puppet = CHL }
+		COL = { puppet = CAM }
+		COL = { puppet = PRU }
+		COL = { puppet = CAR }
 		COL = { puppet = ARG }
 		SPA = { add_ideas = limited_conscription }
+		SPA = { add_timed_idea = { idea = SPA_rec days = 90 } }
 	}
 }
 
@@ -49,5 +55,67 @@ news_event = {		#Reconquista!
 
 	option = {
 		name = spa.1.a
+	}
+}
+country_event = {  #Spain capitulation
+	id = spa.2
+	hidden = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+
+
+	option = {
+		every_country = { news_event = { id = spa.4  } }
+		COL = { annex_country = { target = SPA }
+		COL = { release = CAR }
+		COL = { release = CAM }
+		COL = { end_puppet = PRU }
+		COL = { end_puppet = CHL }
+		COL = { end_puppet = ARG }
+		COL = { end_puppet = CAM }
+		COL = { end_puppet = CAR }
+		COL = { dismantle_faction = yes }
+		CHL = { dismantle_faction = yes }
+		CAM = { dismantle_faction = yes }
+		CAR = { dismantle_faction = yes }
+		PRU = { dismantle_faction = yes }
+		ARG = { dismantle_faction = yes }
+		COL = { transfer_state = 493 }
+		493 = { add_core_of = COL }
+		CAM = { transfer_state = 317 }
+		CAM = { transfer_state = 304 }
+		CAM = { transfer_state = 685 }
+		317 = { add_core_of = CAM }
+		304 = { add_core_of = CAM }
+		685 = { add_core_of = CAM }
+		clr_global_flag = RECONQUISTA
+		set_global_flag = RECONQUISTA_FAILED
+		}
+	}
+}
+country_event = {  #Colombia capitulation
+	id = spa.3
+	hidden = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+
+
+	option = {
+		every_country = { news_event = { id = spa.5  } }
+		SPA = { puppet = PRU }
+		SPA = { puppet = CHL }
+		SPA = { puppet = ARG }
+		SPA = { puppet = CAM }
+		SPA = { puppet = CAR }
+		SPA = { puppet = COL }
+		COL = { dismantle_faction = yes }
+		PRU = { dismantle_faction = yes }
+		ARG = { dismantle_faction = yes }
+		CHL = { dismantle_faction = yes }
+		CAM = { dismantle_faction = yes }
+		CAR = { dismantle_faction = yes }
+		clr_global_flag = RECONQUISTA
+		set_global_flag = RECONQUISTA_SUCCESS
+		}
 	}
 }

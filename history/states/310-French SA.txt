@@ -10,11 +10,12 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = CAR
+		owner = SPA
 		add_core_of = CAR
 		add_core_of = COL
 		add_core_of = SSA
 		add_core_of = FRA
+		add_core_of = SPA
 		buildings = {
 			infrastructure = 2
 			12885 = {

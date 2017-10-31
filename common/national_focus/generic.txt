@@ -12,7 +12,7 @@ country = {
 	####################
 	# FOCUSES START HERE
 	####################
-	
+
 	focus = {
 		id = war_games
 		icon = GFX_goal_generic_build_tank
@@ -573,15 +573,6 @@ country = {
 
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 0
-				all_owned_state = {
-					OR = {
-						is_coastal = no
-						dockyard < 1
-					}
-				}
-			}
 		}
 
 		completion_reward = {
@@ -610,15 +601,6 @@ country = {
 
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 0
-				all_owned_state = {
-					OR = {
-						is_coastal = no
-						dockyard < 1
-					}
-				}
-			}
 		}
 
 		completion_reward = {
@@ -647,15 +629,6 @@ country = {
 
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 0
-				all_owned_state = {
-					OR = {
-						is_coastal = no
-						dockyard < 1
-					}
-				}
-			}
 		}
 
 		completion_reward = {
@@ -683,15 +656,6 @@ country = {
 
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 0
-				all_owned_state = {
-					OR = {
-						is_coastal = no
-						dockyard < 1
-					}
-				}
-			}
 		}
 
 		completion_reward = {
@@ -732,15 +696,6 @@ country = {
 
 		ai_will_do = {
 			factor = 3
-			modifier = {
-				factor = 0
-				all_owned_state = {
-					OR = {
-						is_coastal = no
-						dockyard < 1
-					}
-				}
-			}
 		}
 
 		completion_reward = {
@@ -762,15 +717,6 @@ country = {
 
 		ai_will_do = {
 			factor = 3
-			modifier = {
-				factor = 0
-				all_owned_state = {
-					OR = {
-						is_coastal = no
-						dockyard < 1
-					}
-				}
-			}
 		}
 
 		completion_reward = {

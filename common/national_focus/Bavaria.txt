@@ -576,17 +576,8 @@ country = {
 		available_if_capitulated = yes
 
 
-		ai_will_do = {
+    ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 0
-				all_owned_state = {
-					OR = {
-						is_coastal = no
-						dockyard < 1
-					}
-				}
-			}
 		}
 
 		completion_reward = {
@@ -613,17 +604,8 @@ country = {
 		available_if_capitulated = yes
 
 
-		ai_will_do = {
+    ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 0
-				all_owned_state = {
-					OR = {
-						is_coastal = no
-						dockyard < 1
-					}
-				}
-			}
 		}
 
 		completion_reward = {
@@ -650,17 +632,8 @@ country = {
 		available_if_capitulated = yes
 
 
-		ai_will_do = {
+    ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 0
-				all_owned_state = {
-					OR = {
-						is_coastal = no
-						dockyard < 1
-					}
-				}
-			}
 		}
 
 		completion_reward = {
@@ -686,17 +659,8 @@ country = {
 		available_if_capitulated = yes
 
 
-		ai_will_do = {
+    ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 0
-				all_owned_state = {
-					OR = {
-						is_coastal = no
-						dockyard < 1
-					}
-				}
-			}
 		}
 
 		completion_reward = {
@@ -735,17 +699,8 @@ country = {
 		available_if_capitulated = yes
 
 
-		ai_will_do = {
+    ai_will_do = {
 			factor = 3
-			modifier = {
-				factor = 0
-				all_owned_state = {
-					OR = {
-						is_coastal = no
-						dockyard < 1
-					}
-				}
-			}
 		}
 
 		completion_reward = {
@@ -765,17 +720,8 @@ country = {
 		available_if_capitulated = yes
 
 
-		ai_will_do = {
+    ai_will_do = {
 			factor = 3
-			modifier = {
-				factor = 0
-				all_owned_state = {
-					OR = {
-						is_coastal = no
-						dockyard < 1
-					}
-				}
-			}
 		}
 
 		completion_reward = {
