@@ -31,9 +31,12 @@ country_event = {
 		every_country = { news_event = { id = asoiaf.2  } }
     BOH = { create_wargoal = { type = puppet_wargoal_focus target = MOR } }
     MOR = { create_wargoal = { type = puppet_wargoal_focus target = BOH } }
-    BOH = { declare_war_on = { target = MOR type = puppet_wargoal_focus } }
 		MOR = { declare_war_on = { target = BOH type = puppet_wargoal_focus } }
     set_global_flag = ASOIAF
+		random_list = {
+		50 = { MOR = { add_timed_idea = { idea = asoiaf_ei days = 120 } } }
+		50 = { MOR = { add_political_power = 1 } }
+		 }
     }
 }
 country_event = {
@@ -51,9 +54,12 @@ country_event = {
 		every_country = { news_event = { id = asoiaf.3  } }
     HUN = { create_wargoal = { type = puppet_wargoal_focus target = YUG } }
     YUG = { create_wargoal = { type = puppet_wargoal_focus target = HUN } }
-    HUN = { declare_war_on = { target = YUG type = puppet_wargoal_focus } }
 		YUG = { declare_war_on = { target = HUN type = puppet_wargoal_focus } }
     set_global_flag = ASOIAF_ACT_2
+		random_list = {
+		50 = { YUG = { add_timed_idea = { idea = asoiaf_ei days = 120 } } }
+		50 = { YUG = { add_political_power = 1 } }
+		 }
     }
 }
 country_event = {
@@ -71,9 +77,12 @@ country_event = {
 		every_country = { news_event = { id = asoiaf.4  } }
     ROM = { create_wargoal = { type = puppet_wargoal_focus target = BUL } }
     BUL = { create_wargoal = { type = puppet_wargoal_focus target = ROM } }
-    ROM = { declare_war_on = { target = BUL type = puppet_wargoal_focus } }
 		BUL = { declare_war_on = { target = ROM type = puppet_wargoal_focus } }
     set_global_flag = ASOIAF_ACT_3
+		random_list = {
+		50 = { BUL = { add_timed_idea = { idea = asoiaf_ei days = 120 } } }
+		50 = { BUL = { add_political_power = 1 } }
+		 }
     }
 }
 country_event = {
@@ -98,6 +107,10 @@ country_event = {
 		KRA = { declare_war_on = { target = BOH type = puppet_wargoal_focus } }
 		KRA = { declare_war_on = { target = MOR type = puppet_wargoal_focus } }
     set_global_flag = ASOIAF_ACT_4
+		random_list = {
+		50 = { KRA = { add_timed_idea = { idea = asoiaf_ei days = 120 } } }
+		50 = { KRA = { add_political_power = 1 } }
+		 }
     }
 }
 country_event = {

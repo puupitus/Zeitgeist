@@ -667,5 +667,28 @@ modifier = {
 monarchism_drift = 0.05
 	 }
 }
+asoiaf_ei = {
+
+
+allowed = {
+always = no
+}
+
+allowed_civil_war = {
+			 always = yes
+				}
+
+removal_cost = -1
+
+picture = can_send_in_the_zombies
+
+modifier = {
+army_attack_factor = 1
+planning_speed = 0.30
+army_speed_factor = 0.25
+army_org = 30
+army_morale_factor = 0.3
+	 }
+}
 }
 }
