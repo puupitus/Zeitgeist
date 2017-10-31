@@ -3,7 +3,7 @@ USA_amerika_reich = {
 	color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }
 }
-HBC_geschellschaft = {
+HBC_gesellschaft = {
   color = rgb { 172 29 29 }
   color_ui = rgb { 172 29 29 }
 }

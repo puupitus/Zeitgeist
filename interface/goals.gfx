@@ -987,8 +987,8 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/USA_handle_st_patricks_day_marchers.dds"
 	}
 	SpriteType = {
-	name = "GFX_USA_hudsons_bay_geschellschaft"
-	texturefile = "gfx/interface/goals/USA_hudsons_bay_geschellschaft.dds"
+	name = "GFX_USA_hudsons_bay_gesellschaft"
+	texturefile = "gfx/interface/goals/USA_hudsons_bay_gesellschaft.dds"
 	}
 	SpriteType = {
 	name = "GFX_USA_join_new_commonwealth"

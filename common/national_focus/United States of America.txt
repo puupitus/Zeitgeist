@@ -1596,8 +1596,8 @@ focus = {
   }
 }
 focus = {
-  id = USA_hudsons_bay_geschellschaft
-  icon = GFX_USA_hudsons_bay_geschellschaft
+  id = USA_hudsons_bay_gesellschaft
+  icon = GFX_USA_hudsons_bay_gesellschaft
   prerequisite = { focus = USA_plan_nord }
   available = {
   276 = { is_controlled_by = USA }
