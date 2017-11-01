@@ -1150,6 +1150,26 @@ spriteTypes = {
 	name = "GFX_BAV_attack_lombardy_venetia"
 	texturefile = "gfx/interface/goals/BAV_attack_lombardy_venetia.dds"
 	}
+	SpriteType = {
+	name = "GFX_a_dream_of_spring"
+	texturefile = "gfx/interface/goals/a_dream_of_spring.dds"
+	}
+	SpriteType = {
+	name = "GFX_HUN_socialism2"
+	texturefile = "gfx/interface/goals/HUN_socialism2.dds"
+	}
+	SpriteType = {
+	name = "GFX_HUN_republicanism2"
+	texturefile = "gfx/interface/goals/HUN_republicanism2.dds"
+	}
+	SpriteType = {
+	name = "GFX_HUN_monarchism2"
+	texturefile = "gfx/interface/goals/HUN_monarchism2.dds"
+	}
+	SpriteType = {
+	name = "GFX_HUN_third_position2"
+	texturefile = "gfx/interface/goals/HUN_third_position2.dds"
+	}
 
 
 }

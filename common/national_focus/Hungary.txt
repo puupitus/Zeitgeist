@@ -1405,7 +1405,7 @@ focus = {
 
 focus = {
   id = HUN_socialism2
-  icon = GFX_goal_generic_radar
+  icon = GFX_HUN_socialism2
   prerequisite = { focus = HUN_total_reform }
   mutually_exclusive { focus = HUN_republicanism2 focus = HUN_monarchism2 focus = HUN_third_position2 }
   x = 5
@@ -1429,7 +1429,7 @@ focus = {
   }
   focus = {
     id = HUN_republicanism2
-    icon = GFX_goal_generic_radar
+    icon = GFX_HUN_republicanism2
     prerequisite = { focus = HUN_total_reform }
     mutually_exclusive { focus = HUN_socialism2 focus = HUN_monarchism2 focus = HUN_third_position2 }
     x = 7
@@ -1453,7 +1453,7 @@ focus = {
     }
   focus = {
     id = HUN_monarchism2
-    icon = GFX_goal_generic_radar
+    icon = GFX_HUN_monarchism2
     prerequisite = { focus = HUN_total_reform }
     mutually_exclusive { focus = HUN_socialism2 focus = HUN_republicanism2 focus = HUN_third_position2 }
     x = 11
@@ -1477,7 +1477,7 @@ focus = {
     }
   focus = {
     id = HUN_third_position2
-    icon = GFX_goal_generic_radar
+    icon = GFX_HUN_third_position2
     prerequisite = { focus = HUN_total_reform }
     mutually_exclusive { focus = HUN_socialism2 focus = HUN_republicanism2 focus = HUN_monarchism2 }
     x = 13
