@@ -1354,12 +1354,6 @@ focus = {
   completion_reward = {
   add_political_power = 150
   every_country = { news_event = { id = asoiaf.8  } }
-  clr_global_flag = ASOIAF
-  clr_global_flag = ASOIAF_ACT_2
-  clr_global_flag = ASOIAF_ACT_3
-  clr_global_flag = ASOIAF_ACT_4
-  clr_global_flag = ASOIAF_ACT_5
-  clr_global_flag = ASOIAF_ACT_6
   every_country = {
     limit = {
       is_subject_of = YUG
@@ -1511,7 +1505,7 @@ focus = {
     }
     x = 5
     y = 9
-    cost = 10
+    cost = 5
 
     available_if_capitulated = yes
 
@@ -1533,7 +1527,7 @@ focus = {
     }
     x = 7
     y = 9
-    cost = 10
+    cost = 5
 
     available_if_capitulated = yes
 
@@ -1555,7 +1549,7 @@ focus = {
     }
     x = 11
     y = 9
-    cost = 10
+    cost = 5
 
     available_if_capitulated = yes
 
@@ -1577,7 +1571,7 @@ focus = {
     }
     x = 13
     y = 9
-    cost = 10
+    cost = 5
 
     available_if_capitulated = yes
 

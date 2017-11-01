@@ -208,6 +208,27 @@ bookmarks = {
 			ideas = {	}
 			focuses = { }
 		}
+		"ROM"={
+			minor = yes
+			history = "ROM_ZEITGEIST_DESC"
+			ideology = monarchism
+			ideas = {	}
+			focuses = { }
+		}
+		"BUL"={
+			minor = yes
+			history = "BUL_ZEITGEIST_DESC"
+			ideology = monarchism
+			ideas = {	}
+			focuses = { }
+		}
+		"YUG"={
+			minor = yes
+			history = "YUG_ZEITGEIST_DESC"
+			ideology = monarchism
+			ideas = {	}
+			focuses = { }
+		}
 
 
 
