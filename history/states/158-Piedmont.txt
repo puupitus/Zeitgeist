@@ -33,6 +33,7 @@ state={
 		add_core_of = ITA
 		add_core_of = SWI
 		add_core_of = FRA
+		add_core_of = LOM
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 10

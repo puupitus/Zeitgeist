@@ -1722,6 +1722,42 @@ focus = {
     annex_country = { target = CSA }
     annex_country = { target = CAL }
     every_country = { news_event = usa.26 }
+
+    create_corps_commander = {
+    	name = "Mark W. Clark"
+    	picture = "mark_w_clark.dds"
+    	skill = 1
+    }
+
+    create_navy_leader = {
+    	name = "William Halsey Jr."
+    	picture = "william_halsey_jr.dds"
+    	skill = 1
+    }
+
+    create_field_marshal = {
+    	name = "Douglas MacArthur"
+    	picture = "douglas_macarthur.dds"
+    	skill = 2
+    }
+    create_corps_commander = {
+    	name = "Omar Bradley"
+    	picture = "omar_bradley.dds"
+    	skill = 1
+    }
+
+    create_navy_leader = {
+    	name = "Ernest King"
+    	picture = "Ernest King.dds"
+    	skill = 1
+    }
+
+    create_field_marshal = {
+    	name = "George Marshall"
+    	picture = "george_marshall.dds"
+    	skill = 2
+    }
+
   }
 
   ai_will_do = {
@@ -2147,7 +2183,7 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-    ITA = { add_to_faction = USA }
+    BRI = { add_to_faction = USA }
   }
 
   ai_will_do = {

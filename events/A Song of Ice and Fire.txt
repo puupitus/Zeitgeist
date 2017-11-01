@@ -70,7 +70,7 @@ country_event = {
 		every_country = { news_event = { id = asoiaf.4  } }
     ROM = { create_wargoal = { type = puppet_wargoal_focus target = BUL } }
     BUL = { create_wargoal = { type = puppet_wargoal_focus target = ROM } }
-		BUL = { declare_war_on = { target = ROM type = puppet_wargoal_focus } }
+		ROM = { declare_war_on = { target = BUL type = puppet_wargoal_focus } }
     set_global_flag = ASOIAF_ACT_3
     }
 }

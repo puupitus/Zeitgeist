@@ -559,6 +559,20 @@
  LUS_third_position_ADJ:0 "Lusitanian"
  ################################################################################
 
+ LOM_monarchism:0 "Kingdom of Lombardy-Venetia"
+ LOM_republicanism:0 "Republic of Venice"
+ LOM_socialism:0 "Syndicate of Lombardy-Venetia"
+ LOM_third_position:0 "Italian Social Republic"
+ LOM_monarchism_DEF:0 "The Kingdom of Lombardy-Venetia"
+ LOM_republicanism_DEF:0 "The Republic of Lombardy-Venetia"
+ LOM_socialism_DEF:0 "The Syndicate of Lombardy-Venetia"
+ LOM_third_position_DEF:0 "The Italian Social Republic"
+ LOM_monarchism_ADJ:0 "Lombardian"
+ LOM_republicanism_ADJ:0 "Lombardian"
+ LOM_socialism_ADJ:0 "Lombardian"
+ LOM_third_position_ADJ:0 "Italian"
+ ################################################################################
+
  MAN_monarchism:0 "Empire of Great Manchuria"
  MAN_republicanism:0 "Republic of Manchuria"
  MAN_socialism:0 "People's Republic of Manchuria"

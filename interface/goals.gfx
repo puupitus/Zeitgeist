@@ -1146,6 +1146,10 @@ spriteTypes = {
 	name = "GFX_PRS_vizekanzler_adolf_hitler"
 	texturefile = "gfx/interface/goals/PRS_vizekanzler_adolf_hitler.dds"
 	}
+	SpriteType = {
+	name = "GFX_BAV_attack_lombardy_venetia"
+	texturefile = "gfx/interface/goals/BAV_attack_lombardy_venetia.dds"
+	}
 
 
 }

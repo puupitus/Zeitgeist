@@ -27,6 +27,7 @@ state={
 		add_core_of = YUG
 		add_core_of = ITA
 		add_core_of = BYZ
+		add_core_of = LOM
 
 		1939.4.12 = {
 			owner = ITA

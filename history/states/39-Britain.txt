@@ -11,13 +11,14 @@ state={
 	}
 
 	history={
-		owner = ITA
+		owner = LOM
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
 		}
 		add_core_of = ITA
 		add_core_of = SWI
+		add_core_of = LOM
 	}
 
 	provinces={

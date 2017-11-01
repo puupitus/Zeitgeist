@@ -2,7 +2,7 @@ capital = 378
 
 oob = "CAL_1936"
 send_volunteer_size = 3
-send_volunteer_divisions_required = -0.5  
+send_volunteer_divisions_required = -0.5
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -84,4 +84,21 @@ create_country_leader = {
 	traits = { zeitgeist_default
 		#
 	}
+}
+create_corps_commander = {
+	name = "Omar Bradley"
+	picture = "omar_bradley.dds"
+	skill = 1
+}
+
+create_navy_leader = {
+	name = "Ernest King"
+	picture = "Ernest King.dds"
+	skill = 1
+}
+
+create_field_marshal = {
+	name = "George Marshall"
+	picture = "george_marshall.dds"
+	skill = 2
 }

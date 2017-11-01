@@ -1551,7 +1551,7 @@ country = {
     available = {
     NOT = { SWI = { has_government = third_position } }
     }
-    x = 5
+    x = 3
     y = 11
     cost = 10
 
@@ -1578,7 +1578,7 @@ country = {
     available = {
     NOT = { ITA = { has_government = third_position } }
     }
-    x = 7
+    x = 5
     y = 11
     cost = 10
 
@@ -1596,6 +1596,33 @@ country = {
     target = ITA
     }
     declare_war_on = { target = ITA type = puppet_wargoal_focus }
+    }
+  }
+  focus = {
+    id = BAV_attack_lombardy_venetia
+    icon = GFX_BAV_attack_lombardy_venetia
+    prerequisite = { focus = BAV_anarchist_wrath }
+    available = {
+    NOT = { LOM = { has_government = third_position } }
+    }
+    x = 7
+    y = 11
+    cost = 10
+
+    available_if_capitulated = yes
+
+
+    ai_will_do = {
+      factor = 10
+    }
+
+
+    completion_reward = {
+    create_wargoal = {
+    type = puppet_wargoal_focus
+    target = LOM
+    }
+    declare_war_on = { target = LOM type = puppet_wargoal_focus }
     }
   }
   focus = {
@@ -1625,7 +1652,7 @@ country = {
     available = {
     NOT = { BNL = { has_government = third_position } }
     }
-    x = 13
+    x = 15
     y = 11
     cost = 10
 
@@ -1652,7 +1679,7 @@ country = {
     available = {
     NOT = { FRA = { has_government = third_position } }
     }
-    x = 11
+    x = 13
     y = 11
     cost = 10
 
@@ -1670,6 +1697,33 @@ country = {
     target = FRA
     }
     declare_war_on = { target = FRA type = puppet_wargoal_focus }
+    }
+  }
+  focus = {
+    id = BAV_attack_poland
+    icon = GFX_RHI_attack_poland
+    prerequisite = { focus = BAV_anarchist_wrath }
+    available = {
+    NOT = { POL = { has_government = third_position } }
+    }
+    x = 11
+    y = 11
+    cost = 10
+
+    available_if_capitulated = yes
+
+
+    ai_will_do = {
+      factor = 10
+    }
+
+
+    completion_reward = {
+    create_wargoal = {
+    type = puppet_wargoal_focus
+    target = POL
+    }
+    declare_war_on = { target = POL type = puppet_wargoal_focus }
     }
   }
 }

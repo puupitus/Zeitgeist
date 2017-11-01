@@ -5,10 +5,11 @@ state={
 	state_category = city
 
 	history={
-		owner = ITA
+		owner = LOM
 		add_core_of = ITA
 		add_core_of = SWI
 		add_core_of = YUG
+		add_core_of = LOM
 		buildings = {
 			infrastructure = 2
 			11735 = {
