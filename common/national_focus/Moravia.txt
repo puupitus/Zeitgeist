@@ -1624,6 +1624,47 @@ focus = {
 
     completion_reward = {
     add_ideas = asoiaf_ua
+    create_corps_commander = {
+    	name = "Draža Mihailović"
+    	picture = "draza_mihailovic.dds"
+    	skill = 1
+    }
+    create_navy_leader = {
+    	name = "Dragutin Prica"
+    	picture = "dragutin_prica.dds"
+    	skill = 1
+    }
+    create_field_marshal = {
+    	name = "Michał Rola-Żymierski"
+    	picture = "michal_rola_zymierski.dds"
+    	skill = 2
+    }
+    create_corps_commander = {
+    	name = "Ludvík Svoboda"
+    	picture = "ludvik_svoboda.dds"
+    	skill = 1
+    }
+    }
+    create_corps_commander = {
+    	name = "Konstantin Lukash"
+    	picture = "konstantin_lukash.dds"
+    	skill = 1
+    }
+    create_corps_commander = {
+    	name = "Béla Miklós"
+    	picture = "bela_miklos.dds"
+    	skill = 1
+    }
+    create_field_marshal = {
+    	name = "Ion Antonescu"
+    	picture = "ion_antonescu.dds"
+    	skill = 2
+    }
+    create_navy_leader = {
+    	name = "Horia Macellariu"
+    	picture = "horia_macellariu.dds"
+    	skill = 1
+    }
       }
   }
   focus = {
