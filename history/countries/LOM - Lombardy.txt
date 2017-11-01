@@ -54,8 +54,8 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Francesco Saverio"
-	picture = "francesco_saverio.dds"
+	name = "Francesco Saverio Nitti"
+	picture = "francesco_saverio_nitti.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default
 		#
