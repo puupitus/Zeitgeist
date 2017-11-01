@@ -690,5 +690,24 @@ army_org = 30
 army_morale_factor = 0.3
 	 }
 }
+asoiaf_ua = {
+
+
+allowed = {
+always = no
+}
+
+allowed_civil_war = {
+always = yes
+}
+
+removal_cost = -1
+
+picture = tfv_can_conscription_crisis
+
+modifier = {
+conscription = 0.07
+	 }
+}
 }
 }

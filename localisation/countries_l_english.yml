@@ -419,13 +419,13 @@
  HBC_third_position_ADJ:0 "Canadian"
  ################################################################################
 
- HUN_monarchism:0 "Kingdom of Hungary-Austria"
+ HUN_monarchism:0 "Principality of Hungary-Austria"
  HUN_republicanism:0 "Republic of Hungary-Austria"
- HUN_socialism:0 "SRHA"
+ HUN_socialism:0 "Syndicate Hungary-Austria"
  HUN_third_position:0 "Arrow Cross Hungary-Austria"
- HUN_monarchism_DEF:0 "The Kingdom of Hungary-Austria"
+ HUN_monarchism_DEF:0 "The Principality of Hungary-Austria"
  HUN_republicanism_DEF:0 "The Republic of Hungary-Austria"
- HUN_socialism_DEF:0 "The SRHA"
+ HUN_socialism_DEF:0 "The Syndicate Hungary-Austria"
  HUN_third_position_DEF:0 "The Arrow Cross Hungary-Austria"
  HUN_monarchism_ADJ:0 "Hungarian"
  HUN_republicanism_ADJ:0 "Hungarian"

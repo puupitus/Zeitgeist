@@ -285,3 +285,33 @@ news_event = {		#A Song of Ice and Fire Act 7
 		name = asoiaf.8.a
 	}
 }
+country_event = {		#Total Reform
+	id = asoiaf.9
+	title = asoiaf.9.t
+	desc = asoiaf.9.d
+	picture = GFX_zeitgeist2
+
+	is_triggered_only = yes
+
+	option = {
+		ai_chance = { factor = 25 }
+		name = asoiaf.9.a
+    set_country_flag = SOCIALISM
+	}
+	option = {
+    ai_chance = { factor = 25 }
+		name = asoiaf.9.b
+    set_country_flag = REPUBLICANISM
+	}
+	option = {
+    ai_chance = { factor = 25 }
+		name = asoiaf.9.c
+    set_country_flag = MONARCHISM
+	}
+	option = {
+    ai_chance = { factor = 25 }
+		name = asoiaf.9.d
+    set_country_flag = THIRD_POSITION
+	}
+
+}
