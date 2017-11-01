@@ -1649,7 +1649,6 @@ focus = {
     	picture = "jan_golian.dds"
     	skill = 1
     }
-    }
     create_corps_commander = {
     	name = "Konstantin Lukash"
     	picture = "konstantin_lukash.dds"
@@ -1660,7 +1659,7 @@ focus = {
     	picture = "bela_miklos.dds"
     	skill = 1
     }
-    
+
       }
   }
   focus = {

@@ -1644,7 +1644,6 @@ focus = {
     	picture = "ludvik_svoboda.dds"
     	skill = 1
     }
-    }
     create_corps_commander = {
     	name = "Konstantin Lukash"
     	picture = "konstantin_lukash.dds"
