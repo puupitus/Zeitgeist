@@ -29,3 +29,7 @@
  PRS_kaiserreich_monarchism:0 "Kaiserreich"
  PRS_kaiserreich_monarchism_DEF:0 "The Kaiserreich"
  PRS_kaiserreich_monarchism_ADJ:0 "German"
+ HUN_monarchism2:0 "Hungaro-Austrian Empire"
+ HUN_republicanism2:0 "Hungaro-Austrian Confederation"
+ HUN_socialism2:0 "Syndicate Hungary-Austria"
+ HUN_third_position2:0 "Arrow Cross Hungary-Austria"

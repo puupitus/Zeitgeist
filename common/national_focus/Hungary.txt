@@ -1424,6 +1424,7 @@ focus = {
   add_ideas = soc_drift
   add_popularity = { ideology = socialism popularity = 0.30 }
   set_politics = { ruling_party = socialism elections_allowed = no }
+  set_cosmetic_tag = HUN_socialism2
     }
   }
   focus = {
@@ -1447,6 +1448,7 @@ focus = {
     add_ideas = rep_drift
     add_popularity = { ideology = republicanism popularity = 0.30 }
     set_politics = { ruling_party = republicanism elections_allowed = no }
+    set_cosmetic_tag = HUN_republicanism2
       }
     }
   focus = {
@@ -1470,6 +1472,7 @@ focus = {
     add_ideas = mon_drift
     add_popularity = { ideology = monarchism popularity = 0.30 }
     set_politics = { ruling_party = monarchism elections_allowed = no }
+    set_cosmetic_tag = HUN_monarchism2
       }
     }
   focus = {
@@ -1493,6 +1496,7 @@ focus = {
     add_ideas = tp_drift
     add_popularity = { ideology = third_position popularity = 0.30 }
     set_politics = { ruling_party = third_position elections_allowed = no }
+    set_cosmetic_tag = HUN_third_position2
       }
   }
   focus = {

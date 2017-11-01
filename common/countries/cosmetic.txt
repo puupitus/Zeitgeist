@@ -39,3 +39,19 @@ PRS_kaiserreich = {
 	color = rgb { 128 128 128 }
 	color_ui = rgb { 128 128 128 }
 }
+HUN_monarchism2 = {
+	color = rgb { 249 126 98 }
+	color_ui = rgb { 255 164 127 }
+}
+HUN_republicanism2 = {
+	color = rgb { 249 126 98 }
+	color_ui = rgb { 255 164 127 }
+}
+HUN_socialism2 = {
+	color = rgb { 249 126 98 }
+	color_ui = rgb { 255 164 127 }
+}
+HUN_third_position2 = {
+	color = rgb { 249 126 98 }
+	color_ui = rgb { 255 164 127 }
+}
