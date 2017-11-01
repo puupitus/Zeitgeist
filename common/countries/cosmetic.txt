@@ -55,3 +55,99 @@ HUN_third_position2 = {
 	color = rgb { 249 126 98 }
 	color_ui = rgb { 255 164 127 }
 }
+BOH_monarchism2 = {
+color = rgb { 243 79 8 }
+color_ui = rgb { 243 79 8 }
+}
+BOH_republicanism2 = {
+color = rgb { 243 79 8 }
+color_ui = rgb { 243 79 8 }
+}
+BOH_socialism2 = {
+color = rgb { 243 79 8 }
+color_ui = rgb { 243 79 8 }
+}
+BOH_third_position2 = {
+color = rgb { 243 79 8 }
+color_ui = rgb { 243 79 8 }
+}
+MOR_monarchism2 = {
+color = rgb { 50 135 175 }
+color_ui = rgb { 99 204 254 }
+}
+MOR_republicanism2 = {
+color = rgb { 50 135 175 }
+color_ui = rgb { 99 204 254 }
+}
+MOR_socialism2 = {
+color = rgb { 50 135 175 }
+color_ui = rgb { 99 204 254 }
+}
+MOR_third_position2 = {
+color = rgb { 50 135 175 }
+color_ui = rgb { 99 204 254 }
+}
+KRA_monarchism2 = {
+color = rgb { 240 240 50 }
+color_ui = rgb { 240 240 50 }
+}
+KRA_republicanism2 = {
+color = rgb { 240 240 50 }
+color_ui = rgb { 240 240 50 }
+}
+KRA_socialism2 = {
+color = rgb { 240 240 50 }
+color_ui = rgb { 240 240 50 }
+}
+KRA_third_position2 = {
+color = rgb { 240 240 50 }
+color_ui = rgb { 240 240 50 }
+}
+ROM_monarchism2 = {
+color = rgb { 160  160  160 }
+color_ui = rgb { 160  160  160 }
+}
+ROM_republicanism2 = {
+color = rgb { 160  160  160 }
+color_ui = rgb { 160  160  160 }
+}
+ROM_socialism2 = {
+color = rgb { 160  160  160 }
+color_ui = rgb { 160  160  160 }
+}
+ROM_third_position2 = {
+color = rgb { 160  160  160 }
+color_ui = rgb { 160  160  160 }
+}
+BUL_monarchism2 = {
+color = rgb { 51 155 0 }
+color_ui = rgb { 210 147 217 }
+}
+BUL_republicanism2 = {
+color = rgb { 51 155 0 }
+color_ui = rgb { 210 147 217 }
+}
+BUL_socialism2 = {
+color = rgb { 51 155 0 }
+color_ui = rgb { 210 147 217 }
+}
+BUL_third_position2 = {
+color = rgb { 51 155 0 }
+color_ui = rgb { 210 147 217 }
+}
+YUG_monarchism2 = {
+color = rgb { 72 73 126 }
+color_ui = rgb { 94 95 164 }
+}
+YUG_republicanism2 = {
+color = rgb { 72 73 126 }
+color_ui = rgb { 94 95 164 }
+}
+YUG_socialism2 = {
+color = rgb { 72 73 126 }
+color_ui = rgb { 94 95 164 }
+}
+YUG_third_position2 = {
+color = rgb { 72 73 126 }
+color_ui = rgb { 94 95 164 }
+}

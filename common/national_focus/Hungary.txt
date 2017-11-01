@@ -1408,6 +1408,7 @@ focus = {
   icon = GFX_HUN_socialism2
   prerequisite = { focus = HUN_total_reform }
   mutually_exclusive { focus = HUN_republicanism2 focus = HUN_monarchism2 focus = HUN_third_position2 }
+  available = { has_country_flag = SOCIALISM }
   x = 5
   y = 8
   cost = 0
@@ -1432,6 +1433,7 @@ focus = {
     icon = GFX_HUN_republicanism2
     prerequisite = { focus = HUN_total_reform }
     mutually_exclusive { focus = HUN_socialism2 focus = HUN_monarchism2 focus = HUN_third_position2 }
+    available = { has_country_flag = REPUBLICANISM }
     x = 7
     y = 8
     cost = 0
@@ -1456,6 +1458,7 @@ focus = {
     icon = GFX_HUN_monarchism2
     prerequisite = { focus = HUN_total_reform }
     mutually_exclusive { focus = HUN_socialism2 focus = HUN_republicanism2 focus = HUN_third_position2 }
+    available = { has_country_flag = MONARCHISM }
     x = 11
     y = 8
     cost = 0
@@ -1480,6 +1483,7 @@ focus = {
     icon = GFX_HUN_third_position2
     prerequisite = { focus = HUN_total_reform }
     mutually_exclusive { focus = HUN_socialism2 focus = HUN_republicanism2 focus = HUN_monarchism2 }
+    available = { has_country_flag = THIRD_POSITION }
     x = 13
     y = 8
     cost = 0

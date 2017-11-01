@@ -1170,6 +1170,103 @@ spriteTypes = {
 	name = "GFX_HUN_third_position2"
 	texturefile = "gfx/interface/goals/HUN_third_position2.dds"
 	}
+	SpriteType = {
+	name = "GFX_BOH_socialism2"
+	texturefile = "gfx/interface/goals/BOH_socialism2.dds"
+	}
+	SpriteType = {
+	name = "GFX_BOH_republicanism2"
+	texturefile = "gfx/interface/goals/BOH_republicanism2.dds"
+	}
+	SpriteType = {
+	name = "GFX_BOH_monarchism2"
+	texturefile = "gfx/interface/goals/BOH_monarchism2.dds"
+	}
+	SpriteType = {
+	name = "GFX_BOH_third_position2"
+	texturefile = "gfx/interface/goals/BOH_third_position2.dds"
+	}
+	SpriteType = {
+	name = "GFX_MOR_socialism2"
+	texturefile = "gfx/interface/goals/MOR_socialism2.dds"
+	}
+	SpriteType = {
+	name = "GFX_MOR_republicanism2"
+	texturefile = "gfx/interface/goals/MOR_republicanism2.dds"
+	}
+	SpriteType = {
+	name = "GFX_MOR_monarchism2"
+	texturefile = "gfx/interface/goals/MOR_monarchism2.dds"
+	}
+	SpriteType = {
+	name = "GFX_MOR_third_position2"
+	texturefile = "gfx/interface/goals/MOR_third_position2.dds"
+	}
+	SpriteType = {
+	name = "GFX_KRA_socialism2"
+	texturefile = "gfx/interface/goals/KRA_socialism2.dds"
+	}
+	SpriteType = {
+	name = "GFX_KRA_republicanism2"
+	texturefile = "gfx/interface/goals/KRA_republicanism2.dds"
+	}
+	SpriteType = {
+	name = "GFX_KRA_monarchism2"
+	texturefile = "gfx/interface/goals/KRA_monarchism2.dds"
+	}
+	SpriteType = {
+	name = "GFX_KRA_third_position2"
+	texturefile = "gfx/interface/goals/KRA_third_position2.dds"
+	}
+	SpriteType = {
+	name = "GFX_ROM_socialism2"
+	texturefile = "gfx/interface/goals/ROM_socialism2.dds"
+	}
+	SpriteType = {
+	name = "GFX_ROM_republicanism2"
+	texturefile = "gfx/interface/goals/ROM_republicanism2.dds"
+	}
+	SpriteType = {
+	name = "GFX_ROM_monarchism2"
+	texturefile = "gfx/interface/goals/ROM_monarchism2.dds"
+	}
+	SpriteType = {
+	name = "GFX_ROM_third_position2"
+	texturefile = "gfx/interface/goals/ROM_third_position2.dds"
+	}
+	SpriteType = {
+	name = "GFX_BUL_socialism2"
+	texturefile = "gfx/interface/goals/BUL_socialism2.dds"
+	}
+	SpriteType = {
+	name = "GFX_BUL_republicanism2"
+	texturefile = "gfx/interface/goals/BUL_republicanism2.dds"
+	}
+	SpriteType = {
+	name = "GFX_BUL_monarchism2"
+	texturefile = "gfx/interface/goals/BUL_monarchism2.dds"
+	}
+	SpriteType = {
+	name = "GFX_BUL_third_position2"
+	texturefile = "gfx/interface/goals/BUL_third_position2.dds"
+	}
+	SpriteType = {
+	name = "GFX_YUG_socialism2"
+	texturefile = "gfx/interface/goals/YUG_socialism2.dds"
+	}
+	SpriteType = {
+	name = "GFX_YUG_republicanism2"
+	texturefile = "gfx/interface/goals/YUG_republicanism2.dds"
+	}
+	SpriteType = {
+	name = "GFX_YUG_monarchism2"
+	texturefile = "gfx/interface/goals/YUG_monarchism2.dds"
+	}
+	SpriteType = {
+	name = "GFX_YUG_third_position2"
+	texturefile = "gfx/interface/goals/YUG_third_position2.dds"
+	}
+
 
 
 }
