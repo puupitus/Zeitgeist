@@ -37,6 +37,8 @@ country_event = {
     BYZ = { declare_war_on = { target = ITA type = take_state_focus } }
     LOM = { give_military_access = BYZ }
     BYZ = { give_military_access = LOM }
+		LOM = { create_faction = "Venice-Constantinople Pact" }
+		LOM = { add_to_faction = BYZ }
     set_global_flag = ITALIAN_WAR
     }
 }
@@ -65,7 +67,7 @@ news_event = {		#New Risorgimento!
 		name = iwa.2.a
 	}
 }
-country_event = {  #Venice Capitulation
+country_event = {  #Italy Capitulation
 	id = iwa.3
 	hidden = yes
 	fire_only_once = yes
@@ -84,10 +86,12 @@ country_event = {  #Venice Capitulation
 		BYZ = { set_cosmetic_tag = BYZ_emp }
 		clr_global_flag = ITALIAN_WAR
 		set_global_flag = RISORGIMENTO_SUCCESS
+		LOM = { dismantle_faction = yes }
+		BYZ = { dismantle_faction = yes }
 		}
 	}
 }
-country_event = {  #Italy Capitulation
+country_event = {  #Venice Capitulation
 	id = iwa.4
 	hidden = yes
 	fire_only_once = yes
