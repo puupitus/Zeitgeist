@@ -1266,6 +1266,14 @@ spriteTypes = {
 	name = "GFX_YUG_third_position2"
 	texturefile = "gfx/interface/goals/YUG_third_position2.dds"
 	}
+	SpriteType = {
+	name = "GFX_USA_join_mare_nostrum"
+	texturefile = "gfx/interface/goals/USA_join_mare_nostrum.dds"
+	}
+	SpriteType = {
+	name = "GFX_USA_join_thule_society"
+	texturefile = "gfx/interface/goals/USA_join_thule_society.dds"
+	}
 
 
 

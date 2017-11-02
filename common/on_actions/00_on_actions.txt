@@ -21,24 +21,6 @@ on_actions = {
             }
             country_event = { id = spa.3 days = 7 }
           }
-          if = {
-            limit = {
-              ROOT = {
-              original_tag = ITA
-              has_global_flag = ITALIAN_WAR
-              }
-            }
-            country_event = { id = iwa.3 days = 7 }
-          }
-          if = {
-            limit = {
-              ROOT = {
-              original_tag = LOM
-              has_global_flag = ITALIAN_WAR
-              }
-            }
-            country_event = { id = iwa.4 days = 7 }
-          }
         }
       }
     }

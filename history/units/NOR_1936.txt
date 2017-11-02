@@ -130,6 +130,63 @@ units = {
 		start_equipment_factor = 1
 
 	}
+	division = {
+    name = "11. Infantry Division"
+		location = 6115
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division = {
+    name = "12. Infantry Division"
+		location = 6115
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "13. Infantry Division"
+		location = 6115
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "14. Infantry Division"
+		location = 6115
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "15. Infantry Division"
+		location = 6115
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "16. Infantry Division"
+		location = 6115
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "17. Infantry Division"
+		location = 6115
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+
 
 	division = {
     name = "1. Artillery Regiment"
@@ -147,6 +204,48 @@ units = {
 		start_equipment_factor = 1
 
 	}
+	division = {
+		name = "3. Artillery Regiment"
+		location = 6115
+		division_template = "Artillery Regiment"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "4. Artillery Regiment"
+		location = 6115
+		division_template = "Artillery Regiment"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "5. Artillery Regiment"
+		location = 6115
+		division_template = "Artillery Regiment"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "6. Artillery Regiment"
+		location = 6115
+		division_template = "Artillery Regiment"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "7. Artillery Regiment"
+		location = 6115
+		division_template = "Artillery Regiment"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+
+
 	division = {
     name = "1. Cavalry Regiment"
 		location = 6115
@@ -171,6 +270,39 @@ units = {
 		start_equipment_factor = 1
 
 	}
+	division = {
+		name = "4. Cavalry Regiment"
+		location = 6115
+		division_template = "Cavalry Regiment"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "5. Cavalry Regiment"
+		location = 6115
+		division_template = "Cavalry Regiment"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "6. Cavalry Regiment"
+		location = 6115
+		division_template = "Cavalry Regiment"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "7. Cavalry Regiment"
+		location = 6115
+		division_template = "Cavalry Regiment"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+
 
 
 	##### NAVAL UNITS #####
@@ -178,15 +310,43 @@ units = {
 		name = "Main Fleet"
 		base = 6115
 		location =  6115
+		ship = { definition = carrier equipment = { carrier_1 = { amount = 1 } }
+			air_wings = {
+				cv_fighter_equipment_1 =  { amount = 10 }
+				cv_CAS_equipment_1 =  { amount = 25 }
+				cv_nav_bomber_equipment_1 =  { amount = 10 }
+				}
+			}
+		ship = { definition = battleship equipment = { battleship_1 = { amount = 1  } } }
 		ship = { definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 } } }
 		ship = { definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 } } }
-		ship = { definition = submarine equipment = { submarine_1 = { amount = 1  } } }
-		ship = { definition = submarine equipment = { submarine_1 = { amount = 1  } } }
-		ship = { definition = submarine equipment = { submarine_1 = { amount = 1  } } }
-		ship = { definition = submarine equipment = { submarine_1 = { amount = 1  } } }
+		ship = { definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 } } }
+		ship = { definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 } } }
+		ship = { definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 } } }
 		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1  } } }
 		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1  } } }
 		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1  } } }
-	}
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1  } } }
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1  } } }
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1  } } }
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1  } } }
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1  } } }
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1  } } }
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1  } } }
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1  } } }
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1  } } }
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1  } } }
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1  } } }
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1  } } }
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1  } } }
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1  } } }
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1  } } }
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1  } } }
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1  } } }
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1  } } }
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1  } } }
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1  } } }
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1  } } }
 
+	}
 }

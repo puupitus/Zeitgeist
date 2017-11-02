@@ -1568,8 +1568,8 @@ focus = {
   }
 }
 focus = {
-  id = USA_join_zeitgeist_pact
-  icon = GFX_USA_join_zeitgeist_pact
+  id = USA_join_thule_society
+  icon = GFX_USA_join_thule_society
   prerequisite = { focus = USA_lebensraum }
   available = { USA = { is_subject = no }
   }
@@ -1580,7 +1580,7 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-    LUS = { add_to_faction = USA }
+    NOR = { add_to_faction = USA }
   }
 
   ai_will_do = {
@@ -1590,7 +1590,7 @@ focus = {
 focus = {
   id = USA_auslandische_waffen_ss
   icon = GFX_USA_auslandische_waffen_ss
-  prerequisite = { focus = USA_join_zeitgeist_pact }
+  prerequisite = { focus = USA_join_thule_society }
   x = 4
   y = 13
   cost = 10

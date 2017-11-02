@@ -2,6 +2,7 @@ capital = 2
 
 oob = "ITA_1936"
 set_major = yes
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

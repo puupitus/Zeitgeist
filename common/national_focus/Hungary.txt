@@ -1457,7 +1457,7 @@ focus = {
     mutually_exclusive { focus = HUN_socialism2 focus = HUN_republicanism2 focus = HUN_third_position2 }
     available = { has_country_flag = MONARCHISM }
     available = { is_subject = no }
-    x = 11
+    x = 13
     y = 8
     cost = 0
 
@@ -1483,7 +1483,7 @@ focus = {
     mutually_exclusive { focus = HUN_socialism2 focus = HUN_republicanism2 focus = HUN_monarchism2 }
     available = { has_country_flag = THIRD_POSITION }
     available = { is_subject = no }
-    x = 13
+    x = 11
     y = 8
     cost = 0
 
@@ -1555,6 +1555,53 @@ focus = {
     available = { has_army_manpower = { size > 700000 }
     }
     available = { is_subject = no }
+    x = 13
+    y = 9
+    cost = 5
+
+    available_if_capitulated = yes
+
+
+    ai_will_do = {
+      factor = 20
+    }
+
+
+    completion_reward = {
+    BRI = { add_to_faction = HUN }
+      }
+  }
+  focus = {
+    id = HUN_join_mare_nostrum
+    icon = GFX_USA_join_mare_nostrum
+    prerequisite = { focus = HUN_monarchism2 }
+    available = { has_army_manpower = { size > 700000 }
+    ITA = {is_faction_leader = yes }
+    }
+    available = { is_subject = no }
+    x = 15
+    y = 9
+    cost = 5
+
+    available_if_capitulated = yes
+
+
+    ai_will_do = {
+      factor = 100
+    }
+
+
+    completion_reward = {
+    ITA = { add_to_faction = HUN }
+      }
+  }
+  focus = {
+    id = HUN_join_thule_society
+    icon = GFX_USA_join_thule_society
+    prerequisite = { focus = HUN_third_position2 }
+    available = { has_army_manpower = { size > 700000 }
+    }
+    available = { is_subject = no }
     x = 11
     y = 9
     cost = 5
@@ -1568,30 +1615,7 @@ focus = {
 
 
     completion_reward = {
-    BRI = { add_to_faction = HUN }
-      }
-  }
-  focus = {
-    id = HUN_join_zeitgeist_pact
-    icon = GFX_USA_join_zeitgeist_pact
-    prerequisite = { focus = HUN_third_position2 }
-    available = { has_army_manpower = { size > 700000 }
-    }
-    available = { is_subject = no }
-    x = 13
-    y = 9
-    cost = 5
-
-    available_if_capitulated = yes
-
-
-    ai_will_do = {
-      factor = 100
-    }
-
-
-    completion_reward = {
-    LUS = { add_to_faction = HUN }
+    NOR = { add_to_faction = HUN }
       }
   }
   focus = {

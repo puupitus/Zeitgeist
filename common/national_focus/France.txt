@@ -1523,7 +1523,7 @@ country = {
     id = FRA_vive_la_france
     icon = GFX_FRA_vive_la_france
     prerequisite = { focus = FRA_rapid_militarization }
-    available = { has_army_manpower = { size > 500000 } }
+    available = { date > 1939.6.4 }
     x = 9
     y = 9
     cost = 10
@@ -1544,7 +1544,6 @@ country = {
     id = FRA_monarchy_is_dead
     icon = GFX_goal_tfv_sever_ties_with_uk
     prerequisite = { focus = FRA_vive_la_france }
-    mutually_exclusive = { focus = FRA_evil_socialism focus = FRA_crush_extremists}
     available = { FRA = { is_subject = no } }
     x = 7
     y = 10
@@ -1626,7 +1625,6 @@ country = {
     id = FRA_evil_socialism
     icon = GFX_goal_generic_war_with_comintern
     prerequisite = { focus = FRA_vive_la_france }
-    mutually_exclusive = { focus = FRA_monarchy_is_dead focus = FRA_crush_extremists}
     available = { FRA = { is_subject = no } }
     x = 9
     y = 10
@@ -1678,7 +1676,6 @@ country = {
     id = FRA_crush_extremists
     icon = GFX_FRA_crush_extremists
     prerequisite = { focus = FRA_vive_la_france }
-    mutually_exclusive = { focus = FRA_monarchy_is_dead focus = FRA_evil_socialism}
     available = { FRA = { is_subject = no } }
     x = 11
     y = 10

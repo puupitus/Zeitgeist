@@ -1457,7 +1457,7 @@ focus = {
     mutually_exclusive { focus = YUG_socialism2 focus = YUG_republicanism2 focus = YUG_third_position2 }
     available = { has_country_flag = MONARCHISM }
     available = { is_subject = no }
-    x = 11
+    x = 13
     y = 8
     cost = 0
 
@@ -1483,7 +1483,7 @@ focus = {
     mutually_exclusive { focus = YUG_socialism2 focus = YUG_republicanism2 focus = YUG_monarchism2 }
     available = { has_country_flag = THIRD_POSITION }
     available = { is_subject = no }
-    x = 13
+    x = 11
     y = 8
     cost = 0
 
@@ -1549,13 +1549,14 @@ focus = {
       }
   }
   focus = {
-    id = YUG_join_new_commonwealth
-    icon = GFX_USA_join_new_commonwealth
+    id = YUG_join_mare_nostrum
+    icon = GFX_USA_join_mare_nostrum
     prerequisite = { focus = YUG_monarchism2 }
     available = { has_army_manpower = { size > 700000 }
+    ITA = {is_faction_leader = yes }
     }
     available = { is_subject = no }
-    x = 11
+    x = 15
     y = 9
     cost = 5
 
@@ -1564,6 +1565,29 @@ focus = {
 
     ai_will_do = {
       factor = 100
+    }
+
+
+    completion_reward = {
+    ITA = { add_to_faction = YUG }
+      }
+  }
+  focus = {
+    id = YUG_join_new_commonwealth
+    icon = GFX_USA_join_new_commonwealth
+    prerequisite = { focus = YUG_monarchism2 }
+    available = { has_army_manpower = { size > 700000 }
+    }
+    available = { is_subject = no }
+    x = 13
+    y = 9
+    cost = 5
+
+    available_if_capitulated = yes
+
+
+    ai_will_do = {
+      factor = 20
     }
 
 
@@ -1578,7 +1602,7 @@ focus = {
     available = { has_army_manpower = { size > 700000 }
     }
     available = { is_subject = no }
-    x = 13
+    x = 11
     y = 9
     cost = 5
 

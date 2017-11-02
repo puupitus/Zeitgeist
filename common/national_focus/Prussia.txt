@@ -1571,8 +1571,8 @@ country = {
       }
   }
   focus = {
-    id = PRS_join_zeitgeist_pact
-    icon = GFX_USA_join_zeitgeist_pact
+    id = PRS_join_thule_society
+    icon = GFX_USA_join_thule_society
     prerequisite = { focus = PRS_sturmabteilung }
     available = { is_subject = no }
     x = 1
@@ -1588,7 +1588,7 @@ country = {
 
 
     completion_reward = {
-    LUS = { add_to_faction = PRS }
+    NOR = { add_to_faction = PRS }
       }
   }
   focus = {

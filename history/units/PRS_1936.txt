@@ -130,6 +130,14 @@ units = {
 		start_equipment_factor = 1
 
 	}
+	division = {
+    name = "11. Infantry Division"
+		location = 6332
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
 
 	division = {
     name = "1. Artillery Regiment"

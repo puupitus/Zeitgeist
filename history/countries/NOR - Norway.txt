@@ -1,6 +1,9 @@
 capital = 110
 
 oob = "NOR_1936"
+set_major = yes
+create_faction = "Thule Society"
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

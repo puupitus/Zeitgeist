@@ -5,10 +5,9 @@ set_major = yes
 create_faction = "New Commonwealth"
 add_to_faction = RUS
 add_to_faction = IRA
-add_to_faction = HBC
-add_to_faction = ABY
 add_to_faction = DEN
 add_to_faction = GUK
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
