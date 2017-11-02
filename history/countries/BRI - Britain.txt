@@ -8,6 +8,12 @@ add_to_faction = IRA
 add_to_faction = DEN
 add_to_faction = GUK
 
+puppet = HBC
+HBC = {
+	set_politics = {
+		ruling_party = monarchism
+			}
+		}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

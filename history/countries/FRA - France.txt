@@ -3,10 +3,48 @@ capital = 16
 oob = "FRA_1936"
 set_major = yes
 
-add_to_faction = AST
-
-
-
+puppet = FAF
+FAF = {
+	set_politics = {
+		ruling_party = republicanism
+			}
+		}
+puppet = BAL
+BAL = {
+	set_politics = {
+		ruling_party = republicanism
+			}
+		}
+puppet = BLR
+BLR = {
+	set_politics = {
+		ruling_party = republicanism
+			}
+		}
+puppet = POL
+POL = {
+	set_politics = {
+		ruling_party = republicanism
+			}
+		}
+puppet = IRE
+IRE = {
+	set_politics = {
+		ruling_party = republicanism
+			}
+		}
+puppet = SIP
+SIP = {
+	set_politics = {
+		ruling_party = republicanism
+			}
+		}
+puppet = DAI
+DAI = {
+	set_politics = {
+		ruling_party = republicanism
+			}
+		}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

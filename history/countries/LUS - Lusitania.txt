@@ -4,6 +4,13 @@ oob = "LUS_1936"
 set_major = yes
 create_faction = "Zeitgeist Pact"
 
+puppet = IBE
+IBE = {
+	set_politics = {
+		ruling_party = third_position
+			}
+		}
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

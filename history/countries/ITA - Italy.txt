@@ -3,6 +3,31 @@ capital = 2
 oob = "ITA_1936"
 set_major = yes
 
+puppet = CYR
+CYR = {
+	set_politics = {
+		ruling_party = monarchism
+			}
+		}
+puppet = OTT
+OTT = {
+	set_politics = {
+		ruling_party = monarchism
+			}
+		}
+puppet = BYZ
+BYZ = {
+	set_politics = {
+		ruling_party = monarchism
+			}
+		}
+puppet = ABY
+ABY = {
+	set_politics = {
+		ruling_party = monarchism
+			}
+		}
+		
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
