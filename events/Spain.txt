@@ -119,3 +119,27 @@ country_event = {  #Colombia capitulation
 		}
 	}
 }
+news_event = {		#Reconquista Failed!
+	id = spa.4
+	title = spa.4.t
+	desc = spa.4.d
+	picture = GFX_zeitgeist
+
+	is_triggered_only = yes
+
+	option = {
+		name = spa.4.a
+	}
+}
+news_event = {		#Reconquista Successful!
+	id = spa.5
+	title = spa.5.t
+	desc = spa.5.d
+	picture = GFX_zeitgeist
+
+	is_triggered_only = yes
+
+	option = {
+		name = spa.5.a
+	}
+}

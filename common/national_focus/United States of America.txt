@@ -1373,7 +1373,7 @@ focus = {
   id = USA_night_of_the_long_knives
   icon = GFX_goal_generic_major_war
   prerequisite = { focus = USA_suppress_neu_berlin_riots }
-  mutually_exclusive = { focus = USA_irish_pub_putsch focus = USA_italian_intervention }
+  mutually_exclusive = { focus = USA_irish_pub_putsch focus = USA_prussian_intervention }
   available = { has_country_flag = ELIMINATE_OPPOSITION }
   x = 4
   y = 8
@@ -1768,7 +1768,7 @@ focus = {
   id = USA_irish_pub_putsch
   icon = GFX_goal_generic_demand_territory
   prerequisite = { focus = USA_suppress_neu_berlin_riots }
-  mutually_exclusive = { focus = USA_night_of_the_long_knives focus = USA_italian_intervention }
+  mutually_exclusive = { focus = USA_night_of_the_long_knives focus = USA_prussian_intervention }
   available = { has_country_flag = IRISH_PUTSCH }
   x = 12
   y = 8
@@ -1998,11 +1998,11 @@ focus = {
   }
 }
 focus = {
-  id = USA_italian_intervention
-  icon = GFX_focus_generic_italy_first
+  id = USA_prussian_intervention
+  icon = GFX_focus_generic_diplomatic_treaty
   prerequisite = { focus = USA_suppress_neu_berlin_riots }
   mutually_exclusive = { focus = USA_irish_pub_putsch focus = USA_night_of_the_long_knives }
-  available = { has_country_flag = ITALIAN_INTERVENTION }
+  available = { has_country_flag = PRUSSIAN_INTERVENTION }
   x = 20
   y = 8
   cost = 0
@@ -2021,7 +2021,7 @@ focus = {
 focus = {
   id = USA_ein_amerika_ein_konig
   icon = GFX_USA_ein_amerika_ein_konig
-  prerequisite = { focus = USA_italian_intervention }
+  prerequisite = { focus = USA_prussian_intervention }
   x = 20
   y = 9
   cost = 10
@@ -2041,7 +2041,7 @@ focus = {
   }
 }
 focus = {
-  id = USA_italian_investments
+  id = USA_prussian_investments
   icon = GFX_goal_generic_construction
   prerequisite = { focus = USA_ein_amerika_ein_konig }
   x = 20
@@ -2069,7 +2069,7 @@ focus = {
 focus = {
   id = USA_freikorps_amerika
   icon = GFX_goal_generic_axis_build_infantry
-  prerequisite = { focus = USA_italian_investments }
+  prerequisite = { focus = USA_prussian_investments }
   x = 18
   y = 11
   cost = 10
@@ -2087,7 +2087,7 @@ focus = {
 focus = {
   id = USA_von_mackensens_tactics
   icon = GFX_USA_von_mackensens_tactics
-  prerequisite = { focus = USA_italian_investments }
+  prerequisite = { focus = USA_prussian_investments }
   x = 22
   y = 11
   cost = 10
@@ -2105,7 +2105,7 @@ focus = {
 focus = {
   id = USA_offensichtlichte_bestimmung
   icon = GFX_goal_tfv_saf_anti_colonialist_crusade
-  prerequisite = { focus = USA_italian_investments }
+  prerequisite = { focus = USA_prussian_investments }
   x = 20
   y = 11
   cost = 10

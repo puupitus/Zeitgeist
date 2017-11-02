@@ -55,8 +55,8 @@ country_event = {		#Neu-Berlin Riots
 	option = {
 		ai_chance = { factor = 33 }
 		name = usa.99.c
-		set_country_flag = ITALIAN_INTERVENTION
-		USA = { complete_national_focus = USA_italian_intervention }
+		set_country_flag = PRUSSIAN_INTERVENTION
+		USA = { complete_national_focus = USA_prussian_intervention }
 	}
 
 }

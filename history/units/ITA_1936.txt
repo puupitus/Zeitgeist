@@ -186,30 +186,7 @@ units = {
 		start_equipment_factor = 1
 
 	}
-	division = {
-		name = "18. Infantry Division"
-		location = 11751
-		division_template = "Infantry Division"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-
-	}
-	division = {
-		name = "19. Infantry Division"
-		location = 11751
-		division_template = "Infantry Division"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-
-	}
-	division = {
-		name = "20. Infantry Division"
-		location = 11751
-		division_template = "Infantry Division"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-
-	}
+	
 
 	division = {
     name = "1. Artillery Regiment"
@@ -267,28 +244,6 @@ units = {
 		start_equipment_factor = 1
 
 	}
-	division = {
-		name = "8. Artillery Regiment"
-		location = 11751
-		division_template = "Artillery Regiment"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-
-	}
-	division = {
-		name = "9. Artillery Regiment"
-		location = 11751
-		division_template = "Artillery Regiment"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-
-	}
-	division = {
-		name = "10. Artillery Regiment"
-		location = 11751
-		division_template = "Artillery Regiment"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
 
 	}
 
@@ -348,30 +303,7 @@ units = {
 		start_equipment_factor = 1
 
 	}
-	division = {
-		name = "8. Cavalry Regiment"
-		location = 11751
-		division_template = "Cavalry Regiment"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
 
-	}
-	division = {
-		name = "9. Cavalry Regiment"
-		location = 11751
-		division_template = "Cavalry Regiment"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-
-	}
-	division = {
-		name = "10. Cavalry Regiment"
-		location = 11751
-		division_template = "Cavalry Regiment"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-
-	}
 
 
 	##### NAVAL UNITS #####

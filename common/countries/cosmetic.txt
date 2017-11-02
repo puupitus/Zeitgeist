@@ -151,3 +151,15 @@ YUG_third_position2 = {
 color = rgb { 72 73 126 }
 color_ui = rgb { 94 95 164 }
 }
+ITA_west = {
+color = rgb { 150 14 220 }
+color_ui = rgb { 150 14 220 }
+}
+BYZ_east = {
+color = rgb { 172  2  138 }
+color_ui = rgb { 172  2  138 }
+}
+BYZ_emp = {
+color = rgb { 172  2  138 }
+color_ui = rgb { 172  2  138 }
+}

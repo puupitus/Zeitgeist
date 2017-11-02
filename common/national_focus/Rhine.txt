@@ -1552,6 +1552,7 @@ focus = {
       id = RHI_join_socialist_confederacy
       icon = GFX_RHI_join_socialist_confederacy
       prerequisite = { focus = RHI_rotsturm }
+      available = { is_subject = no }
       x = 1
       y = 12
       cost = 5
@@ -1596,6 +1597,7 @@ focus = {
       available = {
       NOT = { FRA = { has_government = socialism } }
       }
+      available = { is_subject = no }
       x = 3
       y = 13
       cost = 10
@@ -1623,6 +1625,7 @@ focus = {
       available = {
       NOT = { SWI = { has_government = socialism } }
       }
+      available = { is_subject = no }
       x = 5
       y = 13
       cost = 10
@@ -1650,6 +1653,7 @@ focus = {
       available = {
       NOT = { POL = { has_government = socialism } }
       }
+      available = { is_subject = no }
       x = 7
       y = 13
       cost = 10
@@ -1865,6 +1869,7 @@ focus = {
       id = RHI_join_republican_league
       icon = GFX_USA_join_republican_league
       prerequisite = { focus = RHI_landwehr }
+      available = { is_subject = no }
       x = 17
       y = 12
       cost = 10
@@ -1888,6 +1893,7 @@ focus = {
       available = {
       NOT = { DEN = { has_government = republicanism } }
       }
+      available = { is_subject = no }
       x = 11
       y = 13
       cost = 10
@@ -1915,6 +1921,7 @@ focus = {
       available = {
       NOT = { SWE = { has_government = republicanism } }
       }
+      available = { is_subject = no }
       x = 13
       y = 13
       cost = 10
@@ -1943,6 +1950,7 @@ focus = {
       available = {
       NOT = { NOR = { has_government = republicanism } }
       }
+      available = { is_subject = no }
       x = 15
       y = 13
       cost = 10

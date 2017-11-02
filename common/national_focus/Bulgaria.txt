@@ -1358,7 +1358,7 @@ focus = {
     limit = {
       is_subject_of = BUL
         }
-        every_state = {
+        every_owned_state = {
           add_core_of = BUL }
     }
 
@@ -1379,6 +1379,7 @@ focus = {
   id = BUL_total_reform
   icon = GFX_goal_tfv_sever_ties_with_uk
   prerequisite = { focus = BUL_a_dream_of_spring }
+  available = { is_subject = no }
   x = 9
   y = 7
   cost = 10
@@ -1403,6 +1404,7 @@ focus = {
   prerequisite = { focus = BUL_total_reform }
   mutually_exclusive { focus = BUL_republicanism2 focus = BUL_monarchism2 focus = BUL_third_position2 }
   available = { has_country_flag = SOCIALISM }
+  available = { is_subject = no }
   x = 5
   y = 8
   cost = 0
@@ -1428,6 +1430,7 @@ focus = {
     prerequisite = { focus = BUL_total_reform }
     mutually_exclusive { focus = BUL_socialism2 focus = BUL_monarchism2 focus = BUL_third_position2 }
     available = { has_country_flag = REPUBLICANISM }
+    available = { is_subject = no }
     x = 7
     y = 8
     cost = 0
@@ -1453,6 +1456,7 @@ focus = {
     prerequisite = { focus = BUL_total_reform }
     mutually_exclusive { focus = BUL_socialism2 focus = BUL_republicanism2 focus = BUL_third_position2 }
     available = { has_country_flag = MONARCHISM }
+    available = { is_subject = no }
     x = 11
     y = 8
     cost = 0
@@ -1478,6 +1482,7 @@ focus = {
     prerequisite = { focus = BUL_total_reform }
     mutually_exclusive { focus = BUL_socialism2 focus = BUL_republicanism2 focus = BUL_monarchism2 }
     available = { has_country_flag = THIRD_POSITION }
+    available = { is_subject = no }
     x = 13
     y = 8
     cost = 0
@@ -1503,6 +1508,7 @@ focus = {
     prerequisite = { focus = BUL_socialism2 }
     available = { has_army_manpower = { size > 700000 }
     }
+    available = { is_subject = no }
     x = 5
     y = 9
     cost = 5
@@ -1525,6 +1531,7 @@ focus = {
     prerequisite = { focus = BUL_republicanism2 }
     available = { has_army_manpower = { size > 700000 }
     }
+    available = { is_subject = no }
     x = 7
     y = 9
     cost = 5
@@ -1547,6 +1554,7 @@ focus = {
     prerequisite = { focus = BUL_monarchism2 }
     available = { has_army_manpower = { size > 700000 }
     }
+    available = { is_subject = no }
     x = 11
     y = 9
     cost = 5
@@ -1569,6 +1577,7 @@ focus = {
     prerequisite = { focus = BUL_third_position2 }
     available = { has_army_manpower = { size > 700000 }
     }
+    available = { is_subject = no }
     x = 13
     y = 9
     cost = 5
@@ -1589,6 +1598,7 @@ focus = {
     id = BUL_a_new_power_rises
     icon = GFX_goal_generic_national_unity
     prerequisite = { focus = BUL_total_reform }
+    available = { is_subject = no }
     x = 9
     y = 10
     cost = 10
@@ -1610,6 +1620,7 @@ focus = {
     id = BUL_united_army
     icon = GFX_goal_rhineland
     prerequisite = { focus = BUL_a_new_power_rises }
+    available = { is_subject = no }
     x = 9
     y = 11
     cost = 10
@@ -1670,6 +1681,7 @@ focus = {
     id = BUL_yugoslavian_fleet
     icon = GFX_goal_generic_construct_naval_dockyard
     prerequisite = { focus = BUL_a_new_power_rises }
+    available = { is_subject = no }
     x = 7
     y = 11
     cost = 10
@@ -1693,6 +1705,7 @@ focus = {
     id = BUL_wallachian_fleet
     icon = GFX_goal_generic_construct_naval_dockyard
     prerequisite = { focus = BUL_yugoslavian_fleet }
+    available = { is_subject = no }
     x = 7
     y = 12
     cost = 10
@@ -1715,6 +1728,7 @@ focus = {
     id = BUL_bulgarian_fleet
     icon = GFX_goal_generic_construct_naval_dockyard
     prerequisite = { focus = BUL_wallachian_fleet }
+    available = { is_subject = no }
     x = 7
     y = 13
     cost = 10
@@ -1737,6 +1751,7 @@ focus = {
     id = BUL_northwestern_industry
     icon = GFX_goal_generic_construct_civ_factory
     prerequisite = { focus = BUL_a_new_power_rises }
+    available = { is_subject = no }
     x = 11
     y = 11
     cost = 15
@@ -1779,6 +1794,7 @@ focus = {
     id = BUL_central_industry
     icon = GFX_goal_generic_construct_civ_factory
     prerequisite = { focus = BUL_northwestern_industry }
+    available = { is_subject = no }
     x = 11
     y = 12
     cost = 15
@@ -1821,6 +1837,7 @@ focus = {
     id = BUL_southeastern_industry
     icon = GFX_goal_generic_construct_civ_factory
     prerequisite = { focus = BUL_central_industry }
+    available = { is_subject = no }
     x = 11
     y = 13
     cost = 15

@@ -1,0 +1,133 @@
+######################
+# ITALIAN WAR EVENTS  #
+######################
+
+add_namespace = iwa
+add_namespace = IWA_exact_date_trigger
+
+country_event = {
+	id = IWA_exact_date_trigger.1
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		date > 1936.3.15
+	}
+
+	option = {
+		ITA = { news_event = { id = iwa.1  } }
+    LOM = { news_event = { id = iwa.1  } }
+    BYZ = { news_event = { id = iwa.1  } }
+	}
+}
+country_event = {
+	id = IWA_exact_date_trigger.2
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		date > 1936.4.15
+	}
+
+	option = {
+		every_country = { news_event = { id = iwa.2  } }
+    LOM = { create_wargoal = { type = take_state_focus target = ITA } }
+    BYZ = { create_wargoal = { type = take_state_focus target = ITA } }
+    LOM = { declare_war_on = { target = ITA type = take_state_focus } }
+    BYZ = { declare_war_on = { target = ITA type = take_state_focus } }
+    LOM = { give_military_access = BYZ }
+    BYZ = { give_military_access = LOM }
+    set_global_flag = ITALIAN_WAR
+    }
+}
+news_event = {		#Venice-Constantinople Pact
+	id = iwa.1
+	title = iwa.1.t
+	desc = iwa.1.d
+	picture = GFX_zeitgeist
+
+	is_triggered_only = yes
+
+	option = {
+		name = iwa.1.a
+	}
+}
+news_event = {		#New Risorgimento!
+	id = iwa.2
+	title = iwa.2.t
+	desc = iwa.2.d
+	major = yes
+	picture = GFX_zeitgeist
+
+	is_triggered_only = yes
+
+	option = {
+		name = iwa.2.a
+	}
+}
+country_event = {  #Venice Capitulation
+	id = iwa.3
+	hidden = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+
+
+	option = {
+		every_country = { news_event = { id = iwa.5  } }
+		LOM = { annex_country = { target = ITA }
+    BYZ = { transfer_state = 115 }
+    BYZ = { transfer_state = 116 }
+    BYZ = { transfer_state = 156 }
+    BYZ = { transfer_state = 117 }
+    BYZ = { transfer_state = 2 }
+    BYZ = { transfer_state = 157 }
+		BYZ = { set_cosmetic_tag = BYZ_emp }
+		clr_global_flag = ITALIAN_WAR
+		set_global_flag = RISORGIMENTO_SUCCESS
+		}
+	}
+}
+country_event = {  #Italy Capitulation
+	id = iwa.4
+	hidden = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+
+
+	option = {
+		every_country = { news_event = { id = iwa.5  } }
+		ITA = { annex_country = { target = LOM }
+    ITA = { white_peace = BYZ }
+		ITA = { create_faction = "Mare Nostrum" }
+		ITA = { add_to_faction = BYZ }
+		ITA = { set_cosmetic_tag = ITA_west }
+		BYZ = { set_cosmetic_tag = BYZ_east }
+		clr_global_flag = ITALIAN_WAR
+		set_global_flag = RISORGIMENTO_SUCCESS
+		}
+	}
+}
+news_event = {		#Risorgimento Failed!
+	id = iwa.5
+	title = iwa.5.t
+	desc = iwa.5.d
+	picture = GFX_zeitgeist
+
+	is_triggered_only = yes
+
+	option = {
+		name = iwa.5.a
+	}
+}
+news_event = {		#Risorgimento Successful!
+	id = iwa.6
+	title = iwa.6.t
+	desc = iwa.6.d
+	picture = GFX_zeitgeist
+
+	is_triggered_only = yes
+
+	option = {
+		name = iwa.6.a
+	}
+}

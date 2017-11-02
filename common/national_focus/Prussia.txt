@@ -1574,6 +1574,7 @@ country = {
     id = PRS_join_zeitgeist_pact
     icon = GFX_USA_join_zeitgeist_pact
     prerequisite = { focus = PRS_sturmabteilung }
+    available = { is_subject = no }
     x = 1
     y = 12
     cost = 5
@@ -1597,6 +1598,7 @@ country = {
     available = {
     NOT = { SWI = { has_government = third_position } }
     }
+    available = { is_subject = no }
     x = 3
     y = 13
     cost = 10
@@ -1624,6 +1626,7 @@ country = {
     available = {
     NOT = { BNL = { has_government = third_position } }
     }
+    available = { is_subject = no }
     x = 5
     y = 13
     cost = 10
@@ -1651,6 +1654,7 @@ country = {
     available = {
     NOT = { FRA = { has_government = third_position } }
     }
+    available = { is_subject = no }
     x = 7
     y = 13
     cost = 10
@@ -1865,6 +1869,7 @@ country = {
     id = PRS_join_new_commonwealth
     icon = GFX_USA_join_new_commonwealth
     prerequisite = { focus = PRS_reichswehr }
+    available = { is_subject = no }
     x = 17
     y = 12
     cost = 5
@@ -1888,6 +1893,7 @@ country = {
     available = {
     NOT = { POL = { has_government = monarchism } }
     }
+    available = { is_subject = no }
     x = 11
     y = 13
     cost = 10
@@ -1915,6 +1921,7 @@ country = {
     available = {
     NOT = { BAL = { has_government = monarchism } }
     }
+    available = { is_subject = no }
     x = 13
     y = 13
     cost = 10
@@ -1942,6 +1949,7 @@ country = {
     available = {
     NOT = { BLR = { has_government = monarchism } }
     }
+    available = { is_subject = no }
     x = 15
     y = 13
     cost = 10

@@ -1551,6 +1551,7 @@ country = {
     available = {
     NOT = { SWI = { has_government = third_position } }
     }
+    available = { is_subject = no }
     x = 3
     y = 11
     cost = 10
@@ -1578,6 +1579,7 @@ country = {
     available = {
     NOT = { ITA = { has_government = third_position } }
     }
+    available = { is_subject = no }
     x = 5
     y = 11
     cost = 10
@@ -1605,6 +1607,7 @@ country = {
     available = {
     NOT = { LOM = { has_government = third_position } }
     }
+    available = { is_subject = no }
     x = 7
     y = 11
     cost = 10
@@ -1629,6 +1632,7 @@ country = {
     id = BAV_join_zeitgeist_pact
     icon = GFX_USA_join_zeitgeist_pact
     prerequisite = { focus = BAV_anarchist_wrath }
+    available = { is_subject = no }
     x = 9
     y = 12
     cost = 5
@@ -1652,6 +1656,7 @@ country = {
     available = {
     NOT = { BNL = { has_government = third_position } }
     }
+    available = { is_subject = no }
     x = 15
     y = 11
     cost = 10
@@ -1679,6 +1684,7 @@ country = {
     available = {
     NOT = { FRA = { has_government = third_position } }
     }
+    available = { is_subject = no }
     x = 13
     y = 11
     cost = 10
@@ -1706,6 +1712,7 @@ country = {
     available = {
     NOT = { POL = { has_government = third_position } }
     }
+    available = { is_subject = no }
     x = 11
     y = 11
     cost = 10

@@ -1,8 +1,6 @@
 capital = 2
 
 oob = "ITA_1936"
-send_volunteer_size = 3
-send_volunteer_divisions_required = -0.5
 set_major = yes
 # Starting tech
 set_technology = {

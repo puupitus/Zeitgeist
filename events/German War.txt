@@ -17,7 +17,7 @@ country_event = {
 	option = {
 		BAV = { news_event = { id = gwa.1  } }
     RHI = { news_event = { id = gwa.1  } }
-    RHI = { news_event = { id = gwa.1  } }
+    PRS = { news_event = { id = gwa.1  } }
 	}
 }
 country_event = {

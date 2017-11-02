@@ -1604,7 +1604,6 @@ country = {
     2 = { is_controlled_by = FRA }
     114 = { is_controlled_by = FRA }
     115 = { is_controlled_by = FRA }
-    158 = { is_controlled_by = FRA }
     116 = { is_controlled_by = FRA }
     }
     x = 7

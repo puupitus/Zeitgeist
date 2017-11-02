@@ -1358,7 +1358,7 @@ focus = {
     limit = {
       is_subject_of = BOH
         }
-        every_state = {
+        every_owned_state = {
           add_core_of = BOH }
     }
 
@@ -1379,6 +1379,8 @@ focus = {
   id = BOH_total_reform
   icon = GFX_goal_tfv_sever_ties_with_uk
   prerequisite = { focus = BOH_a_dream_of_spring }
+  available = {
+  is_subject = no }
   x = 9
   y = 7
   cost = 10
@@ -1402,7 +1404,9 @@ focus = {
   icon = GFX_BOH_socialism2
   prerequisite = { focus = BOH_total_reform }
   mutually_exclusive { focus = BOH_republicanism2 focus = BOH_monarchism2 focus = BOH_third_position2 }
-  available = { has_country_flag = SOCIALISM }
+  available = { has_country_flag = SOCIALISM
+  is_subject = no
+   }
   x = 5
   y = 8
   cost = 0
@@ -1427,7 +1431,9 @@ focus = {
     icon = GFX_BOH_republicanism2
     prerequisite = { focus = BOH_total_reform }
     mutually_exclusive { focus = BOH_socialism2 focus = BOH_monarchism2 focus = BOH_third_position2 }
-    available = { has_country_flag = REPUBLICANISM }
+    available = { has_country_flag = REPUBLICANISM
+    is_subject = no
+     }
     x = 7
     y = 8
     cost = 0
@@ -1452,7 +1458,9 @@ focus = {
     icon = GFX_BOH_monarchism2
     prerequisite = { focus = BOH_total_reform }
     mutually_exclusive { focus = BOH_socialism2 focus = BOH_republicanism2 focus = BOH_third_position2 }
-    available = { has_country_flag = MONARCHISM }
+    available = { has_country_flag = MONARCHISM
+    is_subject = no
+     }
     x = 11
     y = 8
     cost = 0
@@ -1477,7 +1485,9 @@ focus = {
     icon = GFX_BOH_third_position2
     prerequisite = { focus = BOH_total_reform }
     mutually_exclusive { focus = BOH_socialism2 focus = BOH_republicanism2 focus = BOH_monarchism2 }
-    available = { has_country_flag = THIRD_POSITION }
+    available = { has_country_flag = THIRD_POSITION
+    is_subject = no
+    }
     x = 13
     y = 8
     cost = 0
@@ -1502,6 +1512,7 @@ focus = {
     icon = GFX_RHI_join_socialist_confederacy
     prerequisite = { focus = BOH_socialism2 }
     available = { has_army_manpower = { size > 700000 }
+    is_subject = no
     }
     x = 5
     y = 9
@@ -1524,6 +1535,8 @@ focus = {
     icon = GFX_USA_join_republican_league
     prerequisite = { focus = BOH_republicanism2 }
     available = { has_army_manpower = { size > 700000 }
+    is_subject = no
+
     }
     x = 7
     y = 9
@@ -1546,6 +1559,8 @@ focus = {
     icon = GFX_USA_join_new_commonwealth
     prerequisite = { focus = BOH_monarchism2 }
     available = { has_army_manpower = { size > 700000 }
+    is_subject = no
+
     }
     x = 11
     y = 9
@@ -1568,6 +1583,8 @@ focus = {
     icon = GFX_USA_join_zeitgeist_pact
     prerequisite = { focus = BOH_third_position2 }
     available = { has_army_manpower = { size > 700000 }
+    is_subject = no
+
     }
     x = 13
     y = 9
@@ -1589,6 +1606,7 @@ focus = {
     id = BOH_a_new_power_rises
     icon = GFX_goal_generic_national_unity
     prerequisite = { focus = BOH_total_reform }
+    available = { is_subject = no }
     x = 9
     y = 10
     cost = 10
@@ -1610,6 +1628,7 @@ focus = {
     id = BOH_united_army
     icon = GFX_goal_rhineland
     prerequisite = { focus = BOH_a_new_power_rises }
+    available = { is_subject = no }
     x = 9
     y = 11
     cost = 10
@@ -1670,6 +1689,7 @@ focus = {
     id = BOH_yugoslavian_fleet
     icon = GFX_goal_generic_construct_naval_dockyard
     prerequisite = { focus = BOH_a_new_power_rises }
+    available = { is_subject = no }
     x = 7
     y = 11
     cost = 10
@@ -1693,6 +1713,7 @@ focus = {
     id = BOH_wallachian_fleet
     icon = GFX_goal_generic_construct_naval_dockyard
     prerequisite = { focus = BOH_yugoslavian_fleet }
+    available = { is_subject = no }
     x = 7
     y = 12
     cost = 10
@@ -1715,6 +1736,7 @@ focus = {
     id = BOH_bulgarian_fleet
     icon = GFX_goal_generic_construct_naval_dockyard
     prerequisite = { focus = BOH_wallachian_fleet }
+    available = { is_subject = no }
     x = 7
     y = 13
     cost = 10
@@ -1737,6 +1759,7 @@ focus = {
     id = BOH_northwestern_industry
     icon = GFX_goal_generic_construct_civ_factory
     prerequisite = { focus = BOH_a_new_power_rises }
+    available = { is_subject = no }
     x = 11
     y = 11
     cost = 15
@@ -1779,6 +1802,7 @@ focus = {
     id = BOH_central_industry
     icon = GFX_goal_generic_construct_civ_factory
     prerequisite = { focus = BOH_northwestern_industry }
+    available = { is_subject = no }
     x = 11
     y = 12
     cost = 15
@@ -1821,6 +1845,7 @@ focus = {
     id = BOH_southeastern_industry
     icon = GFX_goal_generic_construct_civ_factory
     prerequisite = { focus = BOH_central_industry }
+    available = { is_subject = no }
     x = 11
     y = 13
     cost = 15
