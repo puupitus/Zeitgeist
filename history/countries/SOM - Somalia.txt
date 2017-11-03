@@ -1,16 +1,6 @@
-capital = 446
+capital = 559
 
-oob = "EGY_1936"
-set_major = yes
-create_faction = "Arab League"
-add_to_faction = ARA
-
-puppet = SOM
-SOM = {
-	set_politics = {
-		ruling_party = monarchism
-			}
-		}
+oob = "SOM_1936"
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -62,34 +52,39 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Farouk"
-	picture = "farouk.dds"
+	name = "Mohamoud Ali Shire"
+	picture = "mohamoud_ali_shire.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Farouk"
-	picture = "farouk.dds"
+	name = "Mohamoud Ali Shire"
+	picture = "mohamoud_ali_shire.dds"
 	ideology = absolutism
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Farouk"
-	picture = "farouk.dds"
+	name = "Mohamoud Ali Shire"
+	picture = "mohamoud_ali_shire.dds"
 	ideology = marxist
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Farouk"
-	picture = "farouk.dds"
+	name = "Mohamoud Ali Shire"
+	picture = "mohamoud_ali_shire.dds"
 	ideology = nazism
 	traits = { zeitgeist_default
 		#
 	}
+}
+create_corps_commander = {
+	name = "Mohamed Siad Barre"
+	picture = "mohamed_siad_barre.dds"
+	skill = 1
 }

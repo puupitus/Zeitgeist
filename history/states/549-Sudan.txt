@@ -13,6 +13,7 @@ state={
 		add_core_of = TUA
 		add_core_of = CAF
 		add_core_of = ABY
+		add_core_of = SOM
 		buildings = {
 			infrastructure = 3
 		}

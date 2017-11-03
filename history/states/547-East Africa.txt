@@ -20,6 +20,7 @@ state={
 		}
 		add_core_of = CAF
 		add_core_of = ABY
+		add_core_of = SOM
 	}
 
 	provinces={

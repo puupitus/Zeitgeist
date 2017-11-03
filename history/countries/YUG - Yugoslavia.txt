@@ -68,16 +68,16 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Milan Gorkić"
-	picture = "milan_gorkic.dds"
+	name = "Josip Broz Tito"
+	picture = "josip_broz_tito.dds"
 	ideology = marxist
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Josip Broz Tito"
-	picture = "josip_broz_tito.dds"
+	name = "Draža Mihailović"
+	picture = "draza_mihailovic.dds"
 	ideology = nazism
 	traits = { zeitgeist_default
 		#

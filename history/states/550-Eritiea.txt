@@ -12,6 +12,7 @@ state=
 		add_core_of = ABY
 		add_core_of = EGY
 		add_core_of = ARA
+		add_core_of = SOM
 		victory_points = {
 			12766 1
 		}

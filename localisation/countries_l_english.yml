@@ -866,6 +866,20 @@
  SOV_socialism_ADJ:0 "Novgorodian"
  SOV_third_position_ADJ:0 "Novgorodian"
  ################################################################################
+ 
+ SOM_monarchism_ADJ:0 "Somalian"
+ SOM_monarchism_DEF:0 "The Dervish State"
+ SOM_monarchism:0 "Dervish State"
+ SOM_republicanism_ADJ:0 "Somalian"
+ SOM_republicanism_DEF:0 "The Somali Republic"
+ SOM_republicanism:0 "Somali Republic"
+ SOM_socialism_ADJ:0 "Somalian"
+ SOM_socialism_DEF:0 "The Somali Democratic Republic"
+ SOM_socialism:0 "Somali Democratic Republic"
+ SOM_third_position_ADJ:0 "Somalian"
+ SOM_third_position_DEF:0 "Islamist Somalia"
+ SOM_third_position:0 "Islamist Somalia"
+ ################################################################################
 
  SPA_monarchism:0 "Spanish Empire"
  SPA_republicanism:0 "Republic of Spain"
@@ -1009,8 +1023,8 @@
 
  YUG_monarchism:0 "Margraviate of Yugoslavia"
  YUG_republicanism:0 "Yugoslavian Confederation"
- YUG_socialism:0 "SCFRY"
- YUG_third_position:0 "Partisan Yugoslavia"
+ YUG_socialism:0 "Syndicate Yugoslavia"
+ YUG_third_position:0 "Chetnik Yugoslavia"
  YUG_monarchism_DEF:0 "The Margraviate of Yugoslavia"
  YUG_republicanism_DEF:0 "The Yugoslavian Confederation"
  YUG_socialism_DEF:0 "The SCFRY"
