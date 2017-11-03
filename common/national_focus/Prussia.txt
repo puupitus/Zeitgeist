@@ -1357,6 +1357,35 @@ country = {
     add_ideas = BAV_ger_uni
     set_major = yes
     every_country = { news_event = gwa.3 }
+    create_corps_commander = {
+    	name = "Heinz Guderian"
+    	picture = "heinz_guderian.dds"
+    	skill = 1
+    }
+
+
+    create_field_marshal = {
+    	name = "Walter Model"
+    	picture = "walter_model.dds"
+    	skill = 2
+    }
+    create_corps_commander = {
+    	name = "Erwin Rommel"
+    	picture = "erwin_rommel.dds"
+    	skill = 1
+    }
+
+    create_navy_leader = {
+    	name = "Erich Raeder"
+    	picture = "erich_raeder.dds"
+    	skill = 1
+    }
+
+    create_field_marshal = {
+    	name = "Erich von Manstein"
+    	picture = "erich_von_manstein.dds"
+    	skill = 2
+    }
     }
   }
   focus = {

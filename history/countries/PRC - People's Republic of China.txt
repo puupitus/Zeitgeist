@@ -3,6 +3,9 @@ capital = 622
 oob = "PRC_1936"
 set_major = yes
 
+PRC = { create_wargoal = { type = annex_everything target = ROC } }
+PRC = { declare_war_on = { target = ROC type = annex_everything } }
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

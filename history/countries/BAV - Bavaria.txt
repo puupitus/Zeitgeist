@@ -1,6 +1,17 @@
 capital = 52
 
 oob = "BAV_1936"
+
+BAV = { create_wargoal = { type = annex_everything target = PRS } }
+BAV = { create_wargoal = { type = annex_everything target = RHI } }
+RHI = { create_wargoal = { type = annex_everything target = PRS } }
+RHI = { create_wargoal = { type = annex_everything target = BAV } }
+PRS = { create_wargoal = { type = annex_everything target = RHI } }
+PRS = { create_wargoal = { type = annex_everything target = BAV } }
+BAV = { declare_war_on = { target = PRS type = annex_everything } }
+BAV = { declare_war_on = { target = RHI type = annex_everything } }
+RHI = { declare_war_on = { target = PRS type = annex_everything } }
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -82,4 +93,16 @@ create_country_leader = {
 	traits = { zeitgeist_default
 		#
 	}
+}
+create_corps_commander = {
+	name = "Heinz Guderian"
+	picture = "heinz_guderian.dds"
+	skill = 1
+}
+
+
+create_field_marshal = {
+	name = "Walter Model"
+	picture = "walter_model.dds"
+	skill = 2
 }

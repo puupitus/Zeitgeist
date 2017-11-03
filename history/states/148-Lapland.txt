@@ -11,7 +11,7 @@ state={
 		chromium=2
 	}
 	history={
-		owner = FIN
+		owner = NOR
 		buildings = {
 			infrastructure = 2
 		}

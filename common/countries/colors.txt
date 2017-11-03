@@ -1,7 +1,7 @@
 #reload countrycolors
 ABY = {
-	color = rgb { 0  102  204 }
-	color_ui = rgb { 0  102  204 }
+	color = rgb { 210  143  239 }
+	color_ui = rgb { 210  143  239 }
 }
 ALT = {
 	color = rgb { 20  210  230 }
@@ -248,8 +248,8 @@ SOV = {
 	color_ui = rgb { 163 17 31 }
 }
 SOM = {
-	color = rgb { 102 178 255 }
-	color_ui = rgb { 102 178 255 }
+	color = rgb { 0  102  204 }
+	color_ui = rgb { 0  102  204 }
 }
 SPA = {
 		color = rgb { 252 244 14 }

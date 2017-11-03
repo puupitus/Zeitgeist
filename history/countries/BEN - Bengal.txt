@@ -4,7 +4,6 @@ oob = "BEN_1936"
 set_major = yes
 
 create_faction = "Asian Socialist Conference"
-add_to_faction = PRC
 add_to_faction = XIN
 add_to_faction = MON
 # Starting tech

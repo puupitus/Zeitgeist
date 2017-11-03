@@ -83,3 +83,21 @@ create_country_leader = {
 		#
 	}
 }
+
+create_corps_commander = {
+	name = "Alfred Jodl"
+	picture = "alfred_jodl.dds"
+	skill = 1
+}
+
+create_navy_leader = {
+	name = "Karl Dönitz"
+	picture = "karl_donitz.dds"
+	skill = 1
+}
+
+create_field_marshal = {
+	name = "Gerd von Rundstedt"
+	picture = "gerd_von_rundstedt.dds"
+	skill = 2
+}

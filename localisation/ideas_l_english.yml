@@ -2490,6 +2490,7 @@
  FRA_mob:0 "Mobilize"
  USA_riot:0 "Widespread Riots"
  USA_lw:0 "Landwehr"
+ USA_auswaf:0 "Ausländische Waffen-SS"
  USA_amf:0 "Arbeit Macht Frei!"
  USA_nic:0 "New Ireland Conscription"
  USA_fa:0 "Freikorps Amerika"

@@ -2,7 +2,7 @@ capital = 16
 
 oob = "FRA_1936"
 set_major = yes
-
+create_faction = "Republican League"
 puppet = FAF
 FAF = {
 	set_politics = {
@@ -41,6 +41,18 @@ SIP = {
 		}
 puppet = DAI
 DAI = {
+	set_politics = {
+		ruling_party = republicanism
+			}
+		}
+puppet = TUA
+TUA = {
+	set_politics = {
+		ruling_party = republicanism
+			}
+		}
+puppet = QUE
+QUE = {
 	set_politics = {
 		ruling_party = republicanism
 			}

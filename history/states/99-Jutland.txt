@@ -5,14 +5,14 @@ state= {
 	resources={
 		aluminium=10
 	}
-	
+
 	state_category = town
 
 	history=
 	{
 		owner = DEN
 		victory_points = {
-			6364 3 
+			6364 3
 		}
 		buildings = {
 			infrastructure = 8
@@ -26,6 +26,7 @@ state= {
 			}
 		}
 		add_core_of = DEN
+		add_core_of = NOR
 	}
 	provinces=
 	{
