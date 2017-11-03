@@ -1274,6 +1274,54 @@ spriteTypes = {
 	name = "GFX_USA_join_thule_society"
 	texturefile = "gfx/interface/goals/USA_join_thule_society.dds"
 	}
+	SpriteType = {
+	name = "GFX_ITA_align_with_the_king"
+	texturefile = "gfx/interface/goals/ITA_align_with_the_king.dds"
+	}
+	SpriteType = {
+	name = "GFX_ITA_final_risorgimento"
+	texturefile = "gfx/interface/goals/ITA_final_risorgimento.dds"
+	}
+	SpriteType = {
+	name = "GFX_ITA_iberia_italiana"
+	texturefile = "gfx/interface/goals/ITA_iberia_italiana.dds"
+	}
+	SpriteType = {
+	name = "GFX_ITA_mare_nostrum2"
+	texturefile = "gfx/interface/goals/ITA_mare_nostrum2.dds"
+	}
+	SpriteType = {
+	name = "GFX_ITA_novus_legio"
+	texturefile = "gfx/interface/goals/ITA_novus_legio.dds"
+	}
+	SpriteType = {
+	name = "GFX_ITA_reaction_to_the_french_elections"
+	texturefile = "gfx/interface/goals/ITA_reaction_to_the_french_elections.dds"
+	}
+	SpriteType = {
+	name = "GFX_ITA_regio_esercito"
+	texturefile = "gfx/interface/goals/ITA_regio_esercito.dds"
+	}
+	SpriteType = {
+	name = "GFX_ITA_secure_the_alps"
+	texturefile = "gfx/interface/goals/ITA_secure_the_alps.dds"
+	}
+	SpriteType = {
+	name = "GFX_ITA_somalia_italiana"
+	texturefile = "gfx/interface/goals/ITA_somalia_italiana.dds"
+	}
+	SpriteType = {
+	name = "GFX_ITA_tlemcen_italiana"
+	texturefile = "gfx/interface/goals/ITA_tlemcen_italiana.dds"
+	}
+	SpriteType = {
+	name = "GFX_ITA_two_empires"
+	texturefile = "gfx/interface/goals/ITA_two_empires.dds"
+	}
+	SpriteType = {
+	name = "GFX_ITA_western_irredentism"
+	texturefile = "gfx/interface/goals/ITA_western_irredentism.dds"
+	}
 
 
 

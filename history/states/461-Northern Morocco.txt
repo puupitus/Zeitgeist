@@ -8,7 +8,6 @@ state={
 
 	history={
 		owner = FAF
-		add_core_of = CYR
 		add_core_of = FAF
 		add_core_of = IBE
 

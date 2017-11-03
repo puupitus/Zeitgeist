@@ -1,0 +1,216 @@
+##################
+# ITALY EVENTS  #
+##################
+
+add_namespace = ita
+add_namespace = ITA_exact_date_trigger
+
+country_event = {		#Reaction to French Elections
+	id = ita.1
+	title = ita.1.t
+	desc = ita.1.d
+	picture = GFX_zeitgeist2
+
+	is_triggered_only = yes
+
+	option = {
+		ai_chance = { factor = 50 }
+		name = ita.1.a
+    set_country_flag = ALIGN_WITH_THE_KING
+    every_country = { news_event = ita.100 }
+	}
+
+	option = {
+    ai_chance = { factor = 50 }
+		name = ita.1.b
+    set_country_flag = MARE_NOSTRUM
+    every_country = { news_event = ita.101 }
+	}
+
+}
+country_event = {		#Western Irredentism FRA
+	id = ita.2
+	title = ita.2.t
+	desc = ita.2.d
+	picture = GFX_zeitgeist2
+
+	is_triggered_only = yes
+
+	option = {
+		ai_chance = { factor = 100 }
+		name = ita.2.a
+    ITA = { white_peace = FRA }
+    ITA = { puppet = FRA }
+    ITA = { transfer_state = 1 }
+    ITA = { transfer_state = 735 }
+    ITA = { transfer_state = 32 }
+    ITA = { transfer_state = 21 }
+    ITA = { transfer_state = 22 }
+    ITA = { transfer_state = 31 }
+	}
+
+	option = {
+		name = ita.2.b
+    add_political_power = 150
+	}
+
+}
+country_event = {		#Western Irredentism IBE
+	id = ita.3
+	title = ita.3.t
+	desc = ita.3.d
+	picture = GFX_zeitgeist2
+
+	is_triggered_only = yes
+
+	option = {
+		ai_chance = { factor = 100 }
+		name = ita.3.a
+    ITA = { white_peace = IBE }
+    ITA = { puppet = IBE }
+    ITA = { transfer_state = 165 }
+    ITA = { transfer_state = 177 }
+	}
+
+	option = {
+		name = ita.3.b
+    add_political_power = 150
+	}
+
+}
+country_event = {		#Final Risorgimento
+	id = ita.4
+	title = ita.4.t
+	desc = ita.4.d
+	picture = GFX_zeitgeist2
+
+	is_triggered_only = yes
+
+	option = {
+		ai_chance = { factor = 100 }
+		name = ita.4.a
+    ITA = { annex_country = { target = LOM } }
+	}
+
+	option = {
+		name = ita.4.b
+    add_political_power = 150
+	}
+
+}
+country_event = {		#Secure the Alps
+	id = ita.5
+	title = ita.5.t
+	desc = ita.5.d
+	picture = GFX_zeitgeist2
+
+	is_triggered_only = yes
+
+	option = {
+		ai_chance = { factor = 100 }
+		name = ita.5.a
+    ITA = { white_peace = SWI }
+    ITA = { puppet = SWI }
+    ITA = { transfer_state = 153 }
+    ITA = { transfer_state = 152 }
+
+	}
+
+	option = {
+		name = ita.5.b
+    add_political_power = 150
+	}
+
+}
+country_event = {		#Iberia Italiana IBE
+	id = ita.6
+	title = ita.6.t
+	desc = ita.6.d
+	picture = GFX_zeitgeist2
+
+	is_triggered_only = yes
+
+	option = {
+		ai_chance = { factor = 100 }
+		name = ita.6.a
+    ITA = { white_peace = IBE }
+    ITA = { puppet = IBE }
+    ITA = { transfer_state = 165 }
+    ITA = { transfer_state = 177 }
+    ITA = { transfer_state = 118 }
+    ITA = { transfer_state = 290 }
+
+	}
+
+	option = {
+		name = ita.6.b
+    add_political_power = 150
+	}
+
+}
+country_event = {		#Iberia Italiana LUS
+	id = ita.7
+	title = ita.7.t
+	desc = ita.7.d
+	picture = GFX_zeitgeist2
+
+	is_triggered_only = yes
+
+	option = {
+		ai_chance = { factor = 100 }
+		name = ita.7.a
+    ITA = { white_peace = IBE }
+    ITA = { puppet = IBE }
+
+	}
+
+	option = {
+		name = ita.7.b
+    add_political_power = 150
+	}
+
+}
+country_event = {		#Algeria Italiana
+	id = ita.8
+	title = ita.8.t
+	desc = ita.8.d
+	picture = GFX_zeitgeist2
+
+	is_triggered_only = yes
+
+	option = {
+		ai_chance = { factor = 100 }
+		name = ita.8.a
+    ITA = { white_peace = FAF }
+    ITA = { puppet = FAF }
+
+	}
+
+	option = {
+		name = ita.8.b
+    add_political_power = 150
+	}
+
+}
+country_event = {		#Somalia Italiana
+	id = ita.9
+	title = ita.9.t
+	desc = ita.9.d
+	picture = GFX_zeitgeist2
+
+	is_triggered_only = yes
+
+	option = {
+		ai_chance = { factor = 100 }
+		name = ita.9.a
+    ITA = { white_peace = SOM }
+    ITA = { puppet = SOM }
+
+	}
+
+	option = {
+		name = ita.9.b
+    add_political_power = 150
+	}
+
+}

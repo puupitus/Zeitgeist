@@ -1,0 +1,45 @@
+ideas = {
+  country = {
+
+          ITA_re = {
+
+
+          allowed = {
+          always = no
+          }
+
+          allowed_civil_war = {
+          always = yes
+          }
+
+          removal_cost = -1
+
+          picture = tfv_can_conscription_crisis
+
+          modifier = {
+          conscription = 0.05
+             }
+          }
+          ITA_nl = {
+
+
+          allowed = {
+          always = no
+          }
+
+          allowed_civil_war = {
+          always = yes
+          }
+
+          removal_cost = -1
+
+          picture = tfv_can_conscription_crisis
+
+          modifier = {
+          conscription = 0.03
+          special_forces_attack_factor = 0.1
+          special_forces_defence_factor = 0.1
+             }
+          }
+      }
+  }

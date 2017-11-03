@@ -17,7 +17,7 @@ ideas = {
     	  picture = generic_goods_red_bonus
 
     	  modifier = {
-    		industrial_capacity_factory = 0.25
+    		industrial_capacity_factory = 0.1
     	     }
         }
         BAV_al = {
