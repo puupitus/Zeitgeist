@@ -5,7 +5,6 @@ set_major = yes
 create_faction = "New Commonwealth"
 add_to_faction = RUS
 add_to_faction = IRA
-add_to_faction = DEN
 add_to_faction = GUK
 
 puppet = HBC

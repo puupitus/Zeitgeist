@@ -1637,6 +1637,8 @@ focus = {
   USA = { is_subject = no }
   NOT = { CAL = { has_government = third_position } }
   }
+  available = { has_army_manpower = { size > 700000 }
+  }
   x = 6
   y = 13
   cost = 10
@@ -1858,6 +1860,8 @@ focus = {
   USA = { is_subject = no }
   NOT = { CSA = { has_government = republicanism } }
   }
+  available = { has_army_manpower = { size > 500000 }
+  }
   x = 8
   y = 12
   cost = 10
@@ -1879,6 +1883,8 @@ focus = {
   prerequisite = { focus = USA_territorial_demands }
   available = { USA = { is_subject = no }
   NOT = { QUE = { has_government = republicanism } }
+  }
+  available = { has_army_manpower = { size > 500000 }
   }
   x = 10
   y = 12
@@ -1902,6 +1908,8 @@ focus = {
   prerequisite = { focus = USA_territorial_demands }
   available = { USA = { is_subject = no }
   NOT = { HBC = { has_government = republicanism } }
+  }
+  available = { has_army_manpower = { size > 500000 }
   }
   x = 12
   y = 12
@@ -2128,6 +2136,8 @@ focus = {
   available = { USA = { is_subject = no }
   NOT = { CSA = { has_government = monarchism } }
   }
+  available = { has_army_manpower = { size > 500000 }
+  }
   x = 18
   y = 12
   cost = 10
@@ -2154,8 +2164,8 @@ focus = {
   363 = { is_controlled_by = USA }
   373 = { is_controlled_by = USA }
   375 = { is_controlled_by = USA }
-
   }
+
   x = 18
   y = 13
   cost = 10
@@ -2214,6 +2224,8 @@ focus = {
   prerequisite = { focus = USA_offensichtlichte_bestimmung }
   available = { USA = { is_subject = no }
   NOT = { QUE = { has_government = monarchism } }
+  }
+  available = { has_army_manpower = { size > 500000 }
   }
   x = 22
   y = 12

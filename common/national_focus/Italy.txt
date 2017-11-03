@@ -1491,6 +1491,8 @@ focus = {
   id = ITA_grande_spazio
   icon = GFX_goal_generic_occupy_states_ongoing_war
   prerequisite = { focus = ITA_regio_esercito }
+  available = { has_army_manpower = { size > 500000 }
+  }
   x = 5
   y = 11
   cost = 10
@@ -1742,6 +1744,8 @@ focus = {
   id = ITA_spazio_vitale
   icon = GFX_goal_generic_occupy_states_ongoing_war
   prerequisite = { focus = ITA_novus_legio }
+  available = { has_army_manpower = { size > 500000 }
+  }
   x = 13
   y = 11
   cost = 10
