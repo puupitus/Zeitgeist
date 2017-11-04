@@ -1626,6 +1626,7 @@ focus = {
   completion_reward = {
   create_faction = "Mare Nostrum"
   add_to_faction = BYZ
+  diplomatic_relation = { country = FRA relation = non_aggression_pact }
     }
 }
 focus = {

@@ -180,6 +180,7 @@ country_event = {		#Conquer Old Portugal
 	option = {
 		name = spa.7.b
 		add_political_power = 150
+		SPA = { country_event = spa.11 }
 	}
 
 }
@@ -199,6 +200,7 @@ country_event = {		#Conquer Old Spain
 	option = {
 		name = spa.8.b
 		add_political_power = 150
+		SPA = { country_event = spa.11 }
 	}
 
 }
@@ -220,6 +222,7 @@ country_event = {		#Integrate Mexico
 	option = {
 		name = spa.9.b
 		add_political_power = 150
+		SPA = { country_event = spa.11 }
 	}
 
 }
@@ -253,8 +256,7 @@ country_event = {		#Vassalize Brazil
 	option = {
 		name = spa.10.b
 		add_political_power = 150
+		SPA = { country_event = spa.11 }
 	}
 
 }
-
-

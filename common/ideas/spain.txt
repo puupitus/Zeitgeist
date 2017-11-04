@@ -17,8 +17,85 @@ ideas = {
     	  picture = tfv_can_conscription_crisis
 
     	  modifier = {
-        army_attack_factor = 0.50
+          army_attack_factor = 0.50
     	     }
+        }
+        SPA_lc = {
+
+
+          allowed = {
+          always = no
+          }
+
+          allowed_civil_war = {
+            always = yes
+          }
+
+          removal_cost = -1
+
+          picture = tfv_can_conscription_crisis
+
+          modifier = {
+          conscription = 0.03
+             }
+        }
+        SPA_ulf = {
+
+
+          allowed = {
+          always = no
+          }
+
+          allowed_civil_war = {
+            always = yes
+          }
+
+          removal_cost = -1
+
+          picture = tfv_can_conscription_crisis
+
+          modifier = {
+          conscription = 0.06
+             }
+        }
+        SPA_idm = {
+
+
+          allowed = {
+          always = no
+          }
+
+          allowed_civil_war = {
+            always = yes
+          }
+
+          removal_cost = -1
+
+          picture = generic_infantry_bonus
+
+          modifier = {
+          amphibious_invasion = 0.5 
+          special_forces_attack_factor = 0.1 
+             }
+        }
+        SPA_na = {
+
+
+          allowed = {
+          always = no
+          }
+
+          allowed_civil_war = {
+            always = yes
+          }
+
+          removal_cost = -1
+
+          picture = generic_naval_manufacturer_1
+
+          modifier = {
+          industrial_capacity_dockyard = 0.2 
+             }
         }
       }
     }

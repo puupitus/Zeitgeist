@@ -24,7 +24,7 @@ country_event = {		#Reaction to French Elections
     ai_chance = { factor = 50 }
 		name = ita.1.b
     set_country_flag = MARE_NOSTRUM
-    every_country = { news_event = ita.101 }
+    every_country = { news_event = ita.101 
 	}
 
 }
@@ -213,4 +213,40 @@ country_event = {		#Somalia Italiana
     add_political_power = 150
 	}
 
+}
+news_event = {		#Align with the king!
+	id = ita.100
+	title = ita.100.t
+	desc = ita.100.d
+	picture = GFX_zeitgeist
+
+	is_triggered_only = yes
+
+	option = {
+		name = ita.100.a
+	}
+}
+news_event = {		#Mare Nostrum
+	id = ita.101
+	title = ita.101.t
+	desc = ita.101.d
+	picture = GFX_zeitgeist
+
+	is_triggered_only = yes
+
+	option = {
+		name = ita.101.a
+	}
+}
+news_event = {		#Two Empires
+	id = ita.102
+	title = ita.102.t
+	desc = ita.102.d
+	picture = GFX_zeitgeist
+
+	is_triggered_only = yes
+
+	option = {
+		name = ita.102.a
+	}
 }

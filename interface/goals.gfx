@@ -1322,6 +1322,30 @@ spriteTypes = {
 	name = "GFX_ITA_western_irredentism"
 	texturefile = "gfx/interface/goals/ITA_western_irredentism.dds"
 	}
+	SpriteType = {
+	name = "GFX_SPA_falangist_coup"
+	texturefile = "gfx/interface/goals/SPA_falangist_coup.dds"
+	}
+	SpriteType = {
+	name = "GFX_SPA_infanteria_de_marina"
+	texturefile = "gfx/interface/goals/SPA_infanteria_de_marina.dds"
+	}
+	SpriteType = {
+	name = "GFX_SPA_integrate_mexico"
+	texturefile = "gfx/interface/goals/SPA_integrate_mexico.dds"
+	}
+	SpriteType = {
+	name = "GFX_SPA_the_kings_dream"
+	texturefile = "gfx/interface/goals/SPA_the_kings_dream.dds"
+	}
+	SpriteType = {
+	name = "GFX_SPA_triumvirate"
+	texturefile = "gfx/interface/goals/SPA_triumvirate.dds"
+	}
+	SpriteType = {
+	name = "GFX_SPA_vassalize_brazil"
+	texturefile = "gfx/interface/goals/SPA_vassalize_brazil.dds"
+	}
 
 
 
