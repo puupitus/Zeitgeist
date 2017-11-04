@@ -142,3 +142,119 @@ news_event = {		#Reconquista Successful!
 		name = spa.5.a
 	}
 }
+country_event = {		#Moving Forward
+	id = spa.6
+	title = spa.6.t
+	desc = spa.6.d
+	picture = GFX_zeitgeist2
+
+	is_triggered_only = yes
+
+	option = {
+		ai_chance = { factor = 50 }
+		name = spa.6.a
+    set_country_flag = THE_KINGS_DREAM
+		SPA = { complete_national_focus = SPA_the_kings_dream }
+	}
+	option = {
+    ai_chance = { factor = 50 }
+		name = spa.6.b
+    set_country_flag = FALANGIST_COUP
+		SPA = { complete_national_focus = SPA_falangist_coup }
+	}
+
+}
+country_event = {		#Conquer Old Portugal
+	id = spa.7
+	title = spa.7.t
+	desc = spa.7.d
+	picture = GFX_zeitgeist2
+
+	is_triggered_only = yes
+
+	option = {
+		ai_chance = { factor = 100 }
+		name = spa.7.a
+		SPA = { annex_country = { target = LUS } }
+	}
+	option = {
+		name = spa.7.b
+		add_political_power = 150
+	}
+
+}
+country_event = {		#Conquer Old Spain
+	id = spa.8
+	title = spa.8.t
+	desc = spa.8.d
+	picture = GFX_zeitgeist2
+
+	is_triggered_only = yes
+
+	option = {
+		ai_chance = { factor = 100 }
+		name = spa.8.a
+		SPA = { annex_country = { target = IBE } }
+	}
+	option = {
+		name = spa.8.b
+		add_political_power = 150
+	}
+
+}
+country_event = {		#Integrate Mexico
+	id = spa.9
+	title = spa.9.t
+	desc = spa.9.d
+	picture = GFX_zeitgeist2
+
+	is_triggered_only = yes
+
+	option = {
+		ai_chance = { factor = 100 }
+		name = spa.9.a
+		MEX = { every_owned_state = {
+		          add_core_of = SPA }}
+		SPA = { annex_country = { target = MEX } }
+	}
+	option = {
+		name = spa.9.b
+		add_political_power = 150
+	}
+
+}
+country_event = {		#Vassalize Brazil
+	id = spa.10
+	title = spa.10.t
+	desc = spa.10.d
+	picture = GFX_zeitgeist2
+
+	is_triggered_only = yes
+
+	option = {
+		ai_chance = { factor = 100 }
+		name = spa.10.a
+		SPA = { transfer_state = 300 }
+		SPA = { transfer_state = 502 }
+		SPA = { transfer_state = 301 }
+		SPA = { transfer_state = 688 }
+		SPA = { transfer_state = 302 }
+		SPA = { transfer_state = 487 }
+		SPA = { transfer_state = 495 }
+		300 = { add_core_of = SPA }
+		502 = { add_core_of = SPA }
+		301 = { add_core_of = SPA }
+		688 = { add_core_of = SPA }
+		302 = { add_core_of = SPA }
+		487 = { add_core_of = SPA }
+		495 = { add_core_of = SPA }
+		SPA = { puppet = SSA }
+	}
+	option = {
+		name = spa.10.b
+		add_political_power = 150
+	}
+
+}
+
+

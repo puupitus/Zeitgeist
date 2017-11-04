@@ -1329,7 +1329,7 @@ country = {
 		}
 	}
 ####################
-# BOHGARY SPECIFIC
+# BOHEMIA SPECIFIC
 ####################
 
 focus = {

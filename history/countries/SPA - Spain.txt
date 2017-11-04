@@ -85,3 +85,20 @@ create_country_leader = {
 		#
 	}
 }
+create_corps_commander = {
+	name = "Emilio Mola"
+	picture = "emilio_mola.dds"
+	skill = 1
+}
+
+create_navy_leader = {
+	name = "Miguel Buiza Fernández-Palacios"
+	picture = "miguel_buiza_fernandez_palacios.dds"
+	skill = 1
+}
+
+create_field_marshal = {
+	name = "Francisco Franco"
+	picture = "francisco_franco.dds"
+	skill = 2
+}
