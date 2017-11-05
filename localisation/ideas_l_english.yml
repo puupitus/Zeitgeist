@@ -2511,3 +2511,6 @@
  SPA_lc:0 "Latin Conscription"
  SPA_idm:0 "Infanteria de Marina"
  SPA_ulf:0 "United Latin Forces"
+ CAM_pa:0 "Private Army"
+ CAM_pv:0 "Paraguayan Volunteers"
+ 

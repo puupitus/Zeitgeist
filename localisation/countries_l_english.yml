@@ -224,12 +224,12 @@
  ################################################################################
 
  CAM_monarchism:0 "Viceroyalty of Centroamerica"
- CAM_republicanism:0 "CSCA"
- CAM_socialism:0 "CSSCA"
+ CAM_republicanism:0 "Corporate Republic of Central America"
+ CAM_socialism:0 "Socialist Republic of Central America"
  CAM_third_position:0 "Synarchist Centroamerica"
  CAM_monarchism_DEF:0 "The Viceroyalty of Centroamerica"
- CAM_republicanism_DEF:0 "The CSCA"
- CAM_socialism_DEF:0 "The CSSCA"
+ CAM_republicanism_DEF:0 "The Corporate Republic of Central America"
+ CAM_socialism_DEF:0 "The Socialist Republic of Central America"
  CAM_third_position_DEF:0 "The Synarchist Centroamerica"
  CAM_monarchism_ADJ:0 "Centroamerican"
  CAM_republicanism_ADJ:0 "Centroamerican"
@@ -866,7 +866,7 @@
  SOV_socialism_ADJ:0 "Novgorodian"
  SOV_third_position_ADJ:0 "Novgorodian"
  ################################################################################
- 
+
  SOM_monarchism_ADJ:0 "Somalian"
  SOM_monarchism_DEF:0 "The Dervish State"
  SOM_monarchism:0 "Dervish State"

@@ -83,3 +83,15 @@ create_country_leader = {
 		#
 	}
 }
+create_corps_commander = {
+	name = "José Castellanos Contreras"
+	picture = "jose_castellanos_contreras.dds"
+	skill = 1
+}
+
+
+create_field_marshal = {
+	name = "Jacobo Árbenz Guzmán"
+	picture = "jacobo_arbenz_guzman.dds"
+	skill = 2
+}

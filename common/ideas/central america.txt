@@ -1,0 +1,43 @@
+ideas = {
+  country = {
+
+        CAM_pa = {
+
+
+    	  allowed = {
+    	  always = no
+    	  }
+
+    	  allowed_civil_war = {
+    		always = yes
+    	  }
+
+    	  removal_cost = -1
+
+    	  picture = tfv_can_conscription_crisis
+
+    	  modifier = {
+    		conscription = 0.03
+        army_org_Factor = 0.1
+    	     }
+        }
+        CAM_pv = {
+
+
+    	  allowed = {
+    	  always = no
+    	  }
+
+    	  allowed_civil_war = {
+    		always = yes
+    	  }
+
+    	  removal_cost = -1
+
+    	  picture = tfv_can_conscription_crisis
+
+    	  modifier = {
+    		add_manpower = 400000
+        army_org_Factor = -0.05
+    	     }
+        }

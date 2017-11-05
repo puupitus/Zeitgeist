@@ -1,0 +1,80 @@
+###########################
+# CENTRAL AMERICA EVENTS  #
+###########################
+
+add_namespace = cam
+add_namespace = CAM_exact_date_trigger
+
+country_event = {		#Banana Strike
+	id = cam.1
+	title = cam.1.t
+	desc = cam.1.d
+	picture = GFX_zeitgeist2
+
+	is_triggered_only = yes
+
+	option = {
+		ai_chance = { factor = 50 }
+		name = cam.1.a
+    set_country_flag = ENHANCE_CORPORATE_RULE
+    CAM = { complete_national_focus = CAM_enhance_corporate_rule }
+	}
+
+	option = {
+    ai_chance = { factor = 50 }
+		name = cam.1.b
+    set_country_flag = COMMUNIST_TAKEOVER
+    CAM = { complete_national_focus = CAM_communist_takeover }
+
+ }
+}
+country_event = {		#Establish Island Communes
+	id = cam.2
+	title = cam.2.t
+	desc = cam.2.d
+	picture = GFX_zeitgeist2
+
+	is_triggered_only = yes
+
+	option = {
+		ai_chance = { factor = 100 }
+		name = cam.2.a
+    CAM = { white_peace = CAR }
+    CAM = { transfer_state = 689 }
+    CAM = { transfer_state = 315 }
+    CAM = { transfer_state = 319 }
+    CAM = { transfer_state = 690 }
+    CAM = { transfer_state = 693 }
+    CAM = { transfer_state = 696 }
+    CAM = { transfer_state = 686 }
+    CAM = { transfer_state = 308 }
+    CAM = { transfer_state = 694 }
+    CAM = { transfer_state = 692 }
+    CAM = { transfer_state = 691 }
+    CAM = { transfer_state = 695 }
+    SSA = { transfer_state = 309 }
+    SSA = { transfer_state = 310 }
+    SSA = { transfer_state = 687 }
+    689 = { add_core_of = CAM }
+    315 = { add_core_of = CAM }
+    319 = { add_core_of = CAM }
+    690 = { add_core_of = CAM }
+    693 = { add_core_of = CAM }
+    696 = { add_core_of = CAM }
+    686 = { add_core_of = CAM }
+    308 = { add_core_of = CAM }
+    694 = { add_core_of = CAM }
+    692 = { add_core_of = CAM }
+    691 = { add_core_of = CAM }
+    695 = { add_core_of = CAM }
+
+
+	}
+
+	option = {
+		name = cam.2.b
+    add_political_power = 150
+
+
+ }
+}

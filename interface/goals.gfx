@@ -1346,6 +1346,30 @@ spriteTypes = {
 	name = "GFX_SPA_vassalize_brazil"
 	texturefile = "gfx/interface/goals/SPA_vassalize_brazil.dds"
 	}
+	SpriteType = {
+	name = "GFX_CAM_banana_strike"
+	texturefile = "gfx/interface/goals/CAM_banana_strike.dds"
+	}
+	SpriteType = {
+	name = "GFX_CAM_communist_takeover"
+	texturefile = "gfx/interface/goals/CAM_communist_takeover.dds"
+	}
+	SpriteType = {
+	name = "GFX_CAM_enhance_corporate_rule"
+	texturefile = "gfx/interface/goals/CAM_enhance_corporate_rule.dds"
+	}
+	SpriteType = {
+	name = "GFX_CAM_fruit_basket_of_the_world"
+	texturefile = "gfx/interface/goals/CAM_fruit_basket_of_the_world.dds"
+	}
+	SpriteType = {
+	name = "GFX_CAM_standard_fruit_company"
+	texturefile = "gfx/interface/goals/CAM_standard_fruit_company.dds"
+	}
+	SpriteType = {
+	name = "GFX_CAM_united_fruit_company"
+	texturefile = "gfx/interface/goals/CAM_united_fruit_company.dds"
+	}
 
 
 
