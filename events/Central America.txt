@@ -42,6 +42,7 @@ country_event = {		#Establish Island Communes
     CAM = { white_peace = CAR }
     CAM = { transfer_state = 689 }
     CAM = { transfer_state = 315 }
+		CAM = { transfer_state = 318 }
     CAM = { transfer_state = 319 }
     CAM = { transfer_state = 690 }
     CAM = { transfer_state = 693 }
@@ -57,6 +58,7 @@ country_event = {		#Establish Island Communes
     SSA = { transfer_state = 687 }
     689 = { add_core_of = CAM }
     315 = { add_core_of = CAM }
+		318 = { add_core_of = CAM }
     319 = { add_core_of = CAM }
     690 = { add_core_of = CAM }
     693 = { add_core_of = CAM }

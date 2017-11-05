@@ -37,7 +37,8 @@ ideas = {
     	  picture = tfv_can_conscription_crisis
 
     	  modifier = {
-    		add_manpower = 400000
         army_org_Factor = -0.05
     	     }
+        }
+        }
         }

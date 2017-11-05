@@ -1628,6 +1628,7 @@ factor = 10
 
 completion_reward = {
 add_ideas = CAM_pv
+add_manpower = 400000
 }
 }
 focus = {

@@ -15,6 +15,7 @@ state={
 		add_core_of = COL
 		add_core_of = SSA
 		add_core_of = SPA
+		add_core_of = BRI
 		buildings = {
 			infrastructure = 2
 			4982 = {

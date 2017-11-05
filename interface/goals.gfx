@@ -1370,6 +1370,10 @@ spriteTypes = {
 	name = "GFX_CAM_united_fruit_company"
 	texturefile = "gfx/interface/goals/CAM_united_fruit_company.dds"
 	}
+	SpriteType = {
+	name = "GFX_CAR_form_a_confederation"
+	texturefile = "gfx/interface/goals/CAR_form_a_confederation.dds"
+	}
 
 
 
