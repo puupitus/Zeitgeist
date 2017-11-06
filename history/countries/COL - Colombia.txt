@@ -84,3 +84,9 @@ create_country_leader = {
 		#
 	}
 }
+
+create_field_marshal = {
+	name = "Gustavo Rojas Pinilla"
+	picture = "gustavo_rojas_pinilla.dds"
+	skill = 2
+}

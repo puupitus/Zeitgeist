@@ -1374,6 +1374,14 @@ spriteTypes = {
 	name = "GFX_CAR_form_a_confederation"
 	texturefile = "gfx/interface/goals/CAR_form_a_confederation.dds"
 	}
+	SpriteType = {
+	name = "GFX_COL_colombia_gran"
+	texturefile = "gfx/interface/goals/COL_colombia_gran.dds"
+	}
+	SpriteType = {
+	name = "GFX_COL_destroy_the_heart_of_socialism"
+	texturefile = "gfx/interface/goals/COL_destroy_the_heart_of_socialism.dds"
+	}
 
 
 
