@@ -163,3 +163,11 @@ BYZ_emp = {
 color = rgb { 172  2  138 }
 color_ui = rgb { 172  2  138 }
 }
+PRU_north = {
+color = rgb { 223  88  88 }
+color_ui = rgb { 223  88  88 }
+}
+CHL_south = {
+color = rgb { 192  97  97 }
+color_ui = rgb { 192  97  97 }
+}

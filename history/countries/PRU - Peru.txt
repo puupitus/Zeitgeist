@@ -83,3 +83,13 @@ create_country_leader = {
 		#
 	}
 }
+create_field_marshal = {
+	name = "Óscar R. Benavides"
+	picture = "oscar_r_benavides.dds"
+	skill = 2
+}
+create_corps_commander = {
+	name = "Eloy G. Ureta"
+	picture = "eloy_g_ureta.dds"
+	skill = 1
+}

@@ -1,0 +1,31 @@
+###########################
+# PERU EVENTS             #
+###########################
+
+add_namespace = pru
+add_namespace = PRU_exact_date_trigger
+
+country_event = {		#Conquer Colombia
+	id = pru.1
+	title = pru.1.t
+	desc = pru.1.d
+	picture = GFX_zeitgeist2
+
+	is_triggered_only = yes
+
+	option = {
+		ai_chance = { factor = 100 }
+		name = pru.1.a
+        PRU = { annex_country = { target = COL }}
+        SSA = { transfer_state = 488 }
+
+
+	}
+
+	option = {
+		name = pru.1.b
+    add_political_power = 150
+
+
+ }
+}

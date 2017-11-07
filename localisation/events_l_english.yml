@@ -290,3 +290,7 @@
  cam.2.d:0 "Central America demands total submission. Accept?"
  cam.2.a:0 "Yes."
  cam.2.b:0 "No."
+ pru.1.t:0 "Peru demands submission"
+ pru.1.d:0 "Peru demands total submission. Accept?"
+ pru.1.a:0 "Yes."
+ pru.1.b:0 "No."

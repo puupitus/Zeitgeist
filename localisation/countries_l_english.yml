@@ -253,11 +253,11 @@
 
  CHL_monarchism:0 "General Captaincy of Chile"
  CHL_republicanism:0 "Republic of Chile"
- CHL_socialism:0 "Andean Commune"
+ CHL_socialism:0 "Chilean Commune"
  CHL_third_position:0 "Falangist Chile"
  CHL_monarchism_DEF:0 "The General Captaincy of Chile"
  CHL_republicanism_DEF:0 "The Republic of Chile"
- CHL_socialism_DEF:0 "The Andean Commune"
+ CHL_socialism_DEF:0 "The Chilean Commune"
  CHL_third_position_DEF:0 "The Falangist Chile"
  CHL_monarchism_ADJ:0 "Chilean"
  CHL_republicanism_ADJ:0 "Chilean"
