@@ -21,6 +21,7 @@ state={
 		add_core_of = COL
 		add_core_of = SPA
 		add_core_of = CAR
+        add_core_of = MEX
 	}
 
 	provinces={ 7617 }

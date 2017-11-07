@@ -25,6 +25,7 @@ state={
 		add_core_of = COL
 		add_core_of = CAR
 		add_core_of = SPA
+        add_core_of = MEX
 		victory_points = {
 			7630 20
 		}
