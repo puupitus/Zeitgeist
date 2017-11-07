@@ -294,3 +294,7 @@
  pru.1.d:0 "Peru demands total submission. Accept?"
  pru.1.a:0 "Yes."
  pru.1.b:0 "No."
+ chl.1.t:0 "Chile demands submission"
+ chl.1.d:0 "Chile demands total submission. Accept?"
+ chl.1.a:0 "Yes."
+ chl.1.b:0 "No."

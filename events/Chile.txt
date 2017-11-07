@@ -1,0 +1,30 @@
+###########################
+# CHILE EVENTS             #
+###########################
+
+add_namespace = chl
+add_namespace = CHL_exact_date_trigger
+
+country_event = {		#Conquer Argentina
+	id = chl.1
+	title = chl.1.t
+	desc = chl.1.d
+	picture = GFX_zeitgeist2
+
+	is_triggered_only = yes
+
+	option = {
+		ai_chance = { factor = 100 }
+		name = chl.1.a
+        CHL = { annex_country = { target = ARG }}
+
+
+	}
+
+	option = {
+		name = chl.1.b
+    add_political_power = 150
+
+
+ }
+}

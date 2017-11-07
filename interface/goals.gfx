@@ -1390,6 +1390,14 @@ spriteTypes = {
 	name = "GFX_PRU_conquer_colombia"
 	texturefile = "gfx/interface/goals/PRU_conquer_colombia.dds"
 	}
+    SpriteType = {
+	name = "GFX_CHL_found_chilean_commune"
+	texturefile = "gfx/interface/goals/CHL_found_chilean_commune.dds"
+	}
+    SpriteType = {
+	name = "GFX_CHL_conquer_argentina"
+	texturefile = "gfx/interface/goals/CHL_conquer_argentina.dds"
+	}
 
 
 
