@@ -1398,7 +1398,10 @@ spriteTypes = {
 	name = "GFX_CHL_conquer_argentina"
 	texturefile = "gfx/interface/goals/CHL_conquer_argentina.dds"
 	}
-
+	SpriteType = {
+	name = "GFX_ARG_justicialism"
+	texturefile = "gfx/interface/goals/ARG_justicialism.dds"
+	}
 
 
 }

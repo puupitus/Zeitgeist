@@ -83,3 +83,8 @@ create_country_leader = {
 		#
 	}
 }
+create_field_marshal = {
+	name = "Juan Perón"
+	picture = "juan_peron.dds"
+	skill = 2
+}
